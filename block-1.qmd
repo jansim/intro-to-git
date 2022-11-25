@@ -1,0 +1,297 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 1"
+author: "Jan Simson"
+format:
+  revealjs:
+    incremental: true
+---
+
+
+# Intro to the course
+
+## First things first: Language
+
+- Slides are in English
+- Spoken: German or English?
+  - Do you have a preference / does anyone not speak German?
+
+## What is the course about?
+
+- Learn all the most important information to effectively use git in the future
+- Format: Mix of theory & practicals
+  - Feel free to always ask questions!
+- Agenda
+  - Block 1: Introduction & Basics
+  - Block 2: Branches & More
+  - Block 3: Collaboration via Github
+  - Block 4: Advanced Github & Beyond
+
+## Timeline
+
+- 10:00 - 11:30 1st Block (1:30)
+- 11:30 - 11:45 Pause
+- 11:45 - 13:00 2nd Block (1:15)
+- 13:00 - 14:00 Lunchbreak
+- 14:00 - 15:15 3rd Block (1:15)
+- 15:15 - 15:30 Pause
+- 15:30 - 16:45 4th Block (1:15)
+
+## Introductions: Who am I?
+
+- Jan Simson
+- Currently doing PhD at Ludwig-Maximilian University München
+- Studied BSc Psychology (Konstanz) / MSc Behavioural Data Science (Amsterdam)
+- Background in Computer Science (Ausbildung)
+- Worked at research lab & startup before
+- Worked with git for a couple of years
+
+## Introductions: Who are you?
+
+Quick Round of Introductions
+
+- What's your name & which program are you enrolled in?
+- In which context have you heard about git
+  - Do you have any experience with git already?
+- What do you wish to learn from this course?
+
+## Prerequisites (Any Problems?)
+
+- Software
+  - *git*: The tool itself
+  - *Sourcetree*: A graphical user interface (GUI) to use git
+  - *Visual Studio Code*: A text editor, which also allows using git via its GUI
+
+- *GitHub*: Website to collaborate via git
+
+## CLI vs. GUI
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Command Line Interface (CLI)
+  - Also called Console, Terminal
+  - Only text
+  - You type your command, press enter and receive back text
+  - *Very* flexible
+:::
+
+::: {.column width="50%"}
+- Graphical User Interface (GUI)
+  - Most applications nowadays
+  - Often asier to use
+  - Typically mainly controlled via your Mouse
+  - Buttons and other clickable elements
+:::
+
+## CLI vs. GUI
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![An example of a command line interface (CLI)](images/screenshots/terminal-empty.png)
+:::
+
+::: {.column width="50%"}
+![An example of a graphical user interface (GUI)](images/screenshots/sourcetree-test.png)
+:::
+
+::::
+
+## CLI vs. GUI: `git`
+
+- `git` itself is a CLI program
+- But, many GUIs are available
+  - Sourcetree
+  - Visual Studio Code*
+  - Rstudio*
+  - Github Desktop
+  - ... (full list: https://git-scm.com/downloads/guis)
+
+*: These programs have a different main purpose, but also offer the option of using git via their GUI.
+
+## Text Editor: Visual Studio Code
+
+![Screenshot of VS Code](images/screenshots/vscode.png)
+
+## Text Editor: Visual Studio Code
+
+- Text Editor: A program to write text
+  - Only text i.e. no layouting / formatting (unlike Microsoft Word)
+
+- Quick Demonstration
+  - Opening workbench in a folder
+
+## Text Editing: Practical
+
+1. Open Visual Studio Code on your computer
+  - Explore the UI
+  - Set a theme if you want to
+2. Create a new folder called `exercise`
+3. Open the folder in Visual Studio Code
+  - Create a new file `test.txt` and write in it `Hello World!`
+
+# Intro to `git`
+
+## What is git?
+
+- Version Control System (VCS)
+  - Looks at the changes in your files
+  - Records all changes over time to give you a full history
+  - Similar to "track changes" in Microsoft Word / LibreOffice
+
+![Git only looks at and tracks the *changes* in a file](images/carpentries/play-changes.svg)
+
+## What is git? Strengths & Weaknesses
+
+- Strengths 💪
+  - Very hard to lose files with git
+  - Great for collaboration
+  - Reproducibility
+  - History allows you to go back and understand changes or revert when there are problems
+- Weaknesses 😢
+  - History takes up file space (but only little)
+  - Struggles with binary (i.e. non-text) files
+  - Struggles with large files
+    - Not good for storing data!
+
+## Let's Set Things Up: `git config` ⚙️
+
+```bash
+git config --global user.name "Your Name"
+
+git config --global user.email "your.email@kit.edu"
+```
+
+## Let's Set Things Up: `git config` ⚙️ (2)
+
+For Linux/Mac:
+
+```bash
+git config --global core.autocrlf input
+```
+
+For Windows:
+
+```bash
+git config --global core.autocrlf true
+```
+
+Why? Windows saves linebreaks (enter) differently then Linux/Mac does 🤷‍♂️
+
+## Interim: The anatomy of a git command
+
+```bash
+git config --global user.name "Your Name"
+```
+
+# Getting started with git (for real)
+
+## See what's happening: `git status`
+
+A project in git is called a **repository** (or **repo** for short) and it always corresponds to a directory on your machine.
+
+To see the current status of a git repository you can run the `status` command.
+
+```bash
+git status
+```
+
+## See what's happening: `git status`
+
+```bash
+git status
+# fatal: not a git repository (or any of the parent directories): .git
+```
+
+We get an error here, because you first need to *initialize* a git repository.
+
+## Initializing a repository: `git init`
+
+Before we can use git in a project we first have to initialize it in the directory of the project. This is done via the `init` command.
+
+```bash
+git init
+# Initialized empty Git repository in /Users/jan/Dev/temp/test/.git/
+
+git status
+# On branch main
+# No commits yet
+# nothing to commit (create/copy files and use "git add" to track)
+```
+
+## Interim: Filepaths
+
+- Every file and directory on your computer has a distinct address, its "filepath"
+  - That's the names of all the nested directories, separated by `/` (Mac / Linux) or `\` (Windows)
+- Filepaths can be either...
+  - absolute: `/Users/jan/Dev/temp/example.txt` (we ignore these)
+  - relative: `./example.txt`
+    - here the path is relative to the working directory `/Users/jan/Dev/temp/`
+- Demo in finder
+
+## Tracking changes: `git add` and `git commit`
+
+![](images/carpentries/git-staging-area.svg)
+
+Files are added to the staging area with `git add <path to file or directory>`
+
+All files in the staging area are commited with `git commit`
+
+## Tracking changes: `git add` and `git commit`
+
+```bash
+# ...we write something into example.txt
+
+git status
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#   example.txt
+```
+
+Add `example.txt` to the staging area
+
+```bash
+git add example.txt
+
+git status
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#   new file:   example.txt
+```
+
+## Tracking changes: `git add` and `git commit`
+
+```bash
+git status
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#   new file:   example.txt
+```
+
+Let's commit the new change
+```bash
+git commit -m "Adding example.txt"
+# [main (root-commit) ed61bb5] Adding example.txt
+#  1 file changed, 1 insertion(+)
+#  create mode 100644 example.txt
+
+git status
+# On branch main
+# nothing to commit, working tree clean
+```
+
+# Questions?
+
+## Tracking changes: Practical
+
+1. Open a terminal in the directory `exercise` you created earlier
+2. Initialize a git repository there (`init`)
+3. Create a new text file called `hello.txt` with the contents "Hello!"
+4. Add the file to the staging area (`add`)
+5. Commit the new file (`commit`)
+6. Change the text in `hello.txt` to read "Hello there!"
+7. Add the file to the staging area (`add`)
+8. Commit the new file (`commit`)
+
+In between each step, check the repository status with `git status`
