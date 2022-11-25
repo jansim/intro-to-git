@@ -1,0 +1,136 @@
+---
+title: "Intro to `git`: Outline"
+author: "Jan Simson"
+---
+
+# ToDo
+
+- git help? / man pages?
+
+# Timeline
+
+10:00 - 11:30 1st Block (1:30)
+11:30 - 11:45 Pause
+11:45 - 13:00 2nd Block (1:15)
+13:00 - 14:00 Lunchbreak
+14:00 - 15:15 3rd Block (1:15)
+15:15 - 15:30 Pause
+15:30 - 16:45 4th Block (1:15)
+
+# Outline
+0. Prerequisites
+  - TODO: create new info for that, installing git, vscode, ..?
+  - Installing git
+  - Installing vscode
+  - Installing sourcetree
+  - Creating a github account
+
+Block 1
+1. Intro to the Course
+  - Who am I?
+  - Who are you?
+    - Why did you sign up for this course / what are you interested in?
+      - Maybe we can tweak some parts so they are more relevant to you
+    - Have you used git before?
+  - What is the course about?
+  - Set-Up
+    - Checking whether everything was installed correctly
+      - any errors?
+      - Prerequisites
+2. What is git?
+  - Why is git useful?
+    - What is git not useful for? (i.e. data)
+  - Terminology
+  - How does git work?
+  - The CLI vs. GUIs
+    - What is a CLI? (used before? show of hands)
+    - Getting everyone to run "git status"
+  - Configuring git (git config, maybe also github already?)
+3. What is VSCode / a text editor?
+    - short
+    - show of hands
+4. Getting started with git (for real)
+  - Creating a repository
+  - Making your first commit
+    - Unstaged changes
+    - Staged changes
+    - Commited changes
+  - Intro to filepaths?
+  -  [PRACTICAL]
+  - Bonus: What makes a good commit (message)
+  - Bonus: Repeat the exercise in different UIs
+
+Block 2
+1. Ignoring things
+  - .gitignore
+  - Existing .gitignores
+  - Global and local .gitignore
+  - Some minor practical? [PRACTICAL]
+2. Traveling through time
+  - How to see git history
+  - Traveling through git history (git checkout) [PRACTICAL]
+3. Alternate Realities: Branches
+  - What are branches?
+    - Creating Branches
+    - Checking out branches
+  - Demo via https://learngitbranching.js.org/?NODEMO?
+  - [Practical]
+    - Merging Branches
+  - ... need a practical for this [PRACTICAL / TODO]
+4. Merge conflicts
+  - Construct a merge conflict
+  - Bonus: https://learngitbranching.js.org/ Lessons 1, 2 and 3
+  - (Bonus 2: Rebasing & Lesson 4 on learngitbranching)
+  - Bonus 3: Repeat exercisees in different UIs, do more merge conflicts
+
+Block 3
+1. Going online: Github
+  - What is GitHub? What are its alternatives?
+  - Remotes in git
+  - Authenticating with github
+  - Cloning a respository, manually managing remotes
+  - Clone a public repository
+  - Create a new github repository
+  - Upload your previous git repository to github
+2. Creating a website with github pages [PRACTICAL]
+  - Create a personal github pages website for yourself
+3. Collaborating with git (1)
+  - Merge conflicts & how to resolve them
+  - Form groups of three and work together on one website [PRACTICAL]
+
+  - Bonus: Github Personal Pages
+
+Block 4
+1. Collaborating with git (2)
+  - Bonus: https://learngitbranching.js.org/ Remote Lessons 1 - 6
+  - Pull Requests
+  - Work together in the same groups using Pull Requests [PRACTICAL]
+
+  - Bonus: Multiple Remotes
+  - Bonus: Forking
+2. Advanced Github
+  - Repository Settings
+  - Licensing / Licenses
+  - Making your work citeable
+  - Editing things on GitHub (github.dev)
+  - git-lfs?
+  - GitHub Actions
+  - GitHub Student Pack
+3. Resources / Links
+  - Outlook: git lfs, dvs for data
+
+
+
+Transfer Assignment
+- Create a github repository (either private or public, your call)
+- Create a README.md in the repository
+- Write down 2 strengths of git
+  - Separately commit each of your points
+- Create a new branch called "weaknesses"
+  - Check out that branch
+  - In the same document, add one of the weaknesses of using git
+  - Push the branch to github and create a pull request
+  - Merge the pull request into your main branch
+- Clone repository of the course onto your machine
+  - Run git log and copy the text output into your document
+- Send link to your respository via e-mail
