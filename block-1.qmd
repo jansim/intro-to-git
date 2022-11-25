@@ -7,7 +7,6 @@ format:
     incremental: true
 ---
 
-
 # Intro to the course
 
 ## First things first: Language
@@ -84,6 +83,8 @@ Quick Round of Introductions
   - Buttons and other clickable elements
 :::
 
+::::
+
 ## CLI vs. GUI
 
 :::: {.columns}
@@ -155,6 +156,14 @@ Quick Round of Introductions
   - Struggles with large files
     - Not good for storing data!
 
+## Using the `git` CLI
+
+- We will first use git via its CLI (i.e. in the Terminal).
+  - On windows, open Git Bash (start menu -> Git Bash).
+  - On MacOS, open the Terminal app.
+  - On Linux, open your distribution’s (or any other) terminal emulator.
+- Let's do this together now!
+
 ## Let's Set Things Up: `git config` ⚙️
 
 ```bash
@@ -178,12 +187,6 @@ git config --global core.autocrlf true
 ```
 
 Why? Windows saves linebreaks (enter) differently then Linux/Mac does 🤷‍♂️
-
-## Interim: The anatomy of a git command
-
-```bash
-git config --global user.name "Your Name"
-```
 
 # Getting started with git (for real)
 
@@ -220,6 +223,8 @@ git status
 # nothing to commit (create/copy files and use "git add" to track)
 ```
 
+With `git init` we turn the *directory* into a *repository*.
+
 ## Interim: Filepaths
 
 - Every file and directory on your computer has a distinct address, its "filepath"
@@ -228,7 +233,17 @@ git status
   - absolute: `/Users/jan/Dev/temp/example.txt` (we ignore these)
   - relative: `./example.txt`
     - here the path is relative to the working directory `/Users/jan/Dev/temp/`
+
+## Interim: Filepaths
+
 - Demo in finder
+
+## Interim: Filespaths (practical)
+
+1. Open the Terminal
+  - Windows: start menu -> Git Bash, MacOS: Terminal app
+2. Identify the filepath of the **directory** you created earlier.
+3. Type `cd`, followed by a space and the path to the directory into the Terminal.
 
 ## Tracking changes: `git add` and `git commit`
 
@@ -281,11 +296,22 @@ git status
 # nothing to commit, working tree clean
 ```
 
+## Interim: The anatomy of a git command
+
+```bash
+git status
+
+git commit -m "Adding example.txt"
+
+git config --global user.name "Your Name"
+```
+
 # Questions?
 
 ## Tracking changes: Practical
 
 1. Open a terminal in the directory `exercise` you created earlier
+  - Windows: start menu -> Git Bash, MacOS: Terminal app
 2. Initialize a git repository there (`init`)
 3. Create a new text file called `hello.txt` with the contents "Hello!"
 4. Add the file to the staging area (`add`)
@@ -294,4 +320,10 @@ git status
 7. Add the file to the staging area (`add`)
 8. Commit the new file (`commit`)
 
-In between each step, check the repository status with `git status`
+In between each step, check the repository status with `git status`.
+
+<!--
+  TODO: git rm
+  Add in VSCode, binary vs. text changes
+  Reset? HEAD?
+-->
