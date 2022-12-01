@@ -1,0 +1,49 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 4"
+author: "Jan Simson"
+format:
+  revealjs:
+    incremental: true
+---
+
+
+
+
+# Collaborating with git (2)
+
+- Bonus: https://learngitbranching.js.org/ Remote Lessons 1 - 6
+- Pull Requests
+- Work together in the same groups using Pull Requests [PRACTICAL]
+
+- Bonus: Multiple Remotes
+- Bonus: Forking
+
+
+# Advanced Github
+
+- Repository Settings
+- Licensing / Licenses
+- Making your work citeable
+- Editing things on GitHub (github.dev)
+- git-lfs?
+- GitHub Actions
+- GitHub Student Pack
+
+
+# Resources / Links
+
+- Outlook: git lfs, dvs for data
+- Resources
+  - https://ohshitgit.com/ & https://ohshitgit.com/de
+
+
+## Sources
+
+This course uses materials from, builds upon and is inspired by the following resources
+
+- [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
+- https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/
+- https://github.com/edunford/git-scavenger-hunt
+
+# The End

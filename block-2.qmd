@@ -1,0 +1,187 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 2"
+author: "Jan Simson"
+format:
+  revealjs:
+    incremental: true
+---
+
+# Ignoring things: `.gitignore`
+
+## Ignoring files via `.gitignore`
+
+- By default, git will track *all* the files in your repository.
+- If you want it to ignore certain files or filetypes, you have to tell it so explicitly.
+- You can do this by using a file called `.gitignore`
+  - Every file will be compared against the list in `.gitignore` and if it matches, git will ignore the file
+- The `.gitignore` file *itself* is tracked just like any other file
+
+## `.gitignore`: classic examples
+
+```
+# Ignore every file called myfile.pdf
+myfile.pdf
+```
+
+```
+# Ignore the file called myfile.pdf in the folder reports at the root of your *repository*
+/reports/myfile.pdf
+```
+
+```
+# Ignore all PDF files
+*.pdf
+```
+
+You can find a list of very useful templates for `.gitignore` files at <https://github.com/github/gitignore>.
+
+<!-- TODO: Global vs. Local .gitignore?, pratical  -->
+
+# Traveling Through time: `git log`
+
+## Seeing History
+
+We can also see the history of our committed changes, called `commits` using `git log`.
+
+```bash
+git log
+# commit ed226e022f60d9f578265c2c246367f5f07756de (HEAD -> main)
+# Author: Jan Simson <git@simson.io>
+# Date:   Fri Sep 16 17:00:03 2022 +0200
+
+#     Edit hello.txt
+
+# commit 795780d123f6eeedaa09734005c08d1ad89c1976
+# Author: Jan Simson <git@simson.io>
+# Date:   Fri Sep 16 16:59:45 2022 +0200
+
+# Adding hello.txt
+
+# lines 1-9
+```
+
+You can move up and down with the arrow keys and leave the log view by pressing `q`.
+
+## Seeing History: practical
+
+1. Go back to your Terminal
+2. Open the `git log` of your respository
+
+# *Properly* Traveling Through time: `git checkout`
+
+## *Properly* Traveling Through time: `git checkout`
+
+You can go back to any previous commit (and many other things!) with `git checkout`.
+
+```bash
+git log
+# commit ed226e022f60d9f578265c2c246367f5f07756de (HEAD -> main)
+# Author: Jan Simson <git@simson.io>
+# Date:   Fri Sep 16 17:00:03 2022 +0200
+
+#     Edit hello.txt
+
+# commit 795780d123f6eeedaa09734005c08d1ad89c1976
+# Author: Jan Simson <git@simson.io>
+# Date:   Fri Sep 16 16:59:45 2022 +0200
+
+# Adding hello.txt
+
+# lines 1-9
+```
+
+## *Properly* Traveling Through time: `git checkout`
+
+You can go back to any previous commit (and many other things!) with `git checkout`.
+
+```bash
+git checkout 795780d123f6eeedaa09734005c08d1ad89c1976
+```
+
+## *Properly* Traveling Through time: `git checkout`
+
+You can go back to any previous commit (and many other things!) with `git checkout`.
+
+```bash
+git checkout 795780d
+```
+
+You don't need to pass the whole commit hash, just the first few characters are usually enough.
+
+## *Properly* Traveling Through time: `git checkout`
+
+You can go back to any previous commit (and many other things!) with `git checkout`.
+
+```bash
+git checkout 795780d
+# Note: switching to '795780d123f6eeedaa09734005c08d1ad89c1976'.
+#
+# You are in 'detached HEAD' state. You can look around, make experimental
+# changes and commit them, and you can discard any commits you make in this
+# state without impacting any branches by switching back to a branch.
+#
+# If you want to create a new branch to retain commits you create, you may
+# do so (now or later) by using -c with the switch command. Example:
+#
+#   git switch -c <new-branch-name>
+#
+# Or undo this operation with:
+#
+#   git switch -
+#
+# Turn off this advice by setting config variable advice.detachedHead to false
+#
+# HEAD is now at 795780d Adding hello.txt
+```
+
+## Detached HEAD, everything OK? 🤕
+
+You can go back to any previous commit (and many other things!) with `git checkout`.
+
+- When traveling back to a commit, we got a scary warning about a `detached HEAD`
+- Normally we are always on a branch in git
+- The HEAD is always the currently checked out state of your repository
+  - If the HEAD is detached, it is not at the end of a branch
+  - If we make commits with a detached HEAD our changes will be lost
+- We can go back to `main` or `master` with `git checkout main`
+
+Note: We will talk more about branches in a bit
+
+# Questions?
+
+## Practical: git scavenger hunt (setup)
+
+1. We will copy a repository from the internet.
+2. Create a new directory or use an existing one, in which you want to copy the new repository.
+3. Navigate to that directory in your Terminal.
+4. Run the following command `git clone git@github.com:jansim/git-scavenger-hunt.git`
+
+## Practical: git scavenger hunt (part 1/2)
+
+Answer the following questions `git`. (Brought to you by edunford on github.com)
+
+1. What is the title of the news story?
+2. What changes were made to the news story in commit (3a2823824)?
+3. What other Jane Austen novel data was added after Pride and Prejudice?
+4. Return to `master` when you are done.
+
+Use `git log` and `git checkout` to help you here.
+
+## Tracking changes: In SourceTree
+
+<!-- TODO: adapt -->
+![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
+
+In between each step, check the repository and file status with the Sourcetree UI.
+
+## Practical: git scavenger hunt (part 2/2)
+
+Answer the following questions using SourceTree. (Brought to you by edunford on github.com)
+
+4. How many dog pictures were initially added to the dog_pictures folder?
+5. What was the last change made on the "dogs" branch before it was merged with the "temp"?
+6. What is the tag name for the commit where the readme was changed?
+
+
+# Alternate Realities: git branches 🌳

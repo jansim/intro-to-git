@@ -1,0 +1,32 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 3"
+author: "Jan Simson"
+format:
+  revealjs:
+    incremental: true
+---
+
+# Going online: Github
+
+  - What is GitHub? What are its alternatives?
+    - Gitlab, Bitbucket, Codeberg
+  - Remotes in git
+  - Authenticating with github (https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
+  - Cloning a respository, manually managing remotes
+  - Clone a public repository
+  - Create a new github repository
+  - Upload your previous git repository to github
+
+
+# Creating a website with github pages [PRACTICAL]
+
+  - Create a personal github pages website for yourself
+
+
+# Collaborating with git (1)
+
+  - Merge conflicts & how to resolve them
+  - Form groups of three and work together on one website [PRACTICAL]
+
+  - Bonus: Github Personal Pages
