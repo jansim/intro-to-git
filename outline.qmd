@@ -86,8 +86,9 @@ Block 2
 Block 3
 1. Going online: Github
   - What is GitHub? What are its alternatives?
+    - Gitlab, Bitbucket, Codeberg
   - Remotes in git
-  - Authenticating with github
+  - Authenticating with github (https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
   - Cloning a respository, manually managing remotes
   - Clone a public repository
   - Create a new github repository
@@ -118,7 +119,8 @@ Block 4
   - GitHub Student Pack
 3. Resources / Links
   - Outlook: git lfs, dvs for data
-
+  - Resources
+    - https://ohshitgit.com/ & https://ohshitgit.com/de
 
 
 Transfer Assignment
