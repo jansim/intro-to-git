@@ -8,3 +8,5 @@ author: "Jan Simson"
 format:
   revealjs:
     incremental: true
+revealjs-plugins:
+  - attribution
