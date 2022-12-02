@@ -164,6 +164,11 @@ Quick Round of Introductions
   - On Linux, open your distribution’s (or any other) terminal emulator.
 - Let's do this together now!
 
+## Using the `git` cheatsheet to follow along
+
+- There are many existing cheatsheets out there with the most important git commands
+- In this course we will be using the one from [GitHub Education](resources/git-cheat-sheet-education.pdf) to help you navigate the course
+
 ## Let's Set Things Up: `git config` ⚙️
 
 ```bash
