@@ -34,7 +34,11 @@ You can find a list of very useful templates for `.gitignore` files at <https://
 
 <!-- TODO: Global vs. Local .gitignore?, pratical  -->
 
-# Traveling Through time: `git log`
+# Traveling Through Time: `git log` {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/back-to-the-future-time.gif"}
+
+::: attribution
+Background: https://giphy.com/gifs/back-to-the-future-dgEIhYAo3lZiE
+:::
 
 ## Seeing History
 
@@ -64,9 +68,13 @@ You can move up and down with the arrow keys and leave the log view by pressing 
 1. Go back to your Terminal
 2. Open the `git log` of your respository
 
-# *Properly* Traveling Through time: `git checkout`
+# *Properly* Traveling Through Time: <br> `git checkout`  {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/back-to-the-future-travel.gif"}
 
-## *Properly* Traveling Through time: `git checkout`
+::: attribution
+Background: https://giphy.com/gifs/back-to-the-future-xsF1FSDbjguis
+:::
+
+## `git checkout`
 
 You can go back to any previous commit (and many other things!) with `git checkout`.
 
@@ -87,7 +95,7 @@ git log
 # lines 1-9
 ```
 
-## *Properly* Traveling Through time: `git checkout`
+## `git checkout`
 
 You can go back to any previous commit (and many other things!) with `git checkout`.
 
@@ -95,7 +103,7 @@ You can go back to any previous commit (and many other things!) with `git checko
 git checkout 795780d123f6eeedaa09734005c08d1ad89c1976
 ```
 
-## *Properly* Traveling Through time: `git checkout`
+## `git checkout`
 
 You can go back to any previous commit (and many other things!) with `git checkout`.
 
@@ -103,9 +111,11 @@ You can go back to any previous commit (and many other things!) with `git checko
 git checkout 795780d
 ```
 
+:::{.callout-tip}
 You don't need to pass the whole commit hash, just the first few characters are usually enough.
+:::
 
-## *Properly* Traveling Through time: `git checkout`
+## `git checkout`
 
 You can go back to any previous commit (and many other things!) with `git checkout`.
 
@@ -133,16 +143,12 @@ git checkout 795780d
 
 ## Detached HEAD, everything OK? 🤕
 
-You can go back to any previous commit (and many other things!) with `git checkout`.
-
 - When traveling back to a commit, we got a scary warning about a `detached HEAD`
 - Normally we are always on a branch in git
 - The HEAD is always the currently checked out state of your repository
-  - If the HEAD is detached, it is not at the end of a branch
+  - If the HEAD is detached, it is not associated with a branch
   - If we make commits with a detached HEAD our changes will be lost
-- We can go back to `main` or `master` with `git checkout main`
-
-Note: We will talk more about branches in a bit
+- We can go back to `main` with `git checkout main`
 
 # Questions?
 
@@ -155,14 +161,18 @@ Note: We will talk more about branches in a bit
 
 ## Practical: git scavenger hunt (part 1/2)
 
-Answer the following questions `git`. (Brought to you by edunford on github.com)
+Answer the following questions `git`.
 
 1. What is the title of the news story?
 2. What changes were made to the news story in commit (3a2823824)?
 3. What other Jane Austen novel data was added after Pride and Prejudice?
-4. Return to `master` when you are done.
+4. Return to `main` when you are done.
 
 Use `git log` and `git checkout` to help you here.
+
+::: attribution
+Brought to you by edunford on github.com
+:::
 
 ## Tracking changes: In SourceTree
 
@@ -173,11 +183,148 @@ In between each step, check the repository and file status with the Sourcetree U
 
 ## Practical: git scavenger hunt (part 2/2)
 
-Answer the following questions using SourceTree. (Brought to you by edunford on github.com)
+Answer the following questions using SourceTree.
 
 4. How many dog pictures were initially added to the dog_pictures folder?
 5. What was the last change made on the "dogs" branch before it was merged with the "temp"?
 6. What is the tag name for the commit where the readme was changed?
 
+::: attribution
+Brought to you by edunford on github.com
+:::
 
-# Alternate Realities: git branches 🌳
+# Alternate Realities: <br> `git branches` {background-color="black" background-opacity="0.7" background-image="/images/backgrounds/suganth-V1YEEItoOTE-unsplash.jpg"}
+
+::: attribution
+Background: https://unsplash.com/photos/V1YEEItoOTE
+:::
+
+## What are git branches? 🌳
+
+- Branches allow you to have different versions of your code within the same repository next to each other
+- You can switch back and forth between branches
+- In the end you can merge your changes back into your `main` branch
+
+:::{.callout-note}
+The default branch used to be called `master`, this was more-or-less recently changed to `main`, but not all repositories have changed yet.
+:::
+
+## What are git branches? 🌲
+
+![Example of a repository history with branching](images/screenshots/learngitbranching/branched.png)
+
+## Creating new branches
+
+- There are two ways to create new branches
+- `git checkout -b my-branch` ✅
+  - Create a new branch and immediately check it out
+- `git branch my-branch` ❌
+  - Create a new branch, but **don't** check it out
+
+```bash
+git checkout -b my-branch
+# Switched to a new branch 'my-branch'
+```
+
+## Working on branches
+
+- So far you have always been working on a single branch: `main`
+- Nothing changes when working with multiple branches, you just have to keep an eye on your current branch
+
+```bash
+git status
+# On branch my-branch
+# nothing to commit, working tree clean
+```
+
+## Switching branches
+
+You can switch branches with `git checkout` (as we've already done earlier)
+
+```bash
+git checkout my-branch
+```
+
+:::{.callout-tip}
+There's no more `-b` when the branch already exists
+:::
+
+:::{.callout-note}
+You can also use `git switch my-branch`, but this command is still experimental right now and may change.
+:::
+
+## Bringig it all together: Merging
+
+- You can combine two different branches by merging them with each other
+- `git merge my-branch`
+  - You will merge the branch that you name in the command *into* the one you are currently on
+  - In most cases you will want to be on the `main` branch when using `git merge` (but not always!)
+
+:::{.callout-note}
+Only branches with a shared history can be merged, but this should (almost) always be the case.
+:::
+
+## Visual Example of Merging
+
+![Example of a merged repository history](images/screenshots/learngitbranching/merged.png)
+
+# Demo: [learngitbranching.js.org](https://learngitbranching.js.org/?NODEMO?) {background-color="black" background-opacity="0.7" background-image="/images/backgrounds/berlin-demo-govid-loAFGkJxYzgxu3NKnZ.gif"}
+
+::: attribution
+Background: https://giphy.com/gifs/berlin-demo-govid-loAFGkJxYzgxu3NKnZ
+:::
+
+## PRACTICAL
+
+<!-- TODO: PRACTICAL -->
+
+# The Ugly Side of `git`: Merge Conflicts {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/git-merge-cFkiFMDg3iFoI.gif"}
+
+## What are Merge Conflicts?
+
+- `git` is very smart in the way it combines changes from two branches
+  - **But** there's not always a clear solution
+- If git doesn't know how to merge the two branches, we get a *merge conflict*
+  - Merge conflicts have to be manually resolved (by us)
+
+## How to Get a Merge Conflict 🧨
+
+And how to avoid it.
+
+- Merge conflcits occur when there are edits to the same file (and at the same location) on two different branches
+- If you merge your branches / edits before making more changes, you can avoid conflicts
+
+## Merge Conflicts: Illustration (1)
+
+![Starting situation, each box corresponds to the file's contents in a commit](images/drawings/merge-conflict-start.svg)
+
+## Merge Conflicts: Illustration (2)
+
+![The merge conflict arises because both change the same line](images/drawings/merge-conflict-end.svg)
+
+## Merge Conflicts: Illustration (3)
+
+![We could've avoided the merge conflict, by merging main into feature before doing the change on feature](images/drawings/merge-conflict-avoid.svg)
+
+## Resolving Merge Conflicts
+
+- To resolve a merge conflict, we will have to pick one of the two versions
+  - Once a solution is picked for every conflict you can commit the solution and the merge continues / finishes
+- Picking a solution is easiest to do by using GUI tools
+  - Both Sourcetree and VSCode have great UIs for this
+
+# DEMO: Resolving merge conflicts in VS Code and SourceTree
+
+# PRACTICAL (maybe two practicals?)
+
+<!-- TODO: PRACTICAL -->
+
+## Extra Practical: *learngitbranching*
+
+1. Go to https://learngitbranching.js.org/
+2. Finish Lessons 1, 2 and 3 on the website
+
+## Rebasing
+
+<!-- TODO: REBASING -->
+
