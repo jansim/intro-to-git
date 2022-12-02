@@ -1,10 +1,6 @@
 ---
 title: "Intro to `git`"
 subtitle: "Block 2"
-author: "Jan Simson"
-format:
-  revealjs:
-    incremental: true
 ---
 
 # Ignoring things: `.gitignore`

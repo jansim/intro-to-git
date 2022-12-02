@@ -1,5 +1,10 @@
 project:
-  title: "intro-to-git"
+  title: "Intro to git"
+  output-dir: "output"
 
 editor: visual
 
+author: "Jan Simson"
+format:
+  revealjs:
+    incremental: true

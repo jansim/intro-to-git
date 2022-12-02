@@ -1,10 +1,6 @@
 ---
 title: "Intro to `git`"
 subtitle: "Block 1"
-author: "Jan Simson"
-format:
-  revealjs:
-    incremental: true
 ---
 
 # Intro to the course
