@@ -128,7 +128,11 @@ Quick Round of Introductions
 3. Open the folder in Visual Studio Code
   - Create a new file `test.txt` and write in it `Hello World!`
 
-# Intro to `git`
+# Intro to `git`  {background-color="black" background-opacity="0.3" background-image="/images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg"}
+
+::: attribution
+Background: https://unsplash.com/photos/842ofHC6MaI
+:::
 
 ## What is git?
 
@@ -241,9 +245,9 @@ With `git init` we turn the *directory* into a *repository*.
 
 ## Interim: Filespaths (practical)
 
-1. Open the Terminal
+1. Identify the filepath of the **directory** you created earlier.
+2. Open the Terminal
   - Windows: start menu -> Git Bash, MacOS: Terminal app
-2. Identify the filepath of the **directory** you created earlier.
 3. Type `cd`, followed by a space and the path to the directory into the Terminal.
 
 ## Tracking changes: `git add` and `git commit`
@@ -323,8 +327,13 @@ git config --global user.name "Your Name"
 
 In between each step, check the repository status with `git status`.
 
+## Let's get Graphical: SourceTree
+
+![The labels in Sourcetree mirror the names within the git CLI](/images/screenshots/sourcetree-test.png)
+
 <!--
   TODO: git rm
+  TODO: git diff?
   Add in VSCode, binary vs. text changes
   Reset? HEAD?
 -->
