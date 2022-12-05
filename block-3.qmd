@@ -5,24 +5,182 @@ subtitle: "Block 3"
 
 # Going online: Github
 
-  - What is GitHub? What are its alternatives?
-    - Gitlab, Bitbucket, Codeberg
-  - Remotes in git
-  - Authenticating with github (https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
-  - Cloning a respository, manually managing remotes
-  - Clone a public repository
-  - Create a new github repository
-  - Upload your previous git repository to github
+## What is GitHub?
 
+- GitHub is a website to host git repositories
+- By having your git repository online, you can easily collaborate with others
+- There are many other similar, alternative websites
+  - Codeberg 🇩🇪
+  - GitLab
+  - Bitbucket
+  - ... (and many more)
+- Together these websites contain the majority of the world's software
 
-# Creating a website with github pages [PRACTICAL]
+## Why use a Website?
 
-  - Create a personal github pages website for yourself
+- Backup of your project
+- Collaboration
+  - Not just with people you know
+- Free and Open-Source Software (FOSS)
+- Visibility
 
+# A Tour of github.com
 
-# Collaborating with git (1)
+# Connecting git and github
 
-  - Merge conflicts & how to resolve them
-  - Form groups of three and work together on one website [PRACTICAL]
+## Authenticating with GitHub 🗝️
 
-  - Bonus: Github Personal Pages
+- We will use a great external guide to set up the authentication with GitHub
+- Please go to the [website](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html) and follow the steps to authenticate with GitHub
+- A PDF version of the guide can be found [here](./resources/ssh/how-to-setup-github-ssh.pdf)
+
+![https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html](images/qr_code-malikaihle-ssh.svg)
+
+::: attribution
+External Guide by Mike Croucher & Malika Ihle
+:::
+
+## Cloning a Repository
+
+- You can download repositories from GitHub (and anywhere else), by *cloning* them
+- For public repositories, `git clone` just works, for private ones you will need to be authenticated
+- `git clone <remote URL>`
+
+![You can find the remote URL by going to a repository on GitHub and clicking the Code button](images/screenshots/github-get-remote-url.png)
+
+```bash
+git clone git@github.com:jansim/intro-to-git.git
+```
+
+## PRACTICAL: Cloning a private repository
+
+1. Create a repository in your account with a random name
+  - Be sure to mark it private
+2. Copy the clone URL (SSH) from the repositories website
+3. Clone the repository to check whether you can authenticate with github
+
+## Remotes
+
+- Link to a remote repository on a hosting website
+- There can be more than one remote, but it is uncommon
+- Just like your repository, the remote repository also has branches
+- The default name for a remote is `origin`
+  - When you `clone` a repository, this remote is already linked
+- When you want to add an existing repository to github, you will have to add the remote yourself
+
+## Adding a Remote
+
+```bash
+git remote add <remote name> <remote URL>
+```
+
+```bash
+git remote add origin git@github.com:jansim/intro-to-git.git
+```
+
+# Syncing Changes with GitHub
+
+## Syncing Changes: Overview
+
+![You first `pull` the latest changes from the remote and then `push` your own changes](/images/drawings/pull-push.svg)
+
+## Getting Changes: `git pull`
+
+- You can retrieve the latest changes from github by running `git pull`
+- This *fetches* the latest changes and *merges* them into your current branch
+- Typically your local branch is set up to *track* a remote branch with the same name
+  - If not, you get a warning from git
+
+```bash
+# Pull from the tracked remote branch
+git pull
+
+# Pull from a specific branch
+git pull <remote>/<branch>
+```
+
+## Pushing Your Changes: `git push`
+
+- You can send *your* changes to github by running `git push`
+- This only works if there are no new changes at the remote
+  - If there have been changes since your last `pull` you need to `pull` again
+
+```bash
+# Push to the tracked remote branch
+git push
+
+# Push to a specific branch
+git push <remote>/<branch>
+```
+
+# Demo: Creating a new repository, pulling, pushing
+
+# Questions?
+
+## PRACTICAL: Adding your own repository to github
+1. Create a new repository on GitHub with the name `git-intro-example`
+  - Make sure NOT to add a README or any other file when creating it
+2. In the example git repository we've been working in so far, add the just created GitHub repo as a remote
+  - `git remote add origin <URL>`
+3. Push you changes so far to GitHub
+
+# Let's Build a Website: Github Pages
+
+## Github Pages
+
+- One of the features of GitHub is, that you can host your own website there for free
+- This service is called GitHub Pages
+- You can create websites for specific projects (i.e. repositories)
+  - `<your_gh_username>.github.io/<your_repo_name>`
+- Special repository with the name `<your_gh_username>.github.io` will be at that address
+
+## Markdown
+
+Markdown is a simple language for basic text formatting
+
+- Markdown is widely used for simple text documents
+- It's used by GitHub Pages for content formatting
+- It's also used for `READMEs`
+  - These are files describing a repository / giving an introduction
+  - They will be shown by default when you open a repository on hosting website
+
+## Markdown: The Basics
+
+Markdown is a simple language for basic text formatting
+
+```md
+# Big heading
+## Slightly smaller heading
+### Even smaller heading
+
+Normal text
+*italic text*
+**thick text**
+
+- A
+- Simple
+- List
+```
+
+## Markdown: The Basics
+
+![Example of the markdown code from before, but now rendered](images/screenshots/markdown.png)
+
+## Practical: Creating a website with github pages
+
+1. Create a copy of the template repository: https://github.com/open-teaching/gh-pages-template
+2. Configure the repository to deploy to GitHub Pages
+3. Clone your newly created repository onto your machine
+4. Fill in the about page
+  - This information will be public, only add information there that you are comfortable with
+  - Use multiple commits
+5. Push your changes to GitHub
+
+::: attribution
+Website template originally from: https://github.com/academicpages/academicpages.github.io
+:::
+
+## Practical: *learngitbranching*
+
+1. Go to https://learngitbranching.js.org/
+2. Finish Lessons 1 - 6 in the **remote** section on the website
