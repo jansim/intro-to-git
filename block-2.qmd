@@ -5,7 +5,7 @@ subtitle: "Block 2"
 
 # Ignoring things: `.gitignore`
 
-## Ignoring files via `.gitignore`
+## Ignoring files via `.gitignore` 🙅
 
 - By default, git will track *all* the files in your repository.
 - If you want it to ignore certain files or filetypes, you have to tell it so explicitly.
@@ -15,24 +15,44 @@ subtitle: "Block 2"
 
 ## `.gitignore`: classic examples
 
-```
-# Ignore every file called myfile.pdf
+Ignore every file called myfile.pdf
+
+```bash
 myfile.pdf
 ```
 
-```
-# Ignore the file called myfile.pdf in the folder reports at the root of your *repository*
+Ignore the file called myfile.pdf in the folder reports at the root of your *repository*
+
+```bash
 /reports/myfile.pdf
 ```
 
-```
-# Ignore all PDF files
+Ignore all PDF files
+
+```bash
 *.pdf
 ```
 
 You can find a list of very useful templates for `.gitignore` files at <https://github.com/github/gitignore>.
 
-<!-- TODO: Global vs. Local .gitignore?, pratical  -->
+:::{.callout-tip}
+The .gitignore uses the same kind of pattern matching as `git add` (or other git commands)
+:::
+
+## `.gitignore`: global vs. local
+
+- There can be multiple different `.gitignore` files at different levels
+- There's one *global* `.gitignore`, that will work across your whole computer
+- There are local gitignore files within your repositories
+  - You can even have a gitignore file in a directory within your repository and it will apply only within that directory
+
+## Practical: Ignoring Files {background-color="black"}
+
+1. Go back to your Terminal in `git-exercise`
+2. Google for a git cheatsheet (it should be a PDF file)
+3. Copy the PDF into your `git-exercise` folder
+4. Create a new .gitignore file to ignore only this cheatsheet
+5. Commit the .gitignore file
 
 # Traveling Through Time: `git log` {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/back-to-the-future-time.gif"}
 
@@ -63,10 +83,13 @@ git log
 
 You can move up and down with the arrow keys and leave the log view by pressing `q`.
 
-## Seeing History: practical
+## Practical: Seeing History {background-color="black"}
 
 1. Go back to your Terminal
 2. Open the `git log` of your respository
+3. Navigate up and down in the history
+4. Copy the commit hash of the 2nd commit you made in the repository
+5. Also explore the git history in a GUI
 
 # *Properly* Traveling Through Time: <br> `git checkout`  {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/back-to-the-future-travel.gif"}
 
@@ -152,16 +175,16 @@ git checkout 795780d
 
 # Questions?
 
-## Practical: git scavenger hunt (setup)
+## Practical: git scavenger hunt (setup) {background-color="black"}
 
 1. We will copy a repository from the internet.
 2. Create a new directory or use an existing one, in which you want to copy the new repository.
 3. Navigate to that directory in your Terminal.
 4. Run the following command `git clone git@github.com:jansim/git-scavenger-hunt.git`
 
-## Practical: git scavenger hunt (part 1/2)
+## Practical: git scavenger hunt (part 1/2) {background-color="black"}
 
-Answer the following questions `git`.
+Answer the following questions using `git`.
 
 1. What is the title of the news story?
 2. What changes were made to the news story in commit (3a2823824)?
@@ -174,14 +197,11 @@ Use `git log` and `git checkout` to help you here.
 Brought to you by edunford on github.com
 :::
 
-## Tracking changes: In SourceTree
+## Tracking changes: Using a GUI
 
-<!-- TODO: adapt -->
 ![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
 
-In between each step, check the repository and file status with the Sourcetree UI.
-
-## Practical: git scavenger hunt (part 2/2)
+## Practical: git scavenger hunt (part 2/2) {background-color="black"}
 
 Answer the following questions using SourceTree.
 
@@ -209,7 +229,7 @@ Background: https://unsplash.com/photos/V1YEEItoOTE
 The default branch used to be called `master`, this was more-or-less recently changed to `main`, but not all repositories have changed yet.
 :::
 
-## What are git branches? 🌲
+## What are git branches? 🌲 {background-color="#5cbcfc"}
 
 ![Example of a repository history with branching](images/screenshots/learngitbranching/branched.png)
 
@@ -259,12 +279,13 @@ You can also use `git switch my-branch`, but this command is still experimental 
 - `git merge my-branch`
   - You will merge the branch that you name in the command *into* the one you are currently on
   - In most cases you will want to be on the `main` branch when using `git merge` (but not always!)
+- Merging will create a new "merge" commit
 
 :::{.callout-note}
 Only branches with a shared history can be merged, but this should (almost) always be the case.
 :::
 
-## Visual Example of Merging
+## Visual Example of Merging {background-color="#5cbcfc"}
 
 ![Example of a merged repository history](images/screenshots/learngitbranching/merged.png)
 
@@ -274,9 +295,15 @@ Only branches with a shared history can be merged, but this should (almost) alwa
 Background: https://giphy.com/gifs/berlin-demo-govid-loAFGkJxYzgxu3NKnZ
 :::
 
-## PRACTICAL
+## Practical: Branches and merging {background-color="black"}
 
-<!-- TODO: PRACTICAL -->
+1. Go back to your Terminal in `git-exercise`
+2. Create a new branch called `new-feature`
+  - Make sure to also checkout that branch, you can check whether you're on it with `git status`
+3. Add a commit on that new branch
+4. Go back to `main`
+6. Merge the `new-feature` branch into `main`
+7. Repeat all the above steps (with a different branch name & commit) using a GUI
 
 # The Ugly Side of `git`: Merge Conflicts {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/git-merge-cFkiFMDg3iFoI.gif"}
 
@@ -315,16 +342,83 @@ And how to avoid it.
 
 # DEMO: Resolving merge conflicts in VS Code and SourceTree
 
-# PRACTICAL (maybe two practicals?)
+# *Practical:* Creating & Resolving a Merge Conflict {background-color="black"}
 
-<!-- TODO: PRACTICAL -->
+## Practical: Setup {background-color="black"}
 
-## Extra Practical: *learngitbranching*
+1. Create a new file called `guessing_conflict.txt`
+2. Write the "Question" with the letters A to D into the file, with empty lines in between e.g.
+
+```text
+Question A
+
+Question B
+
+Question C
+
+Question D
+
+```
+
+## Practical: Setup {background-color="black"}
+
+3. Create a new branch called `guesses` and check it out
+    - Double check whether you checked out the correct branch with `git status`
+4. We're done with the preparations
+
+## Practical: Guessing Game {background-color="black"}
+
+Write your guess below the line with the matching letter.
+
+a) How many liters of Beer have been drunken at the Oktoberfest in Munich in 2019? 🍻
+b) How many people live in Karlsruhe? (Exactly) 🏘️
+c) What percentage of Americans asked in a survey in 2017, indicated that they believe in Astrology? 🌟
+d) What percentage (same sample as C), indicated that they believe in psychics? 🔮
+
+## Practical: Guessing Game Answers {background-color="black"}
+
+5. Check out the `main` branch again
+6. Write down the actual answers below the letters in the now empty file again
+
+```text
+Question A 🍻 Liters of beer [^1]
+7,850,200
+Question B 🏘️ People in Karlsruhe
+313,092
+Question C 🌟 % believing in Astrology [^2]
+29%
+Question D 🔮 % believing in Psychis [^2]
+41%
+```
+
+[^1]: https://opendata.muenchen.de/tr/dataset/oktoberfest
+[^2]: https://www.pewresearch.org/fact-tank/2018/10/01/new-age-beliefs-common-among-both-religious-and-nonreligious-americans/
+https://opendata.muenchen.de/tr/dataset/oktoberfest
+
+## Practical: The Actual Conflcit {background-color="black"}
+
+7. Use `git merge` to merge the `guesses` brain into your `main` branch
+8. Explore the files in the resulting merge conflict
+9. Resolve the merge conflict
+
+## Extra Practical: *learngitbranching* {background-color="black"}
 
 1. Go to https://learngitbranching.js.org/
 2. Finish Lessons 1, 2 and 3 on the website
 
-## Rebasing
+## Rebasing: The Alternative to Merging (bonus)
 
-<!-- TODO: REBASING -->
+- You can also combine two branches by rebasing them (instead of merging)
+- When rebasing, all extra commits on your current branch will be moved to the target branch
+  - This alters the affected commits ‼️
+  - Leads to a single history
+- Use with caution
 
+```bash
+# You call git rebase e.g. on the feature branch
+git checkout feature
+```
+
+::: attribution
+More Info: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
+:::

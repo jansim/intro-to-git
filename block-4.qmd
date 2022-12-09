@@ -11,8 +11,10 @@ subtitle: "Block 4"
 - Allows for discussion
 - When an issue is done, it is "closed"
 
+::: {.fragment}
 :::{.callout-tip}
 Each issue get's its own number (e.g. #12). When you reference an issues commit number with a keyword like "fix", it will automatically be closed.
+:::
 :::
 
 ## Issues: Overview
@@ -44,7 +46,6 @@ Repository: <https://github.com/CorrelAid/datenguideR/>
 - When collaborating with other people, it's often good to review each other's changes
 - This is easiest done by using pull requests
   - You *request* for someone to *pull* your changes
--
 
 ## Pull requests: Overview
 
@@ -73,20 +74,37 @@ Repository: <https://github.com/microsoft/vscode>
 ## When Should you Start using Issues & PRs?
 
 - Maybe your project doesn't need these features yet
-- Often it makes sense to use pull requests even collaborating with just a few people
+- Often it makes sense to use pull requests even when collaborating with just a few people
+  - To avoid merge conflicts
   - Also for reviewing each others changes
 - Many companies require code reviews and using PRs
 
-## Practical: Collaborating via GitHub (using PRs)
+# Questions?
 
-1. Pick a group an write a short section explaining your topic together. Write the first section by yourself, but feel free to add additional information using the internet.
+## Practical: Collaborating via GitHub{background-color="black"}
+
+1. Form groups of 2 - 3 people (we need exactly 10 teams total)
+2. I will assign a topic from the list for each team.
+3. Clone the final course repository: <https://github.com/open-teaching/git-course-summary-ws22>
+4. One person per team should create a new branch called `team-<your number>`, then `push` it to the hosted repo
+5. Run `git fetch` to get the latest changes
+6. Everyone else should copy that branch by running `git checkout -b <team-#> origin/<team-#>`
+
+## Practical: Collaborating via GitHub (using PRs) {background-color="black"}
+
+1. Write a short section explaining your topic together.
 2. Multiple people should collaborate on this section and not all commits should be from one GitHub account.
-3. Create a pull request to add your edits to this repository.
-4. Once everybody is done, another team will review your section and provide feedback / make some edits.
-5. Then they will approve the pull request and you can merge your edits into this repository.
+3. Create a pull request to add your edits to the main repository. The title of the pull request should contain your team number and topic.
 
-- Bonus: Multiple Remotes
-- Bonus: Forking
+## Practical: Collaborating via GitHub (using PRs) {background-color="black"}
+
+1. Review the pull requestion of the next team (by number) and provide feedback / make some edits.
+    - Feel free to use the internet to find additional details if you need to.
+    - Use the pull request to discuss
+2. Approve the pull request when you're done and all changes are implemented.
+3. Merge your edits into the repository.
+
+# The Final Bits
 
 ## Contributing to Open-Source
 

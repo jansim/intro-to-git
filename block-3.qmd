@@ -14,7 +14,7 @@ subtitle: "Block 3"
   - GitLab
   - Bitbucket
   - ... (and many more)
-- Together these websites contain the majority of the world's software
+- Together they contain the majority of the world's software
 
 ## Why use a Website?
 
@@ -24,11 +24,11 @@ subtitle: "Block 3"
 - Free and Open-Source Software (FOSS)
 - Visibility
 
-# A Tour of github.com
+# Demo: A Tour of github.com
 
 # Connecting git and github
 
-## Authenticating with GitHub 🗝️
+## Authenticating with GitHub 🗝️ {background-color="black"}
 
 - We will use a great external guide to set up the authentication with GitHub
 - Please go to the [website](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html) and follow the steps to authenticate with GitHub
@@ -46,18 +46,26 @@ External Guide by Mike Croucher & Malika Ihle
 - For public repositories, `git clone` just works, for private ones you will need to be authenticated
 - `git clone <remote URL>`
 
+## Cloning a Repository
+
 ![You can find the remote URL by going to a repository on GitHub and clicking the Code button](images/screenshots/github-get-remote-url.png)
 
 ```bash
 git clone git@github.com:jansim/intro-to-git.git
 ```
 
-## PRACTICAL: Cloning a private repository
+## Practical: Cloning a private repository {background-color="black"}
 
 1. Create a repository in your account with a random name
-  - Be sure to mark it private
+    - Be sure to mark it private
 2. Copy the clone URL (SSH) from the repositories website
 3. Clone the repository to check whether you can authenticate with github
+
+# Remotes {background-color="black" background-opacity="0.3" background-image="/images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
+
+::: attribution
+Background: https://unsplash.com/photos/EOQhsfFBhRk
+:::
 
 ## Remotes
 
@@ -66,23 +74,42 @@ git clone git@github.com:jansim/intro-to-git.git
 - Just like your repository, the remote repository also has branches
 - The default name for a remote is `origin`
   - When you `clone` a repository, this remote is already linked
-- When you want to add an existing repository to github, you will have to add the remote yourself
 
 ## Adding a Remote
+
+When you want to add an existing repository to github, you will have to add the remote yourself
 
 ```bash
 git remote add <remote name> <remote URL>
 ```
 
+<br>
+
+::: {.fragment}
+For example:
+
 ```bash
 git remote add origin git@github.com:jansim/intro-to-git.git
 ```
+:::
+
+<br>
+
+::: {.fragment}
+To learn about all possible commands for remotes use `-h`
+
+```bash
+git remote -h
+```
+:::
 
 # Syncing Changes with GitHub
 
 ## Syncing Changes: Overview
 
-![You first `pull` the latest changes from the remote and then `push` your own changes](/images/drawings/pull-push.svg)
+You first `pull` the latest changes from the remote and then `push` your own changes
+
+![](/images/drawings/pull-push.svg)
 
 ## Getting Changes: `git pull`
 
@@ -91,6 +118,7 @@ git remote add origin git@github.com:jansim/intro-to-git.git
 - Typically your local branch is set up to *track* a remote branch with the same name
   - If not, you get a warning from git
 
+::: {.fragment}
 ```bash
 # Pull from the tracked remote branch
 git pull
@@ -98,6 +126,14 @@ git pull
 # Pull from a specific branch
 git pull <remote>/<branch>
 ```
+:::
+
+## Getting Changes: `git pull`
+
+- This *fetches* the latest changes and *merges* them into your current branch
+  - `git pull` really does *two* things here
+- You can also run `git fetch` to fetch the latest changes and then `git merge <remote>/branch` to merge them
+- `git fetch` will always fetch the latest changes without doing anything with them (which can be useful)
 
 ## Pushing Your Changes: `git push`
 
@@ -105,6 +141,7 @@ git pull <remote>/<branch>
 - This only works if there are no new changes at the remote
   - If there have been changes since your last `pull` you need to `pull` again
 
+::: {.fragment}
 ```bash
 # Push to the tracked remote branch
 git push
@@ -112,16 +149,17 @@ git push
 # Push to a specific branch
 git push <remote>/<branch>
 ```
+:::
 
 # Demo: Creating a new repository, pulling, pushing
 
 # Questions?
 
-## PRACTICAL: Adding your own repository to github
+## Practical: Adding your own repository to Github {background-color="black"}
 1. Create a new repository on GitHub with the name `git-intro-example`
-  - Make sure NOT to add a README or any other file when creating it
+    - Make sure NOT to add a README or any other file when creating it
 2. In the example git repository we've been working in so far, add the just created GitHub repo as a remote
-  - `git remote add origin <URL>`
+    - `git remote add origin <URL>`
 3. Push you changes so far to GitHub
 
 # Let's Build a Website: Github Pages
@@ -131,8 +169,9 @@ git push <remote>/<branch>
 - One of the features of GitHub is, that you can host your own website there for free
 - This service is called GitHub Pages
 - You can create websites for specific projects (i.e. repositories)
-  - `<your_gh_username>.github.io/<your_repo_name>`
-- Special repository with the name `<your_gh_username>.github.io` will be at that address
+  - \<your_gh_username\>.github.io/\<your_repo_name\>
+- Special repository name: \<your_gh_username\>.github.io
+  - To create a personal website
 
 ## Markdown
 
@@ -142,7 +181,8 @@ Markdown is a simple language for basic text formatting
 - It's used by GitHub Pages for content formatting
 - It's also used for `READMEs`
   - These are files describing a repository / giving an introduction
-  - They will be shown by default when you open a repository on hosting website
+  - They will be shown by default when you open a repository on a hosting website
+- [Example 🐍](https://github.com/python/cpython)
 
 ## Markdown: The Basics
 
@@ -166,21 +206,28 @@ Normal text
 
 ![Example of the markdown code from before, but now rendered](images/screenshots/markdown.png)
 
-## Practical: Creating a website with github pages
+## Practical: Creating a website with github pages {background-color="black"}
 
 1. Create a copy of the template repository: https://github.com/open-teaching/gh-pages-template
 2. Configure the repository to deploy to GitHub Pages
 3. Clone your newly created repository onto your machine
-4. Fill in the about page
-  - This information will be public, only add information there that you are comfortable with
-  - Use multiple commits
+4. Fill in the about page (use multiple commits)
+    - This information will be public, only add information there that you are comfortable with
 5. Push your changes to GitHub
 
 ::: attribution
 Website template originally from: https://github.com/academicpages/academicpages.github.io
 :::
 
-## Practical: *learngitbranching*
+## Practical: *learngitbranching* #2 {background-color="black"}
 
 1. Go to https://learngitbranching.js.org/
 2. Finish Lessons 1 - 6 in the **remote** section on the website
+
+## Bonus Practical: Collaborating on a Website with Github Pages{background-color="black"}
+
+1. Create groups of 2 - 3 people
+2. One person picks their website repository and shares access to it with the others
+3. The other people also clone the repository and will edit the website files
+4. Push and pull to synchronize your changes
+5. Try to create a merge conflict
