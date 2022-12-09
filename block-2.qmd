@@ -33,8 +33,6 @@ Ignore all PDF files
 *.pdf
 ```
 
-You can find a list of very useful templates for `.gitignore` files at <https://github.com/github/gitignore>.
-
 :::{.callout-tip}
 The .gitignore uses the same kind of pattern matching as `git add` (or other git commands)
 :::
@@ -45,6 +43,7 @@ The .gitignore uses the same kind of pattern matching as `git add` (or other git
 - There's one *global* `.gitignore`, that will work across your whole computer
 - There are local gitignore files within your repositories
   - You can even have a gitignore file in a directory within your repository and it will apply only within that directory
+- You can find a list of very useful templates for `.gitignore` files at <https://github.com/github/gitignore>.
 
 ## Practical: Ignoring Files {background-color="black"}
 
@@ -281,6 +280,8 @@ You can also use `git switch my-branch`, but this command is still experimental 
   - In most cases you will want to be on the `main` branch when using `git merge` (but not always!)
 - Merging will create a new "merge" commit
 
+## Bringig it all together: Merging
+
 :::{.callout-note}
 Only branches with a shared history can be merged, but this should (almost) always be the case.
 :::
@@ -397,7 +398,7 @@ https://opendata.muenchen.de/tr/dataset/oktoberfest
 
 ## Practical: The Actual Conflcit {background-color="black"}
 
-7. Use `git merge` to merge the `guesses` brain into your `main` branch
+7. Use `git merge` to merge the `guesses` branch into your `main` branch
 8. Explore the files in the resulting merge conflict
 9. Resolve the merge conflict
 
