@@ -4,6 +4,7 @@ format:
   html:
     toc: true
     output-file: index.html
+    theme: cosmo
   gfm:
     toc: false
     output-file: README.md
