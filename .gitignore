@@ -5,6 +5,3 @@
 
 /.quarto/
 untracked/
-
-# Ignore rendered quarto presentations (for now)
-/output/

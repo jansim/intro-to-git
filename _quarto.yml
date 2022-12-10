@@ -1,6 +1,7 @@
 project:
   title: "Intro to git"
-  output-dir: "output"
+  # For github pages
+  output-dir: "docs"
 
 editor: visual
 
