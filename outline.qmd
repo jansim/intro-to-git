@@ -1,31 +1,22 @@
 ---
 title: "Intro to `git`: Outline"
-author: "Jan Simson"
+subtitle: "Only used for planning"
+format:
+  html:
+    toc: true
 ---
 
-# ToDo
-
-- git help? / man pages?
-
-# Timeline
-
-10:00 - 11:30 1st Block (1:30)
-11:30 - 11:45 Pause
-11:45 - 13:00 2nd Block (1:15)
-13:00 - 14:00 Lunchbreak
-14:00 - 15:15 3rd Block (1:15)
-15:15 - 15:30 Pause
-15:30 - 16:45 4th Block (1:15)
-
 # Outline
-0. Prerequisites
+
+## Prerequisites
   - TODO: create new info for that, installing git, vscode, ..?
   - Installing git
   - Installing vscode
   - Installing sourcetree
   - Creating a github account
 
-Block 1
+## Block 1
+
 1. Intro to the Course
   - Who am I?
   - Who are you?
@@ -60,7 +51,8 @@ Block 1
   - Bonus: What makes a good commit (message)
   - Bonus: Repeat the exercise in different UIs
 
-Block 2
+## Block 2
+
 1. Ignoring things
   - .gitignore
   - Existing .gitignores
@@ -83,7 +75,8 @@ Block 2
   - (Bonus 2: Rebasing & Lesson 4 on learngitbranching)
   - Bonus 3: Repeat exercisees in different UIs, do more merge conflicts
 
-Block 3
+## Block 3
+
 1. Going online: Github
   - What is GitHub? What are its alternatives?
     - Gitlab, Bitbucket, Codeberg
@@ -101,7 +94,8 @@ Block 3
 
   - Bonus: Github Personal Pages
 
-Block 4
+## Block 4
+
 1. Collaborating with git (2)
   - Bonus: https://learngitbranching.js.org/ Remote Lessons 1 - 6
   - Pull Requests
@@ -122,8 +116,8 @@ Block 4
   - Resources
     - https://ohshitgit.com/ & https://ohshitgit.com/de
 
+# Transfer Assignment
 
-Transfer Assignment
 - Create a github repository (either private or public, your call)
 - Create a README.md in the repository
 - Write down 2 strengths of git
