@@ -56,9 +56,8 @@ git clone git@github.com:jansim/intro-to-git.git
 
 ## Practical: Cloning a private repository {background-color="black"}
 
-1. Create a repository in your account with a random name
-    - Be sure to mark it private
-2. Copy the clone URL (SSH) from the repositories website
+1. Go to the website of the repository I added you all to: https://github.com/open-teaching/git-course-summary-ws22
+2. Copy the SSH clone URL from the repositories website
 3. Clone the repository to check whether you can authenticate with github
 
 # Remotes {background-color="black" background-opacity="0.3" background-image="/images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
@@ -151,7 +150,7 @@ git push <remote>/<branch>
 ```
 :::
 
-# Demo: Creating a new repository, pulling, pushing
+# Demo: Creating a new repository, pulling, pushing  {data-visibility="hidden"}
 
 # Questions?
 

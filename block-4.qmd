@@ -81,11 +81,10 @@ Repository: <https://github.com/microsoft/vscode>
 
 # Questions?
 
-## Practical: Collaborating via GitHub{background-color="black"}
+## Practical: Collaborating via GitHub {background-color="black"}
 
 1. Form groups of 2 - 3 people (we need exactly 10 teams total)
 2. I will assign a topic from the list for each team.
-3. Clone the final course repository: <https://github.com/open-teaching/git-course-summary-ws22>
 4. One person per team should create a new branch called `team-<your number>`, then `push` it to the hosted repo
 5. Run `git fetch` to get the latest changes
 6. Everyone else should copy that branch by running `git checkout -b <team-#> origin/<team-#>`
@@ -93,13 +92,11 @@ Repository: <https://github.com/microsoft/vscode>
 ## Practical: Collaborating via GitHub (using PRs) {background-color="black"}
 
 1. Write a short section explaining your topic together.
-2. Multiple people should collaborate on this section and not all commits should be from one GitHub account.
-3. Create a pull request to add your edits to the main repository. The title of the pull request should contain your team number and topic.
+2. Create a pull request to add your edits to the main repository. The title of the pull request should contain your team number and topic.
 
 ## Practical: Collaborating via GitHub (using PRs) {background-color="black"}
 
-1. Review the pull requestion of the next team (by number) and provide feedback / make some edits.
-    - Feel free to use the internet to find additional details if you need to.
+1. Review the pull requestion of the next team (by number) and provide feedback.
     - Use the pull request to discuss
 2. Approve the pull request when you're done and all changes are implemented.
 3. Merge your edits into the repository.
