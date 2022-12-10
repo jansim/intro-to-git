@@ -1,9 +1,10 @@
 Introduction to `git`
 ================
+Jan Simson
 
-This repository contains the materials for the course “Data Literacy:
-Introduction to `git`” which I gave at the Karlsruhe Institute for
-Technology (KIT).
+This repository contains the course materials for a one-day workshop
+titled “Data Literacy: Introduction to `git`” which I gave at the
+Karlsruhe Institute for Technology (KIT).
 
 ## Contents
 
@@ -18,8 +19,42 @@ Technology (KIT).
 
 - How to Setup SSH authentication for GitHub
   [\[PDF\]](output/resources/ssh/how-to-setup-github-ssh.pdf)
-- git Cheatsheet by GitHub Education
-  [\[PDF\]](resources/git-cheat-sheet-education.pdf)
+  [\[HTML\]](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
+  - By [Mike Croucher & Malika
+    Ihle](https://github.com/MalikaIhle/Introduction-RStudio-Git-GitHub)
+- Git Cheatsheet [\[PDF\]](resources/git-cheat-sheet-education.pdf)
+  - By [GitHub Education](https://education.github.com/)
+
+## Links
+
+- Repositories used in the Course
+  - [Git Scavenger
+    Hunt](https://github.com/open-teaching/git-scavenger-hunt)
+  - [GitHub Pages
+    Template](https://github.com/open-teaching/gh-pages-template)
+  - [Collaborative Course
+    Summary](https://github.com/open-teaching/git-course-summary-ws22)
+    - Note: This repository may be turned private in the future.
+- Guides to review & refresh your knowledge
+  - <https://gitimmersion.com>
+  - <https://github.com/git-guides>
+  - [Introduction to RStudio Git &
+    GitHub](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/)
+  - [The Carpentries: Version Control with
+    Git](https://swcarpentry.github.io/git-novice/)
+- Further reading (beyond the contents of the course)
+  - [Trunk Based
+    Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development),
+    a popular and advanced workflow of using git (currently concidered a
+    best-practice)
+  - Using git with data
+    - [dvc](https://dvc.org/): Data Version Control
+    - [git lfs](https://git-lfs.github.com/): Git Large File Storage
+  - If you have a problem
+    - [ohshitgit.com](https://ohshitgit.com/)
+      [(🇩🇪)](https://ohshitgit.com/de)
+    - Google: Just googling your problem is often the most useful
+      solution
 
 ## License
 
