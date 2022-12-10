@@ -19,7 +19,7 @@ Each issue get's its own number (e.g. #12). When you reference an issues commit 
 
 ## Issues: Overview
 
-![Overview of the issues page in a GitHub repository](/images/screenshots/gh-issues.png)
+![Overview of the issues page in a GitHub repository](images/screenshots/gh-issues.png)
 
 ::: attribution
 Repository: <https://github.com/CorrelAid/datenguideR/>
@@ -27,7 +27,7 @@ Repository: <https://github.com/CorrelAid/datenguideR/>
 
 ## Issues: Detailed View
 
-![View of a single issue on GitHub](/images/screenshots/gh-issue.png)
+![View of a single issue on GitHub](images/screenshots/gh-issue.png)
 
 ::: attribution
 Repository: <https://github.com/CorrelAid/datenguideR/>
@@ -49,7 +49,7 @@ Repository: <https://github.com/CorrelAid/datenguideR/>
 
 ## Pull requests: Overview
 
-![Overview of the pull requests page in a GitHub repository](/images/screenshots/gh-prs.png)
+![Overview of the pull requests page in a GitHub repository](images/screenshots/gh-prs.png)
 
 ::: attribution
 Repository: <https://github.com/CorrelAid/datenguideR>
@@ -57,7 +57,7 @@ Repository: <https://github.com/CorrelAid/datenguideR>
 
 ## Pull requests: Detailed View
 
-![View of a single pull request on GitHub](/images/screenshots/gh-pr.png)
+![View of a single pull request on GitHub](images/screenshots/gh-pr.png)
 
 ::: attribution
 Repository: <https://github.com/CorrelAid/datenguideR>
@@ -65,7 +65,7 @@ Repository: <https://github.com/CorrelAid/datenguideR>
 
 ## Why Issues & Pull Requests are Necessary
 
-![Right now, the VSCode GitHub repository has >5000 issues and almost 400 PRs](/images/screenshots/gh-vscode.png)
+![Right now, the VSCode GitHub repository has >5000 issues and almost 400 PRs](images/screenshots/gh-vscode.png)
 
 ::: attribution
 Repository: <https://github.com/microsoft/vscode>

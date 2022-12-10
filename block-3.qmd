@@ -60,7 +60,7 @@ git clone git@github.com:jansim/intro-to-git.git
 2. Copy the SSH clone URL from the repositories website
 3. Clone the repository to check whether you can authenticate with github
 
-# Remotes {background-color="black" background-opacity="0.3" background-image="/images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
+# Remotes {background-color="black" background-opacity="0.3" background-image="images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
 
 ::: attribution
 Background: https://unsplash.com/photos/EOQhsfFBhRk
@@ -108,7 +108,7 @@ git remote -h
 
 You first `pull` the latest changes from the remote and then `push` your own changes
 
-![](/images/drawings/pull-push.svg)
+![](images/drawings/pull-push.svg)
 
 ## Getting Changes: `git pull`
 

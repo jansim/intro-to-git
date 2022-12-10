@@ -11,6 +11,6 @@ format:
 revealjs-plugins:
   - attribution
 title-slide-attributes:
-    data-background-image: /images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg
+    data-background-image: images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg
     data-background-color: black
     data-background-opacity: "0.3"

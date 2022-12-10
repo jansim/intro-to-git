@@ -99,7 +99,7 @@ Quick Round of Introductions
 3. Open the folder in Visual Studio Code
     - Create a new file `test.txt` and write in it <br> `Hello World!`
 
-# Intro to `git`  {background-color="black" background-opacity="0.3" background-image="/images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg"}
+# Intro to `git`  {background-color="black" background-opacity="0.3" background-image="images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg"}
 
 ::: attribution
 Background: https://unsplash.com/photos/842ofHC6MaI
@@ -576,7 +576,7 @@ Source: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer
 
 ## Let's get Graphical: Tracking Changes in SourceTree
 
-![The labels in Sourcetree mirror the names within the git CLI](/images/screenshots/sourcetree-test.png)
+![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
 
 - Demo!
 
@@ -590,7 +590,7 @@ Source: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer
 
 ## Let's get Graphical: Tracking Changes in VSCode
 
-![Since VSCode is primarily a text editor, git functionality is hidden in the sidebar](/images/screenshots/vscode-git.png)
+![Since VSCode is primarily a text editor, git functionality is hidden in the sidebar](images/screenshots/vscode-git.png)
 
 - Demo!
 

@@ -53,7 +53,7 @@ The .gitignore uses the same kind of pattern matching as `git add` (or other git
 4. Create a new .gitignore file to ignore only this cheatsheet
 5. Commit the .gitignore file
 
-# Traveling Through Time: `git log` {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/back-to-the-future-time.gif"}
+# Traveling Through Time: `git log` {background-color="black" background-opacity="0.5" background-image="images/backgrounds/back-to-the-future-time.gif"}
 
 ::: attribution
 Background: https://giphy.com/gifs/back-to-the-future-dgEIhYAo3lZiE
@@ -90,7 +90,7 @@ You can move up and down with the arrow keys and leave the log view by pressing 
 4. Copy the commit hash of the 2nd commit you made in the repository
 5. Also explore the git history in a GUI
 
-# *Properly* Traveling Through Time: <br> `git checkout`  {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/back-to-the-future-travel.gif"}
+# *Properly* Traveling Through Time: <br> `git checkout`  {background-color="black" background-opacity="0.5" background-image="images/backgrounds/back-to-the-future-travel.gif"}
 
 ::: attribution
 Background: https://giphy.com/gifs/back-to-the-future-xsF1FSDbjguis
@@ -212,7 +212,7 @@ Answer the following questions using SourceTree.
 Brought to you by edunford on github.com
 :::
 
-# Alternate Realities: <br> `git branches` {background-color="black" background-opacity="0.7" background-image="/images/backgrounds/suganth-V1YEEItoOTE-unsplash.jpg"}
+# Alternate Realities: <br> `git branches` {background-color="black" background-opacity="0.7" background-image="images/backgrounds/suganth-V1YEEItoOTE-unsplash.jpg"}
 
 ::: attribution
 Background: https://unsplash.com/photos/V1YEEItoOTE
@@ -290,7 +290,7 @@ Only branches with a shared history can be merged, but this should (almost) alwa
 
 ![Example of a merged repository history](images/screenshots/learngitbranching/merged.png)
 
-# Demo: [learngitbranching.js.org](https://learngitbranching.js.org/?NODEMO?) {background-color="black" background-opacity="0.7" background-image="/images/backgrounds/berlin-demo-govid-loAFGkJxYzgxu3NKnZ.gif"}
+# Demo: [learngitbranching.js.org](https://learngitbranching.js.org/?NODEMO?) {background-color="black" background-opacity="0.7" background-image="images/backgrounds/berlin-demo-govid-loAFGkJxYzgxu3NKnZ.gif"}
 
 ::: attribution
 Background: https://giphy.com/gifs/berlin-demo-govid-loAFGkJxYzgxu3NKnZ
@@ -306,7 +306,7 @@ Background: https://giphy.com/gifs/berlin-demo-govid-loAFGkJxYzgxu3NKnZ
 6. Merge the `new-feature` branch into `main`
 7. Repeat all the above steps (with a different branch name & commit) using a GUI
 
-# The Ugly Side of `git`: Merge Conflicts {background-color="black" background-opacity="0.5" background-image="/images/backgrounds/git-merge-cFkiFMDg3iFoI.gif"}
+# The Ugly Side of `git`: Merge Conflicts {background-color="black" background-opacity="0.5" background-image="images/backgrounds/git-merge-cFkiFMDg3iFoI.gif"}
 
 ## What are Merge Conflicts?
 
