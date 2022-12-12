@@ -1,0 +1,57 @@
+---
+title: "Transfer Assignment"
+subtitle: "Introduction to `git`"
+author: "Jan Simson"
+format:
+  pdf
+---
+
+Thank you for participating in the workshop "Data Literacy: Introduction to `git`".
+
+Please finish this transfer assignment within the next month to complete the workshop.
+
+## Task 1: Creating the Respository 🆕
+
+1. Create a new GitHub repository. This repository can be either public or private, but if it is private you will have to add me as a collaborator to the repository so I can see it. My username on GitHub is `jansim`.
+2. Clone the repository onto your machine to be able to start working in it. Please make sure to use proper commit messages in all of your commits for the following tasks.
+
+## Task 2: How to use git ✨
+
+1. Create a new file called `how-to-use-git.md` and commit the empty file.
+2. Copy the text below into the file and commit it. This text is formatted in markdown, so if you look at the file on GitHub now, you should see that it previews it with nice formatting.
+
+```md
+# How to use `git`
+
+1. Initialize a repository with `...`
+2. Stage your files with `...`
+3. Whenever you made a substantial change, put it into the history with `...`
+4. See your history with `...`
+5. Move around (history and branches!) with `...`
+6. Create new branches with `...`
+7. To collaborate, first `...` others changes, then `...` yours
+```
+
+3. Fill in the gaps in the text with the correct `git` commands. Please include `git` with each command. Commit your changes when you are done.
+4. Push your changes to your GitHub repository.
+
+## Task 3: Strengths & Weaknesses 💪😢
+
+1. Create a new file called `strengths_and_weaknesses.md` in your repository and commit it.
+2. Create two headings called "Strengths" and "Weaknesses" in the file amd commit your changes. If you forgot the correct Syntax for this, you can refer to this [Markdown guide](https://towardsdatascience.com/the-ultimate-markdown-cheat-sheet-3d3976b31a0) or another one from the internet.
+3. Create a new branch called `strengths` (and make sure to check it out).
+4. Write down two *strengths* of git, but make sure to separately commit each of your two points.
+5. Check out the `main` branch again and merge the `strengths` branch into you `main`.
+6. Create a new branch called `weaknesses` (and make sure to check it out).
+7. Write down two *weaknesses* of git, but make sure to separately commit each of your two points.
+8. Check out the `main` branch again and merge the `weaknesses` branch into you `main`.
+9. Push your changes to your GitHub repository.
+
+:::{.callout-note}
+I'm assuming that the default branch of your repository is called `main`, which is the case in recent versions of `git` now. If the default branch is called `master` on your machine, just use that in place of `main` here.
+:::
+
+## Task 4: Tell me you're finished 🎉
+
+1. Send me an e-mail to notify me that you finished the task. Make sure to (1) put "Introduction to git: Transfer Assigment" as your subject in the e-mail, (2) include your name and martrikelnumber in the e-mail and (3) to also include the link to your repository on GitHub in the e-mail.
+2. Thank you for participating and lot's of success with git (and beyond) in the future!
