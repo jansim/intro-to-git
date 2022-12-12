@@ -136,6 +136,7 @@ Repository: <https://github.com/microsoft/vscode>
 ## Final Summary
 
 - Initialize a repository with `git init`
+- Stage your files with `git add`
 - Whenever you made a substantial change, put it into the history with `git commit`
 - See your history with `git log`
 - Move around (history and branches!) with `git checkout`
