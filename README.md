@@ -11,9 +11,18 @@ Karlsruhe Institute for Technology (KIT).
 ### Slides
 
 - Block 1: Introduction & Basics [\[slides\]](output/block-1.html)
+  [\[pdf\*\]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-1.pdf)
 - Block 2: Branches & More [\[slides\]](output/block-2.html)
+  [\[pdf\*\]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-2.pdf)
 - Block 3: Collaboration via Github [\[slides\]](output/block-3.html)
+  [\[pdf\*\]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-3.pdf)
 - Block 4: Advanced Github & Beyond [\[slides\]](output/block-4.html)
+  [\[pdf\*\]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-4.pdf)
+
+\*: Since they have to be manually generated, the PDF version of slides
+may be slightly outdated. Please refer to [this
+guide](https://revealjs.com/pdf-export/), on how to export your own PDF
+version from the online slides.
 
 ### Supporting Documents
 
