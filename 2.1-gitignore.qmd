@@ -1,0 +1,52 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 2.1: Ignoring things: `.gitignore`"
+---
+
+## Ignoring files via `.gitignore` 🙅
+
+- By default, git will track *all* the files in your repository.
+- If you want it to ignore certain files or filetypes, you have to tell it so explicitly.
+- You can do this by using a file called `.gitignore`
+  - Every file will be compared against the list in `.gitignore` and if it matches, git will ignore the file
+- The `.gitignore` file *itself* is tracked just like any other file
+
+## `.gitignore`: classic examples
+
+Ignore every file called myfile.pdf
+
+```bash
+myfile.pdf
+```
+
+Ignore the file called myfile.pdf in the folder reports at the root of your *repository*
+
+```bash
+/reports/myfile.pdf
+```
+
+Ignore all PDF files
+
+```bash
+*.pdf
+```
+
+:::{.callout-tip}
+The .gitignore uses the same kind of pattern matching as `git add` (or other git commands)
+:::
+
+## `.gitignore`: global vs. local
+
+- There can be multiple different `.gitignore` files at different levels
+- There's one *global* `.gitignore`, that will work across your whole computer
+- There are local gitignore files within your repositories
+  - You can even have a gitignore file in a directory within your repository and it will apply only within that directory
+- You can find a list of very useful templates for `.gitignore` files at <https://github.com/github/gitignore>.
+
+## Practical: Ignoring Files {background-color="black"}
+
+1. Go back to your Terminal in `git-exercise`
+2. Google for a git cheatsheet (it should be a PDF file)
+3. Copy the PDF into your `git-exercise` folder
+4. Create a new .gitignore file to ignore only this cheatsheet
+5. Commit the .gitignore file

@@ -1,0 +1,98 @@
+---
+title: "Intro to `git`"
+subtitle: "Course Introduction"
+---
+
+## First things first: Language 🇬🇧/🇩🇪
+
+::: {.nonincremental}
+
+- Slides are in English
+- Spoken: German or English?
+  - Do you have a preference / does anyone not speak German?
+
+:::
+
+## What is the course about?
+
+- **Goal**: Learn everything that is necessary to effectively use `git` in the future
+- **Format**: Mix of theory & practicals
+  - Feel free to always ask questions any time!
+- **Agenda**
+  - Block 1: Introduction & Basics
+  - Block 2: Branches & More
+  - Block 3: Collaboration via Github
+  - Block 4: Advanced Github & Beyond
+
+## Timeline
+
+::: {.nonincremental}
+
+- 10:00 - 11:30 1st Block (1:30)
+- 11:30 - 11:45 Pause
+- 11:45 - 13:00 2nd Block (1:15)
+- 13:00 - 14:00 Lunchbreak
+- 14:00 - 15:15 3rd Block (1:15)
+- 15:15 - 15:30 Pause
+- 15:30 - 16:45 4th Block (1:15)
+
+:::
+
+## Introductions: Who am I? 🙋🏼‍♂️
+
+- Jan Simson
+- Doing PhD at Ludwig-Maximilian University München
+- Background
+  - BSc Psychology (Konstanz)
+  - MSc Behavioural Data Science (Amsterdam)
+  - Computer Science (Ausbildung)
+  - Worked at research lab & startup before
+- Worked with `git` for a couple of years
+
+## Introductions: Who are you? 🙋🏻‍♀️🙋🏽‍♂️🙋
+
+Quick Round of Introductions
+
+::: {.nonincremental}
+
+- What's your name & which program are you enrolled in?
+- Have you heard about git before?
+  - Do you have any experience with git already?
+- What do you wish to learn from this course?
+
+:::
+
+## Introductions: Administration 📜
+
+- Is everyone registered for the course?
+- Could you please repeat your name and GitHub Username (to add to the list)
+
+## Prerequisites (Any Problems?)
+
+- Software
+  - *git*: The tool itself
+  - *Sourcetree*: A graphical user interface (GUI) to use git
+  - *Visual Studio Code*: A text editor, which also allows using git via its GUI
+
+- *GitHub*: Website to collaborate via git
+
+## Text Editor: Visual Studio Code
+
+![Screenshot of VS Code](images/screenshots/vscode.png)
+
+## Text Editor: Visual Studio Code
+
+- Text Editor: A program to write text
+  - Only text i.e. no layouting / formatting (unlike Microsoft Word)
+
+- Quick Demonstration
+  - Opening workbench in a folder
+
+## Text Editing: Practical {background-color="black"}
+
+1. Open Visual Studio Code on your computer
+    - Explore the UI
+    - Set a theme if you want to
+2. Create a new folder called `git-exercise`
+3. Open the folder in Visual Studio Code
+    - Create a new file `test.txt` and write in it <br> `Hello World!`

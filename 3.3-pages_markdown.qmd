@@ -1,0 +1,72 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 3.3: Let's Build a Website - Markdown & Github Pages"
+---
+
+## Github Pages
+
+- One of the features of GitHub is, that you can host your own website there for free
+- This service is called GitHub Pages
+- You can create websites for specific projects (i.e. repositories)
+  - \<your_gh_username\>.github.io/\<your_repo_name\>
+- Special repository name: \<your_gh_username\>.github.io
+  - To create a personal website
+
+## Markdown
+
+Markdown is a simple language for basic text formatting
+
+- Markdown is widely used for simple text documents
+- It's used by GitHub Pages for content formatting
+- It's also used for `READMEs`
+  - These are files describing a repository / giving an introduction
+  - They will be shown by default when you open a repository on a hosting website
+- [Example 🐍](https://github.com/python/cpython)
+
+## Markdown: The Basics
+
+Markdown is a simple language for basic text formatting
+
+```md
+# Big heading
+## Slightly smaller heading
+### Even smaller heading
+
+Normal text
+*italic text*
+**thick text**
+
+- A
+- Simple
+- List
+```
+
+## Markdown: The Basics
+
+![Example of the markdown code from before, but now rendered](images/screenshots/markdown.png)
+
+## Practical: Creating a website with github pages {background-color="black"}
+
+1. Create a copy of the template repository: https://github.com/open-teaching/gh-pages-template
+2. Configure the repository to deploy to GitHub Pages
+3. Clone your newly created repository onto your machine
+4. Fill in the about page (use multiple commits)
+    - This information will be public, only add information there that you are comfortable with
+5. Push your changes to GitHub
+
+::: attribution
+Website template originally from: https://github.com/academicpages/academicpages.github.io
+:::
+
+## Practical: *learngitbranching* #2 {background-color="black"}
+
+1. Go to https://learngitbranching.js.org/
+2. Finish Lessons 1 - 6 in the **remote** section on the website
+
+## Bonus Practical: Collaborating on a Website with Github Pages{background-color="black"}
+
+1. Create groups of 2 - 3 people
+2. One person picks their website repository and shares access to it with the others
+3. The other people also clone the repository and will edit the website files
+4. Push and pull to synchronize your changes
+5. Try to create a merge conflict

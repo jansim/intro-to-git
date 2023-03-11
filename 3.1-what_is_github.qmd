@@ -1,0 +1,101 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 3.1: Going Online - Github"
+---
+
+## What is GitHub?
+
+- GitHub is a website to host git repositories
+- By having your git repository online, you can easily collaborate with others
+- There are many other similar, alternative websites
+  - Codeberg 🇩🇪
+  - GitLab
+  - Bitbucket
+  - ... (and many more)
+- Together they contain the majority of the world's software
+
+## Why use a Website?
+
+- Backup of your project
+- Collaboration
+  - Not just with people you know
+- Free and Open-Source Software (FOSS)
+- Visibility
+
+# Demo: A Tour of github.com
+
+# Connecting git and github
+
+## Authenticating with GitHub 🗝️ {background-color="black"}
+
+- We will use a great external guide to set up the authentication with GitHub
+- Please go to the [website](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html) and follow the steps to authenticate with GitHub
+- A PDF version of the guide can be found [here](./resources/ssh/how-to-setup-github-ssh.pdf)
+
+![https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html](images/qr_code-malikaihle-ssh.svg)
+
+::: attribution
+External Guide by Mike Croucher & Malika Ihle
+:::
+
+## Cloning a Repository
+
+- You can download repositories from GitHub (and anywhere else), by *cloning* them
+- For public repositories, `git clone` just works, for private ones you will need to be authenticated
+- `git clone <remote URL>`
+
+## Cloning a Repository
+
+![You can find the remote URL by going to a repository on GitHub and clicking the Code button](images/screenshots/github-get-remote-url.png)
+
+```bash
+git clone git@github.com:jansim/intro-to-git.git
+```
+
+## Practical: Cloning a private repository {background-color="black"}
+
+1. Go to the website of the repository I added you all to: https://github.com/open-teaching/git-course-summary-ws22
+2. Copy the SSH clone URL from the repositories website
+3. Clone the repository to check whether you can authenticate with github
+
+# Remotes {background-color="black" background-opacity="0.3" background-image="images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
+
+::: attribution
+Background: https://unsplash.com/photos/EOQhsfFBhRk
+:::
+
+## Remotes
+
+- Link to a remote repository on a hosting website
+- There can be more than one remote, but it is uncommon
+- Just like your repository, the remote repository also has branches
+- The default name for a remote is `origin`
+  - When you `clone` a repository, this remote is already linked
+
+## Adding a Remote
+
+When you want to add an existing repository to github, you will have to add the remote yourself
+
+```bash
+git remote add <remote name> <remote URL>
+```
+
+<br>
+
+::: {.fragment}
+For example:
+
+```bash
+git remote add origin git@github.com:jansim/intro-to-git.git
+```
+:::
+
+<br>
+
+::: {.fragment}
+To learn about all possible commands for remotes use `-h`
+
+```bash
+git remote -h
+```
+:::
