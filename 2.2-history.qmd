@@ -124,40 +124,20 @@ git checkout 795780d
 
 # Questions?
 
-## Practical: git scavenger hunt (setup) {background-color="black"}
+## Practical: git murder mystery (setup) 🕵️ {background-color="black"}
 
 1. We will copy a repository from the internet.
 2. Create a new directory or use an existing one, in which you want to copy the new repository.
 3. Navigate to that directory in your Terminal.
-4. Run the following command `git clone https://github.com/open-teaching/git-scavenger-hunt.git`
+4. Run the following command `git clone https://github.com/open-teaching/git-murder-mystery.git`
 
-## Practical: git scavenger hunt (part 1/2) {background-color="black"}
+## Practical: git scavenger hunt 🕵️ {background-color="black"}
 
-Answer the following questions using `git`.
-
-1. What is the title of the news story?
-2. What changes were made to the news story in commit (3a2823824)?
-3. What other Jane Austen novel data was added after Pride and Prejudice?
-4. Return to `main` when you are done.
-
-Use `git log` and `git checkout` to help you here.
-
-::: attribution
-Brought to you by edunford on github.com
-:::
+1. Unravel the murder case.
+   - Use `git log` to see the history of the repository
+   - Use `git checkout` to travel through time
+2. Compare the different suspects over time to determine who was present at all three scenes.
 
 ## Tracking changes: Using a GUI
 
 ![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
-
-## Practical: git scavenger hunt (part 2/2) {background-color="black"}
-
-Answer the following questions using SourceTree.
-
-4. How many dog pictures were initially added to the dog_pictures folder?
-5. What was the last change made on the "dogs" branch before it was merged with the "temp"?
-6. What is the tag name for the commit where the readme was changed?
-
-::: attribution
-Brought to you by edunford on github.com
-:::
