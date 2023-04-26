@@ -1,6 +1,6 @@
 ![Image of police at the crime scene](./image.jpg)
 
-Colchester, UK - Another brutal murder has rocked the town of Colchester, leaving residents in shock and fear. The incident occurred on the night of November 12th, 1911, when the body of a young woman was discovered in a secluded area of town.
+Colchester, UK - Another brutal murder has rocked the town of Colchester, leaving residents in shock and fear. The incident occurred on the night of November 12th, 1976, when the body of a young woman was discovered in a secluded area of town.
 
 The victim, identified as Mary Jones, was a local resident and had been reported missing by her family the day before. Her body was found in a ditch near a small forest, and the police were immediately called to the scene.
 

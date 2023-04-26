@@ -1,6 +1,6 @@
 ![Image of the First Person at the Crime Scene](./image.jpg)
 
-Colchester, UK - A wave of fear has swept through the town of Colchester, as yet another murder has occurred within its borders. The latest incident took place on the night of August 6th, 1912, leaving residents shaken and police scrambling to investigate.
+Colchester, UK - A wave of fear has swept through the town of Colchester, as yet another murder has occurred within its borders. The latest incident took place on the night of August 6th, 1977, leaving residents shaken and police scrambling to investigate.
 
 The victim, identified as William Brown, was a local shopkeeper who had been well-respected in the community. His body was found in his store, which had been ransacked and robbed. It appeared that the perpetrator had broken in through the back door and attacked Brown, leaving him with fatal injuries.
 
