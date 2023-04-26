@@ -1,6 +1,6 @@
 ![Image of the Mansion](./image.jpg)
 
-Colchester, UK - A murder has shaken the quiet town of Colchester, as the body of a wealthy businessman was found in his old mansion in the early hours of the morning. The incident took place on the night of April 26, 1970, leaving residents in shock and police scrambling to investigate the heinous crime.
+Colchester, UK - A murder has shaken the quiet town of Colchester, as the body of a wealthy businessman was found in his old mansion in the early hours of the morning. The incident took place on the night of April 26, 1973, leaving residents in shock and police scrambling to investigate the heinous crime.
 
 According to authorities, the victim, identified as John Smith, was a prominent businessman who had recently acquired the mansion located on the outskirts of Colchester. His body was found by his butler, who had gone to wake him up for breakfast, only to discover his employer lying in a pool of blood in his bedroom.
 
