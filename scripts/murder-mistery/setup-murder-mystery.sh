@@ -34,6 +34,6 @@ cp ../last/README.md README.md
 git add .
 git commit -m "Add README / Instructions to Solve Mystery"
 
-# Optional: Push to github
-git remote add origin git@github.com:jansim/git-murder-mystery.git
-git push --set-upstream origin main
+# Optional: Push to github (Note the force push here, so tread with caution!)
+# git remote add origin git@github.com:open-teaching/git-murder-mystery.git
+# git push --force --set-upstream origin main
