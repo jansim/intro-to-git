@@ -3,8 +3,6 @@ title: "Intro to `git`"
 subtitle: "Block 1.1: What is git?"
 ---
 
-# Intro to `git`  {background-color="black" background-opacity="0.3" background-image="images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg"}
-
 ::: attribution
 Background: https://unsplash.com/photos/842ofHC6MaI
 :::
@@ -138,7 +136,11 @@ git config --global core.autocrlf true
 
 Why? Windows saves linebreaks (enter) differently then Linux/Mac does 🤷‍♂️
 
-# Getting started with git (for real)
+# Getting started with git (for real) {background-color="black" background-opacity="0.7" background-image="images/backgrounds/rolling-up-sleeves.gif"}
+
+::: attribution
+Background: Warnerbros, via [Digital Spy](https://www.digitalspy.com/movies/a823040/harry-potters-jason-isaacs-says-co-star-alan-rickman-stole-from-gringotts-bank/)
+:::
 
 ## See what's happening: `git status`
 

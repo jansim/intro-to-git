@@ -83,11 +83,9 @@ git status
 
 # Questions?
 
-# Demo: Using git via the CLI
+# Demo: <br> Using git via the CLI
 
 ## Tracking changes: Practical (1/2) {background-color="black"}
-
-In between each step, check the repository status with `git status`.
 
 1. Open a terminal in the directory `git-exercise` you created earlier
     - Windows: start menu -> Git Bash, MacOS: Terminal app
@@ -96,15 +94,17 @@ In between each step, check the repository status with `git status`.
 4. Add the file to the staging area (`add`)
 5. Commit the new file (`commit`)
 
+Check what's happening between steps with `git status`.
+
 ## Tracking changes: Practical (2/2) {background-color="black"}
 
-In between each step, check the repository status with `git status`.
+Check what's happening between steps with `git status`.
 
 6. Change the text in `hello.txt` to read "Hello there!"
 7. Add the file to the staging area (`add`)
 8. Commit the new file (`commit`)
 
-## Seeing Changes: `git status`
+## Seeing Changes: `git status` 👀
 
 You can see the high-level changes and what is about to happen with <br>
 `git status`
@@ -122,7 +122,7 @@ git status
 # no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-## Seing Changes: `git diff`
+## Seing Changes: `git diff` 👁️👄👁️
 
 You can see the actual *unstaged* changes, line by line with <br>
 `git diff`
@@ -149,6 +149,8 @@ git diff
 - You can reset your staging area with `git reset`, removing all staged files
 - To remove specific files from the staging area use `git reset <filename / directory>`
 
+:::{.fragment}
+
 ```bash
 # We add all changes
 git add .
@@ -163,6 +165,8 @@ git reset
 # Unstaged changes after reset:
 # M       example.txt
 ```
+
+:::
 
 ## Un-Doing changes: `git restore`
 
@@ -207,21 +211,32 @@ git commit -m "Adding example.txt"
 git config --global user.name "Your Name"
 ```
 
-With `-h` you can get help on any git command
+:::{.fragment}
+
+With `-h` you can get help on any git command 🚨
 
 ```bash
 git status -h
 git commit -h
 ```
 
-# Questions?
+:::
 
-# Quick Recap Quiz
+# Questions? {background-opacity="0.4" background-image="images/backgrounds/questions.gif" background-position="top"}
 
-<https://lmu.onlineted.de/overview/live>
+I'm aware this was a lot to take in.
+
+<!-- Src: https://giphy.com/gifs/dogs-puppy-confused-xT0xeuOy2Fcl9vDGiA -->
+
+## Quick Recap Quiz {background-color="black" background-opacity="0.3" background-image="images/backgrounds/guenther-jauch.jpg" background-position="top"}
+
+![](images/qr_code-quiz.svg)
+
+<https://pingo.scc.kit.edu/>
 
 ::: attribution
-Source: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer8111/17a80fb0a2be7b4718237fe8caa6e09c)
+Quiz: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer8111/17a80fb0a2be7b4718237fe8caa6e09c)
+Image: [Augsburger Allgemeine](https://www.augsburger-allgemeine.de/panorama/wer-wird-millionaer-kandidat-nervt-jauch-id63518651.html)
 :::
 
 ## Quick Recap Quiz {data-visibility="hidden"}
@@ -275,7 +290,7 @@ Source: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer
 
 <!-- TODO: Reset HEAD?, git rm etc., git diff -->
 
-## Practical: Let's create a git command library{background-color="black"}
+## Practical: git Command Library (1){background-color="black"}
 
 1. Create a new file `library.txt` in your `git-example` directory
 2. Run `git init -h` and copy the output into your `library.txt`
@@ -289,36 +304,35 @@ Source: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer
 
 - Demo!
 
-## Practical: Let's create a git command library{background-color="black"}
+## Practical: git Command Library (2){background-color="black"}
 
 1. Run `git <command> -h` and copy the output into your `library.txt`
-2. Explore the repo status using the GUI
-2. Commit the changes (with a good commit message)
-5. Repeat steps 2. - 4. for **2 of the commands** we learned so far, using separate commits each time
-6. Delete the `library.txt` and restore it
+2. Explore the repo status *using the GUI*
+3. Commit the changes (with a good commit message)
+4. Repeat steps 2. - 4. for **2 of the commands** we learned so far, using separate commits each time
+5. Delete the `library.txt` and restore it
 
-## Let's get Graphical: Tracking Changes in VSCode
+## Demo: Tracking Changes in VSCode
 
 ![Since VSCode is primarily a text editor, git functionality is hidden in the sidebar](images/screenshots/vscode-git.png)
 
 - Demo!
 
-## Practical: Let's create a git command library{background-color="black"}
+## Practical: git Command Library (3){background-color="black"}
 
-1. Create a new file `library.txt` in your `git-example` directory
-2. Run `git init -h` and copy the output into your `library.txt`
+1. Run `git <command> -h` and copy the output into your `library.txt`
+2. Explore the repo status *using the VSCode*
 3. Commit the changes (with a good commit message)
-4. Explore the repo status in between 2 and 3 using `git status` and `git diff`
-5. Repeat steps 2. - 4. for **2 of the commands** we learned so far, using separate commits each time
-6. Delete the `library.txt` and restore it
+4. Repeat steps 2. - 4. for **1 of the commands** we learned so far, using separate commits each time
+5. Delete the `library.txt` and restore it
 
-## Practical: Binary Files {background-color="black"}
+## 🎉 Bonus Practical: Binary Files {background-color="black"}
 
 1. Create a Word document called `library.docx` and copy over the contents from `library.txt`
 2. Run `git stash -h` and copy the output into both `library.docx` and `library.txt`
 3. Use `git diff` to compare how the same change is recognized by git in the two documents
 
-# Temporarily Storing Changes: `git stash`
+## 🎉 Bonus Temporarily Storing Changes: `git stash`
 
 - If you're not yet ready to commit your changes, but want to quickly store them and work on something else, you can do so with `git stash`
 - When stashing your changes, all changes will be removed (similarly to `git restore`), but they will be saved

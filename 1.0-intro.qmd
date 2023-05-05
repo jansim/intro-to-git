@@ -15,26 +15,23 @@ subtitle: "Course Introduction"
 
 ## What is the course about?
 
-- **Goal**: Learn everything that is necessary to effectively use `git` in the future
+- **Goal**: Learn everything that is necessary to effectively...
+  - use `git` to track your own work
+  - use `git` to collaborate with others
 - **Format**: Mix of theory & practicals
   - Feel free to always ask questions any time!
-- **Agenda**
-  - Block 1: Introduction & Basics
-  - Block 2: Branches & More
-  - Block 3: Collaboration via Github
-  - Block 4: Advanced Github & Beyond
 
-## Timeline
+## Agenda & Timeline
 
 ::: {.nonincremental}
 
-- 10:00 - 11:30 1st Block (1:30)
-- 11:30 - 11:45 Pause
-- 11:45 - 13:00 2nd Block (1:15)
-- 13:00 - 14:00 Lunchbreak
-- 14:00 - 15:15 3rd Block (1:15)
-- 15:15 - 15:30 Pause
-- 15:30 - 16:45 4th Block (1:15)
+- 10:00 - 11:30 **Block 1:** Introduction & Basics (1:30)
+- 11:30 - 11:45 *Pause* ☕️
+- 11:45 - 13:00 **Block 2:** Branches & More (1:15)
+- 13:00 - 14:00 *Lunchbreak* 🍲
+- 14:00 - 15:15 **Block 3:** Collaboration via Github (1:15)
+- 15:15 - 15:30 *Pause* ☕️
+- 15:30 - 16:45 **Block 4:** Advanced Github & Beyond (1:15)
 
 :::
 
@@ -43,9 +40,9 @@ subtitle: "Course Introduction"
 - Jan Simson
 - Doing PhD at Ludwig-Maximilian University München
 - Background
+  - Computer Science (Ausbildung)
   - BSc Psychology (Konstanz)
   - MSc Behavioural Data Science (Amsterdam)
-  - Computer Science (Ausbildung)
   - Worked at research lab & startup before
 - Worked with `git` for a couple of years
 
@@ -56,16 +53,16 @@ Quick Round of Introductions
 ::: {.nonincremental}
 
 - What's your name & which program are you enrolled in?
-- Have you heard about git before?
-  - Do you have any experience with git already?
 - What do you wish to learn from this course?
+- Do you have any experience with git already?
+- Last:
+  - What's your GitHub username?
 
 :::
 
 ## Introductions: Administration 📜
 
 - Is everyone registered for the course?
-- Could you please repeat your name and GitHub Username (to add to the list)
 
 ## Prerequisites (Any Problems?)
 

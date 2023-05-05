@@ -3,7 +3,7 @@ title: "Intro to `git`"
 subtitle: "Block 2.1: Ignoring things: `.gitignore`"
 ---
 
-## Ignoring files via `.gitignore` 🙅
+## Ignoring files via `.gitignore` 🙈
 
 - By default, git will track *all* the files in your repository.
 - If you want it to ignore certain files or filetypes, you have to tell it so explicitly.
