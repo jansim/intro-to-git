@@ -1,0 +1,7 @@
+﻿Type,Question,Answer 1,Answer 2,Answer 3,Answer 4,Answer 5,Answer 6,Answer 7,Answer 8,Answer 9,"Correct (separated with "";"")"
+text,"6. To stage only files with a `.txt` extention, the command is?",,,,,,,,,,git add *.txt
+text,5. What is correct command to see what's happening in the repository?,,,,,,,,,,git status
+single,4. When do we need to append a message while using git?,While staging: git add -m 'adding files ______',While adding a remote: git remote add -m 'adding github',While initializing a repo: git init -m 'initial commit',While commiting: git commit -m 'initial commit',,,,,,4
+single,3. What is correct command to commit staged files?,git commit,git comment,git lockdown,git push,,,,,,1
+single,2. What is correct command to stage a new file or add file changes to stage?,git stage,git add,git filename,There is no stage,,,,,,2
+single,1. What is correct command to initialize a new git repository ?,git new,git add,git init ,git initialize,,,,,,3

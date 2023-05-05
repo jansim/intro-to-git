@@ -1,0 +1,100 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 4.1: Using GitHub to its Full Potential"
+---
+
+## Issues
+
+- System to track tasks that still need to be done
+- Allows for discussion
+- When an issue is done, it is "closed"
+
+::: {.fragment}
+:::{.callout-tip}
+Each issue get's its own number (e.g. #12). When you reference an issues commit number with a keyword like "fix", it will automatically be closed.
+:::
+:::
+
+## Issues: Overview
+
+![Overview of the issues page in a GitHub repository](images/screenshots/gh-issues.png)
+
+::: attribution
+Repository: <https://github.com/CorrelAid/datenguideR/>
+:::
+
+## Issues: Detailed View
+
+![View of a single issue on GitHub](images/screenshots/gh-issue.png)
+
+::: attribution
+Repository: <https://github.com/CorrelAid/datenguideR/>
+:::
+
+## Forking
+
+- You can easily copy public repositories into your own GitHub account, by `forking` them
+- This way, you get your own remote version of the respository
+  - You can still contribute your changes back to the original repository
+  - The two repositories stay linked on GitHub
+- This happens in GitHub not git
+
+## Pull Requests (PRs)
+
+- When collaborating with other people, it's often good to review each other's changes
+- This is easiest done by using pull requests
+  - You *request* for someone to *pull* your changes
+
+## Pull requests: Overview
+
+![Overview of the pull requests page in a GitHub repository](images/screenshots/gh-prs.png)
+
+::: attribution
+Repository: <https://github.com/CorrelAid/datenguideR>
+:::
+
+## Pull requests: Detailed View
+
+![View of a single pull request on GitHub](images/screenshots/gh-pr.png)
+
+::: attribution
+Repository: <https://github.com/CorrelAid/datenguideR>
+:::
+
+## Why Issues & Pull Requests are Necessary
+
+![Right now, the VSCode GitHub repository has >5000 issues and almost 400 PRs](images/screenshots/gh-vscode.png)
+
+::: attribution
+Repository: <https://github.com/microsoft/vscode>
+:::
+
+## When Should you Start using Issues & PRs?
+
+- Maybe your project doesn't need these features yet
+- Often it makes sense to use pull requests even when collaborating with just a few people
+  - To avoid merge conflicts
+  - Also for reviewing each others changes
+- Many companies require code reviews and using PRs
+
+# Questions?
+
+## Practical: Collaborating via GitHub {background-color="black"}
+
+1. Form groups of 2 - 3 people (we need exactly 10 teams total)
+2. I will assign a topic from the list for each team.
+4. One person per team should create a new branch called `team-<your number>`, then `push` it to the hosted repo
+5. Run `git fetch` to get the latest changes
+6. Everyone else should copy that branch by running `git checkout -b <team-#> origin/<team-#>`
+
+## Practical: Collaborating via GitHub (using PRs) {background-color="black"}
+
+1. Write a short section explaining your topic together.
+2. Create a pull request to add your edits to the main repository. The title of the pull request should contain your team number and topic.
+
+## Practical: Collaborating via GitHub (using PRs) {background-color="black"}
+
+1. Review the pull requestion of the next team (by number) and provide feedback.
+    - Use the pull request to discuss
+2. Approve the pull request when you're done and all changes are implemented.
+3. Merge your edits into the repository.

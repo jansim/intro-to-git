@@ -1,0 +1,340 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 1.2: Tracking Changes in git"
+---
+
+## The 3 Levels of Changes in git
+
+![Changes can be either unstaged, staged or commited.](images/carpentries/git-staging-area.svg)
+
+- When we first make a change it is *unstaged*
+- Once we `add` the change to the staging area it is *staged*
+- We can then `commit` all *staged* changes
+
+## Tracking Changes: `git add` and `git commit`
+
+![](images/carpentries/git-staging-area.svg)
+
+Files are added to the staging area with <br> `git add <path to file or directory>`
+
+All files in the staging area are commited with <br> `git commit`
+
+## Tracking Changes: `git add`
+
+Files are added to the staging area with <br> `git add <path to file or directory>`.
+
+```bash
+# ...we write something into example.txt
+
+git status
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#   example.txt
+```
+
+Add `example.txt` to the staging area
+
+```bash
+git add example.txt
+
+git status
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#   new file:   example.txt
+```
+
+## Tracking Changes: `git add`
+
+Changes are added to the staging area with <br> `git add <path to file or directory>`.
+
+- You can use `git add .` to add all unstaged changes to the staging area
+    - `.` always refers to the current directory
+- You can also use `*` to represent any sort of filename
+  - e.g. add all `.txt` files via `*.txt`
+
+## Tracking Changes: `git commit`
+
+All changes in the staging area are commited with <br> `git commit`
+
+```bash
+git status
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#   new file:   example.txt
+```
+
+Let's commit the new change
+```bash
+git commit -m "Creating example.txt"
+# [main (root-commit) ed61bb5] Adding example.txt
+#  1 file changed, 1 insertion(+)
+#  create mode 100644 example.txt
+
+git status
+# On branch main
+# nothing to commit, working tree clean
+```
+
+## Tracking changes: `git commit`
+
+- The name git "commit", might already suggest it, but once a change is *commited* it becomes significantly harder to remove it.
+- The classic way to undo a commited change in git would be to make another commit with the reverse change.
+- Modifying a commit is possible, but you should now what you are doing. Typically this is called "changing history" and is (esp. in collaborative settings) frowned upon.
+
+# Questions?
+
+# Demo: <br> Using git via the CLI
+
+## Tracking changes: Practical (1/2) {background-color="black"}
+
+1. Open a terminal in the directory `git-exercise` you created earlier
+    - Windows: start menu -> Git Bash, MacOS: Terminal app
+2. Initialize a git repository there (`init`)
+3. Create a new text file called `hello.txt` with the contents "Hello!"
+4. Add the file to the staging area (`add`)
+5. Commit the new file (`commit`)
+
+Check what's happening between steps with `git status`.
+
+## Tracking changes: Practical (2/2) {background-color="black"}
+
+Check what's happening between steps with `git status`.
+
+6. Change the text in `hello.txt` to read "Hello there!"
+7. Add the file to the staging area (`add`)
+8. Commit the new file (`commit`)
+
+## Seeing Changes: `git status` 👀
+
+You can see the high-level changes and what is about to happen with <br>
+`git status`
+
+```bash
+# ...we change the contents of example.txt
+
+git status
+# On branch main
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+#         modified:   example.txt
+
+# no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+## Seing Changes: `git diff` 👁️👄👁️
+
+You can see the actual *unstaged* changes, line by line with <br>
+`git diff`
+
+```bash
+# ...we changed the contents of example.txt
+
+git diff
+# diff --git a/example.txt b/example.txt
+# index 10ddd6d..980a0d5 100644
+# --- a/example.txt
+# +++ b/example.txt
+# @@ -1 +1 @@
+# -Hello!
+# +Hello World!
+```
+
+:::{.callout-note}
+`git diff` only allows you to see changes to files which have already been commited before i.e. changing the contents of an existing file.
+:::
+
+## Un-Tracking changes: `git reset`
+
+- You can reset your staging area with `git reset`, removing all staged files
+- To remove specific files from the staging area use `git reset <filename / directory>`
+
+:::{.fragment}
+
+```bash
+# We add all changes
+git add .
+
+git status
+# On branch main
+# Changes to be committed:
+#   (use "git restore --staged <file>..." to unstage)
+#         modified:   example.txt
+
+git reset
+# Unstaged changes after reset:
+# M       example.txt
+```
+
+:::
+
+## Un-Doing changes: `git restore`
+
+You can *undo* any changes to files with <br>
+`git restore`
+
+```bash
+# ...we changed the contents of example.txt
+
+git status
+# On branch main
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git restore <file>..." to discard changes in working directory)
+#         modified:   example.txt
+
+# no changes added to commit (use "git add" and/or "git commit -a")
+
+git restore example.txt
+
+git status
+# On branch new-branch
+# nothing to commit, working tree clean
+```
+
+## Un-Doing changes: `git restore`
+
+You can *undo* any changes to files with <br>
+`git restore`
+
+- This is one of the super-powers of using git, allowing you to just go ahead and change your files without wasting time having to create backups
+
+## Interim: The anatomy of a git command 🔍️
+
+Git commands, like many other CLI tools follow a certain structure:
+
+```bash
+git status
+
+git commit -m "Adding example.txt"
+
+git config --global user.name "Your Name"
+```
+
+:::{.fragment}
+
+With `-h` you can get help on any git command 🚨
+
+```bash
+git status -h
+git commit -h
+```
+
+:::
+
+# Questions? {background-opacity="0.4" background-image="images/backgrounds/questions.gif" background-position="top"}
+
+I'm aware this was a lot to take in.
+
+<!-- Src: https://giphy.com/gifs/dogs-puppy-confused-xT0xeuOy2Fcl9vDGiA -->
+
+## Quick Recap Quiz {background-color="black" background-opacity="0.3" background-image="images/backgrounds/guenther-jauch.jpg" background-position="top"}
+
+![](images/qr_code-quiz.svg)
+
+<https://pingo.scc.kit.edu/>
+
+::: attribution
+Quiz: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer8111/17a80fb0a2be7b4718237fe8caa6e09c)
+Image: [Augsburger Allgemeine](https://www.augsburger-allgemeine.de/panorama/wer-wird-millionaer-kandidat-nervt-jauch-id63518651.html)
+:::
+
+## Quick Recap Quiz {data-visibility="hidden"}
+
+1. What is correct command to initialize a new git repository ?
+    a) `git new`
+    b) `git add`
+    c) `git init`  <!-- correct -->
+    d) `git initialize`
+
+
+## Quick Recap Quiz {data-visibility="hidden"}
+
+2. What is correct command to stage a new file or add file changes to stage?
+    a) `git stage`
+    b) `git add` <!-- correct -->
+    c) `git filename`
+    d) There is no stage
+
+## Quick Recap Quiz {data-visibility="hidden"}
+
+3. What is correct command to commit staged files?
+    a) `git commit` <!-- correct -->
+    b) `git comment`
+    c) `git lockdown`
+    d) `git push`
+
+## Quick Recap Quiz {data-visibility="hidden"}
+
+4. When do we need to append a message while using git?
+    a) While staging: `git add -m 'adding files ______'`
+    b) While adding a remote: `git remote add -m 'adding github'`
+    c) While initializing a repo: `git init -m 'initial commit'`
+    d) While commiting: `git commit -m 'initial commit'` <!-- correct -->
+
+## Quick Recap Quiz {data-visibility="hidden"}
+
+5. What is correct command to check the current git status?
+    a) `git status` <!-- correct -->
+    b) `git log`
+    c) `gs`
+    d) `git push`
+
+## Quick Recap Quiz {data-visibility="hidden"}
+
+6. To stage only files with a `.txt` extention, the command is?
+    a) `git add *.txt` <!-- correct -->
+    b) `git add *.text`
+    c) `git add -a .txt`
+    d) `git add - *.txt`
+
+<!-- TODO: Reset HEAD?, git rm etc., git diff -->
+
+## Practical: git Command Library (1){background-color="black"}
+
+1. Create a new file `library.txt` in your `git-example` directory
+2. Run `git init -h` and copy the output into your `library.txt`
+3. Explore the repo status using `git status` and `git diff`
+4. Commit the changes (with a good commit message)
+5. Delete the `library.txt` and restore it
+
+## Let's get Graphical: Tracking Changes in SourceTree
+
+![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
+
+- Demo!
+
+## Practical: git Command Library (2){background-color="black"}
+
+1. Run `git <command> -h` and copy the output into your `library.txt`
+2. Explore the repo status *using the GUI*
+3. Commit the changes (with a good commit message)
+4. Repeat steps 2. - 4. for **2 of the commands** we learned so far, using separate commits each time
+5. Delete the `library.txt` and restore it
+
+## Demo: Tracking Changes in VSCode
+
+![Since VSCode is primarily a text editor, git functionality is hidden in the sidebar](images/screenshots/vscode-git.png)
+
+- Demo!
+
+## Practical: git Command Library (3){background-color="black"}
+
+1. Run `git <command> -h` and copy the output into your `library.txt`
+2. Explore the repo status *using the VSCode*
+3. Commit the changes (with a good commit message)
+4. Repeat steps 2. - 4. for **1 of the commands** we learned so far, using separate commits each time
+5. Delete the `library.txt` and restore it
+
+## 🎉 Bonus Practical: Binary Files {background-color="black"}
+
+1. Create a Word document called `library.docx` and copy over the contents from `library.txt`
+2. Run `git stash -h` and copy the output into both `library.docx` and `library.txt`
+3. Use `git diff` to compare how the same change is recognized by git in the two documents
+
+## 🎉 Bonus Temporarily Storing Changes: `git stash`
+
+- If you're not yet ready to commit your changes, but want to quickly store them and work on something else, you can do so with `git stash`
+- When stashing your changes, all changes will be removed (similarly to `git restore`), but they will be saved
+- See all stashes via `git stash list`
+- Apply your stahes via `git stash apply`
