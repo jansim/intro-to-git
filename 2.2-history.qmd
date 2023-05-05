@@ -124,14 +124,14 @@ git checkout 795780d
 
 # Questions?
 
-## Practical: git murder mystery (setup) 🕵️ {background-color="black"}
+## Practical: Murder Mystery (Setup) 👮 {background-color="black"  background-opacity="0.3" background-image="images/backgrounds/murder-mystery.jpg"}
 
 1. We will copy a repository from the internet.
 2. Create a new directory or use an existing one, in which you want to copy the new repository.
 3. Navigate to that directory in your Terminal.
 4. Run the following command `git clone https://github.com/open-teaching/git-murder-mystery.git`
 
-## Practical: git scavenger hunt 🕵️ {background-color="black"}
+## Practical: git Murder Mystery 🕵️ {background-color="black"  background-opacity="0.3" background-image="images/backgrounds/murder-mystery.jpg"}
 
 1. Unravel the murder case.
    - Use `git log` to see the history of the repository
