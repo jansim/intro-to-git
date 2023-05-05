@@ -1,6 +1,8 @@
 project:
   title: "Intro to git"
   output-dir: "output"
+  render:
+    - "/*.qmd"
 
 editor: visual
 
