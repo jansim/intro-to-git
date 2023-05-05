@@ -18,12 +18,27 @@ This repository contains the course materials for a one-day workshop titled "Dat
 
 ### Slides
 
-- Block 1: Introduction & Basics [[slides]](output/block-1.html) [[pdf*]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-1.pdf)
-- Block 2: Branches & More [[slides]](output/block-2.html) [[pdf*]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-2.pdf)
-- Block 3: Collaboration via Github [[slides]](output/block-3.html) [[pdf*]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-3.pdf)
-- Block 4: Advanced Github & Beyond [[slides]](output/block-4.html) [[pdf*]](https://github.com/jansim/intro-to-git/releases/download/winter2022/intro-to-git_block-4.pdf)
+- Block 1: Introduction & Basics
+  - 1.0 Intro [[slides]](output/1.0-intro.html)
+  - 1.1 What is git? [[slides]](output/1.1-what_is_git.html)
+  - 1.2 Tracking Changes [[slides]](output/1.2-tracking_changes.html)
 
-*: Since they have to be manually generated, the PDF version of slides may be slightly outdated. Please refer to [this guide](https://revealjs.com/pdf-export/), on how to export your own PDF version from the online slides.
+- Block 2: Branches & More
+  - 2.1 .gitignore [[slides]](output/2.1-gitignore.html)
+  - 2.2 History [[slides]](output/2.2-history.html)
+  - 2.3 Branches & Merging [[slides]](output/2.3-branches_merging.html)
+
+- Block 3: Collaboration via Github
+  - 3.1 What is GitHub? [[slides]](output/3.1-what_is_github.html)
+  - 3.2 Synching Changes [[slides]](output/3.2-synching_changes.html)
+  - 3.3 Markdown & GitHub Pages [[slides]](output/3.3-pages_markdown.html)
+
+- Block 4: Advanced Github & Beyond
+  - 4.1 Advanced GitHub [[slides]](output/4.1-advanced_github.html)
+  - 4.2 Final Notes [[slides]](output/4.2-final_notes.html)
+  - *Outro*
+
+<!-- *: Since they have to be manually generated, the PDF version of slides may be slightly outdated. Please refer to [this guide](https://revealjs.com/pdf-export/), on how to export your own PDF version from the online slides. -->
 
 ### Supporting Documents
 
