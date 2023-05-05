@@ -1,0 +1,84 @@
+---
+title: "Introduction to `git`"
+subtitle: "Student Information: Links and Commands for the Workshop"
+author: "Jan Simson"
+format:
+  pdf
+---
+
+Course repository and slides: <simson.io/intro-to-git/>
+
+This document contains some of the commands and links for the course. Feel free to download it and re-visit whenever I call it out to save you some time with typing out commands.
+
+## 1.1: Let's Set Things Up: `git config` ⚙️
+
+```bash
+# Add your name
+git config --global user.name "Your Name"
+
+# Add your email address
+git config --global user.email "your.email@kit.edu"
+```
+
+For Linux/Mac:
+
+```bash
+git config --global core.autocrlf input
+```
+
+For Windows:
+
+```bash
+git config --global core.autocrlf true
+```
+
+## 1.2: Quiz
+
+<https://pingo.scc.kit.edu/>
+
+## 2.1: .gitignore
+
+<https://github.com/github/gitignore>.
+
+## 2.2: Murder Mystery
+
+`git clone https://github.com/open-teaching/git-murder-mystery.git`
+
+## 2.3: learngitbranching
+
+<https://learngitbranching.js.org/>
+
+## 3.1: Authenticating with GitHub (via SSH)
+
+[Web-Version of Tutorial](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
+[PDF-Version of Tutorial](https://simson.io/intro-to-git/output/resources/ssh/how-to-setup-github-ssh.pdf)
+
+## 3.1: Course Summary Repository
+
+<https://github.com/open-teaching/git-course-summary-ss23>
+
+## 3.2: GitHub Pages Template
+
+<https://github.com/open-teaching/gh-pages-template>
+
+## 4.2: Links
+
+- [Hacktoberfest](https://hacktoberfest.com/)
+- <https://choosealicense.com/>
+- [Zenodo](https://zenodo.org/about)
+- [Using a CITATION file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files)
+- [GitHub Actions](https://github.com/features/actions)
+- [GitHub Student Pack](https://education.github.com/pack)
+- `git` Guides
+  - <https://github.com/git-guides>
+  - [Introduction to RStudio Git & GitHub](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/)
+  - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
+  - <https://gitimmersion.com>
+- Further Reading
+  - Popular Workflow: [Trunk Based Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
+  - Using git with data
+    - [git lfs](https://git-lfs.github.com/)
+    - [dvc](https://dvc.org/): Data Version Control
+  - If you have a problem
+    - [ohshitgit.com](https://ohshitgit.com/) [(DE)](https://ohshitgit.com/de)
+    - Google

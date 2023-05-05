@@ -42,6 +42,7 @@ This repository contains the course materials for a one-day workshop titled "Dat
 
 ### Supporting Documents
 
+- Supplementary [student information sheet](output/resources/student-info/student-info.pdf)
 - How to Setup SSH authentication for GitHub [[PDF]](output/resources/ssh/how-to-setup-github-ssh.pdf) [[HTML]](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
   - By [Mike Croucher & Malika Ihle](https://github.com/MalikaIhle/Introduction-RStudio-Git-GitHub)
 - Git Cheatsheet [[PDF]](resources/git-cheat-sheet-education.pdf)
