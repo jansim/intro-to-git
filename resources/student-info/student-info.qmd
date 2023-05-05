@@ -6,7 +6,7 @@ format:
   pdf
 ---
 
-Course repository and slides: <simson.io/intro-to-git/>
+Course repository and slides: <https://simson.io/intro-to-git/>
 
 This document contains some of the commands and links for the course. Feel free to download it and re-visit whenever I call it out to save you some time with typing out commands.
 
