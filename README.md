@@ -33,6 +33,8 @@ Karlsruhe Institute for Technology (KIT).
 
 ### Supporting Documents
 
+- Supplementary [student information
+  sheet](output/resources/student-info/student-info.pdf)
 - How to Setup SSH authentication for GitHub
   [\[PDF\]](output/resources/ssh/how-to-setup-github-ssh.pdf)
   [\[HTML\]](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
