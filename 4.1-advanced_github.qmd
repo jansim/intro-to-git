@@ -82,10 +82,9 @@ Repository: <https://github.com/microsoft/vscode>
 ## Practical: Collaborating via GitHub {background-color="black"}
 
 1. Form groups of 2 - 3 people (we need exactly 10 teams total)
-2. I will assign a topic from the list for each team.
+2. I will assign a number for each team.
+3. Clone the repository and look up the topic based on your number
 4. One person per team should create a new branch called `team-<your number>`, then `push` it to the hosted repo
-5. Run `git fetch` to get the latest changes
-6. Everyone else should copy that branch by running `git checkout -b <team-#> origin/<team-#>`
 
 ## Practical: Collaborating via GitHub (using PRs) {background-color="black"}
 
