@@ -581,47 +581,20 @@ Jan Simson
 <span id="cb6-6"><a href="#cb6-6"></a><span class="co"># No commits yet</span></span>
 <span id="cb6-7"><a href="#cb6-7"></a><span class="co"># nothing to commit (create/copy files and use "git add" to track)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>With <code>git init</code> we turn the <em>directory</em> into a <em>repository</em>.</p>
-</section></section>
-<section>
-<section id="interim-filepaths" class="title-slide slide level1 center">
-<h1>Interim: Filepaths</h1>
-
 </section>
-<section id="interim-what-are-filepaths" class="slide level2">
-<h2>Interim: What are Filepaths?</h2>
-<ul>
-<li class="fragment">Every file and directory on your computer has a distinct address, its “filepath”
-<ul>
-<li class="fragment">That’s the names of all the nested directories, separated by <code>/</code> (Mac / Linux) or <code>\</code> (Windows)</li>
-</ul></li>
-<li class="fragment">Filepaths can be either…
-<ul>
-<li class="fragment">absolute: <code>/Users/jan/Dev/temp/example.txt</code> (we ignore these)</li>
-<li class="fragment">relative: <code>./example.txt</code>
-<ul>
-<li class="fragment">here the path is relative to the working directory <code>/Users/jan/Dev/temp/</code></li>
-</ul></li>
-</ul></li>
-</ul>
-</section></section>
-<section>
-<section id="filepaths-demo-in-finder" class="title-slide slide level1 center">
-<h1>Filepaths Demo in Finder</h1>
-
-</section>
-<section id="practical-filespaths" class="slide level2" data-background-color="black">
-<h2>Practical: Filespaths</h2>
+<section id="practical-init" class="slide level2" data-background-color="black">
+<h2>Practical: init</h2>
 <ol type="1">
 <li class="fragment">Identify the filepath of the <strong>directory</strong> you created earlier.</li>
-<li class="fragment">Open the Terminal</li>
+<li class="fragment">Open the Terminal (or Git Bash on Windows) in VS Code</li>
+<li class="fragment">Use <code>git init</code> to initialize a new repository there</li>
+<li class="fragment">Keep VS Code open in this directory for later</li>
 </ol>
-<ul>
-<li class="fragment">Windows: start menu -&gt; Git Bash, MacOS: Terminal app</li>
-</ul>
-<ol start="3" type="1">
-<li class="fragment">Type <code>cd</code>, followed by a space and the path to the directory into the Terminal.</li>
-<li class="fragment">Use <code>pwd</code> to show your current working directory.</li>
-</ol>
+</section>
+<section id="downloading-a-repository-git-clone" class="slide level2">
+<h2>Downloading a repository: <code>git clone</code></h2>
+<p>Alternatively, we can download a repository from the internet using the <code>clone</code> command. This will create a new repository on our machine and fill it with the remote repository’s contents.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1"></a><span class="fu">git</span> clone https://github.com/open-teaching/git-murder-mystery.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="footer footer-default">
 
 </div>
