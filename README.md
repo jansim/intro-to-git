@@ -77,5 +77,5 @@ Karlsruhe Institute for Technology (KIT).
 ## License
 
 The contents of this course which were created by me are available under
-CC-BY-4.0. For resources where I do not own the copyright, other
-licenses may apply.
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/). For
+resources where I do not own the copyright, other licenses may apply.
