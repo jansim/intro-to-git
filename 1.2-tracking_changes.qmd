@@ -228,68 +228,6 @@ I'm aware this was a lot to take in.
 
 <!-- Src: https://giphy.com/gifs/dogs-puppy-confused-xT0xeuOy2Fcl9vDGiA -->
 
-## Quick Recap Quiz {background-color="black" background-opacity="0.3" background-image="images/backgrounds/guenther-jauch.jpg" background-position="top"}
-
-![](images/qr_code-quiz.svg)
-
-<https://pingo.scc.kit.edu/>
-
-::: attribution
-Quiz: [aspencer8111's gist `Try-Git-Quiz.md`](https://gist.github.com/aspencer8111/17a80fb0a2be7b4718237fe8caa6e09c)
-Image: [Augsburger Allgemeine](https://www.augsburger-allgemeine.de/panorama/wer-wird-millionaer-kandidat-nervt-jauch-id63518651.html)
-:::
-
-## Quick Recap Quiz {data-visibility="hidden"}
-
-1. What is correct command to initialize a new git repository ?
-    a) `git new`
-    b) `git add`
-    c) `git init`  <!-- correct -->
-    d) `git initialize`
-
-
-## Quick Recap Quiz {data-visibility="hidden"}
-
-2. What is correct command to stage a new file or add file changes to stage?
-    a) `git stage`
-    b) `git add` <!-- correct -->
-    c) `git filename`
-    d) There is no stage
-
-## Quick Recap Quiz {data-visibility="hidden"}
-
-3. What is correct command to commit staged files?
-    a) `git commit` <!-- correct -->
-    b) `git comment`
-    c) `git lockdown`
-    d) `git push`
-
-## Quick Recap Quiz {data-visibility="hidden"}
-
-4. When do we need to append a message while using git?
-    a) While staging: `git add -m 'adding files ______'`
-    b) While adding a remote: `git remote add -m 'adding github'`
-    c) While initializing a repo: `git init -m 'initial commit'`
-    d) While commiting: `git commit -m 'initial commit'` <!-- correct -->
-
-## Quick Recap Quiz {data-visibility="hidden"}
-
-5. What is correct command to check the current git status?
-    a) `git status` <!-- correct -->
-    b) `git log`
-    c) `gs`
-    d) `git push`
-
-## Quick Recap Quiz {data-visibility="hidden"}
-
-6. To stage only files with a `.txt` extention, the command is?
-    a) `git add *.txt` <!-- correct -->
-    b) `git add *.text`
-    c) `git add -a .txt`
-    d) `git add - *.txt`
-
-<!-- TODO: Reset HEAD?, git rm etc., git diff -->
-
 ## Practical: git Command Library (1){background-color="black"}
 
 1. Create a new file `library.txt` in your `git-example` directory
