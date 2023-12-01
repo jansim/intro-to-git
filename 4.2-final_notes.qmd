@@ -43,7 +43,7 @@ subtitle: "Block 4.2: Final Bits"
 - Create new branches with `git checkout -b`
 - To collaborate, first `git pull` others changes, then `git push` yours
 
-# Outlook
+# Going Beyond
 
 ## Guides to Re-Visit
 

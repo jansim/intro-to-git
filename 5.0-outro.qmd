@@ -5,19 +5,19 @@ subtitle: "Course Outro"
 
 # Evaluation
 
-## Feedback
+## Outlook 👀
 
-- Did you feel like you understood all the topics we covered?
-- Would you have wanted more focus on a particular topic?
-- Do you have any other feedback? Ideas for improvements?
+- Next summer there will be a follow-up course on **advanced features of git**
+- You are the main audience
+  - If you are interested in particular topics.. email me!
 
 ## Sources
 
-This course uses materials from, builds upon and is inspired by the following resources
+This course uses materials from, builds upon and is inspired by the following amazing resources ✨
 
 - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/
 - https://github.com/edunford/git-scavenger-hunt
 - https://gitimmersion.com
 
-# The End, Thank You!
+# The End, Thank You! ❤️
