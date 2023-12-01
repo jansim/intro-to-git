@@ -179,7 +179,7 @@ Question B 🏘️ People in Karlsruhe
 313,092
 Question C 🌟 % believing in Astrology [^2]
 29%
-Question D 🔮 % believing in Psychis [^2]
+Question D 🔮 % believing in Psychics [^2]
 41%
 ```
 
@@ -193,12 +193,12 @@ https://opendata.muenchen.de/tr/dataset/oktoberfest
 8. Explore the files in the resulting merge conflict
 9. Resolve the merge conflict
 
-## Extra Practical: *learngitbranching* {background-color="black"}
+## 🎉 Bonus Practical: *learngitbranching* {background-color="black"}
 
 1. Go to https://learngitbranching.js.org/
 2. Finish Lessons 1, 2 and 3 on the website
 
-## Rebasing: The Alternative to Merging (bonus)
+## 🎉 Bonus: Rebasing - The Alternative to Merging
 
 - You can also combine two branches by rebasing them (instead of merging)
 - When rebasing, all extra commits on your current branch will be moved to the target branch
@@ -214,3 +214,25 @@ git checkout feature
 ::: attribution
 More Info: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
 :::
+
+## 🎉 Rebasing: The Alternative to Merging {background-color="#5cbcfc"}
+
+:::: {.columns}
+
+::: {.column .fragment width="50%"}
+
+Merging
+
+![](images/screenshots/learngitbranching/merged.png){width=65%}
+
+:::
+
+::: {.column .fragment width="50%"}
+
+Rebasing
+
+![](images/screenshots/learngitbranching/rebased.png){width=65%}
+
+:::
+
+::::

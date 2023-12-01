@@ -35,6 +35,8 @@ subtitle: "Course Introduction"
 
 :::
 
+The speed of the class is always a bit variable, so the number of covered topics may differ a bit.
+
 ## Introductions: Who am I? 🙋🏼‍♂️
 
 - Jan Simson
@@ -52,10 +54,10 @@ Quick Round of Introductions
 
 ::: {.nonincremental}
 
-- What's your name & which program are you enrolled in?
-- What do you wish to learn from this course?
-- Do you have any experience with git already?
-- Last:
+- I will go over the list of registered students
+- Questions
+  - What do you wish to learn from this course?
+  - Do you have any experience with git already?
   - What's your GitHub username?
 
 :::
@@ -85,11 +87,16 @@ Quick Round of Introductions
 - Quick Demonstration
   - Opening workbench in a folder
 
-## Text Editing: Practical {background-color="black"}
+## Practical: Folder Structure {background-color="black"}
+
+![Screenshot of the folder structure we'll use](images/screenshots/folder-structure.png)
+
+## Practical: Text Editing {background-color="black"}
 
 1. Open Visual Studio Code on your computer
     - Explore the UI
     - Set a theme if you want to
-2. Create a new folder called `git-exercise`
-3. Open the folder in Visual Studio Code
+2. Create a new folder called `repositories`
+3. Inside it, create a new folder called `git-exercise`
+4. Open `git-exercise` in Visual Studio Code
     - Create a new file `test.txt` and write in it <br> `Hello World!`

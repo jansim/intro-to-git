@@ -58,12 +58,12 @@ Normal text
 Website template originally from: https://github.com/academicpages/academicpages.github.io
 :::
 
-## Practical: *learngitbranching* #2 {background-color="black"}
+## 🎉 Bonus Practical: *learngitbranching* #2 {background-color="black"}
 
 1. Go to https://learngitbranching.js.org/
 2. Finish Lessons 1 - 6 in the **remote** section on the website
 
-## Bonus Practical: Collaborating on a Website with Github Pages{background-color="black"}
+## 🎉 Bonus Practical: Collaborating on a Website with Github Pages{background-color="black"}
 
 1. Create groups of 2 - 3 people
 2. One person picks their website repository and shares access to it with the others

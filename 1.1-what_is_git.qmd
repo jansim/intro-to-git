@@ -177,23 +177,17 @@ git status
 
 With `git init` we turn the *directory* into a *repository*.
 
-# Interim: Filepaths
-
-## Interim: What are Filepaths?
-
-- Every file and directory on your computer has a distinct address, its "filepath"
-  - That's the names of all the nested directories, separated by `/` (Mac / Linux) or `\` (Windows)
-- Filepaths can be either...
-  - absolute: `/Users/jan/Dev/temp/example.txt` (we ignore these)
-  - relative: `./example.txt`
-    - here the path is relative to the working directory `/Users/jan/Dev/temp/`
-
-# Filepaths Demo in Finder
-
-## Practical: Filespaths {background-color="black"}
+## Practical: init {background-color="black"}
 
 1. Identify the filepath of the **directory** you created earlier.
-2. Open the Terminal
-  - Windows: start menu -> Git Bash, MacOS: Terminal app
-3. Type `cd`, followed by a space and the path to the directory into the Terminal.
-4. Use `pwd` to show your current working directory.
+2. Open the Terminal (or Git Bash on Windows) in VS Code
+3. Use `git init` to initialize a new repository there
+4. Keep VS Code open in this directory for later
+
+## Downloading a repository: `git clone`
+
+Alternatively, we can download a repository from the internet using the `clone` command. This will create a new repository on our machine and fill it with the remote repository's contents.
+
+```bash
+git clone https://github.com/open-teaching/git-murder-mystery.git
+```

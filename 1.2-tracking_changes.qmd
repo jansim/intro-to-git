@@ -87,12 +87,10 @@ git status
 
 ## Tracking changes: Practical (1/2) {background-color="black"}
 
-1. Open a terminal in the directory `git-exercise` you created earlier
-    - Windows: start menu -> Git Bash, MacOS: Terminal app
-2. Initialize a git repository there (`init`)
-3. Create a new text file called `hello.txt` with the contents "Hello!"
-4. Add the file to the staging area (`add`)
-5. Commit the new file (`commit`)
+1. Open VS Code in the directory `git-exercise` you created earlier
+2. Create a new text file called `hello.txt` with the contents "Hello!"
+3. Add the file to the staging area (`add`)
+4. Commit the new file (`commit`)
 
 Check what's happening between steps with `git status`.
 
@@ -247,7 +245,7 @@ I'm aware this was a lot to take in.
 1. Run `git <command> -h` and copy the output into your `library.txt`
 2. Explore the repo status *using the GUI*
 3. Commit the changes (with a good commit message)
-4. Repeat steps 2. - 4. for **2 of the commands** we learned so far, using separate commits each time
+4. Repeat steps 2. - 4. for **another command** we learned so far, using a separate commit
 5. Delete the `library.txt` and restore it
 
 ## Demo: Tracking Changes in VSCode
@@ -261,7 +259,7 @@ I'm aware this was a lot to take in.
 1. Run `git <command> -h` and copy the output into your `library.txt`
 2. Explore the repo status *using the VSCode*
 3. Commit the changes (with a good commit message)
-4. Repeat steps 2. - 4. for **1 of the commands** we learned so far, using separate commits each time
+4. Repeat steps 2. - 4. for **another command** we learned so far, using a separate commit
 5. Delete the `library.txt` and restore it
 
 ## 🎉 Bonus Practical: Binary Files {background-color="black"}

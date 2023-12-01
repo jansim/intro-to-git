@@ -122,12 +122,16 @@ git checkout 795780d
   - If we make commits with a detached HEAD our changes will be lost
 - We can go back to `main` with `git checkout main`
 
+## Tracking changes: Using a GUI
+
+![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
+
 # Questions?
 
 ## Practical: Murder Mystery (Setup) 👮 {background-color="black"  background-opacity="0.3" background-image="images/backgrounds/murder-mystery.jpg"}
 
 1. We will copy a repository from the internet.
-2. Create a new directory or use an existing one, in which you want to copy the new repository.
+2. Navigate your Terminal to `repositories`
 3. Navigate to that directory in your Terminal.
 4. Run the following command `git clone https://github.com/open-teaching/git-murder-mystery.git`
 
@@ -137,7 +141,3 @@ git checkout 795780d
    - Use `git log` to see the history of the repository
    - Use `git checkout` to travel through time
 2. Compare the different suspects over time to determine who was present at all three scenes.
-
-## Tracking changes: Using a GUI
-
-![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
