@@ -62,7 +62,7 @@ I'm assuming that the default branch of your repository is called `main`, which 
 ## Task 5: Tell me you're finished 🎉
 
 1. Send me an e-mail to notify me that you finished the task. Make sure to
-  - (1) put "Introduction to git: Transfer Assigment" as your subject in the e-mail
+  - (1) put `"Introduction to git: Transfer Assignment"` as your subject in the e-mail
   - (2) include your name and martrikelnumber in the e-mail
   - (3) to also include the link to your repository on GitHub in the e-mail.
 2. Thank you for participating and lot's of success with git (and beyond) in the future!
