@@ -16,7 +16,7 @@ subtitle: "Course Outro"
 This course uses materials from, builds upon and is inspired by the following amazing resources ✨
 
 - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
-- https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/
+- https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/
 - https://github.com/edunford/git-scavenger-hunt
 - https://gitimmersion.com
 

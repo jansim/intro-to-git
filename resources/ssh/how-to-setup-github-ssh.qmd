@@ -5,7 +5,7 @@ format:
 ---
 
 :::{.callout-note}
-This document was orginially part of a course titled [Introduction to version Control in R with RStudio, Git, and Github](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/).
+This document was orginially part of a course titled [Introduction to version Control in R with RStudio, Git, and Github](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/).
 
 The course was originally created by [Mike Croucher](https://github.com/mikecroucher) from [RSE-Sheffield](https://github.com/RSE-Sheffield) under a [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode).  It was subsequently adapted by [Malika Ihle](https://ox.ukrn.org/people/#MalikaIhle) from [Reproducible Research Oxford](https://ox.ukrn.org/). The overview image is from [Dumitru Uzun](https://duzun.me/tips/git). You are free to use this work in your own projects.
 

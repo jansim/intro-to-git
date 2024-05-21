@@ -50,7 +50,7 @@ git config --global core.autocrlf true
 
 ## 3.1: Authenticating with GitHub (via SSH)
 
-[Web-Version of Tutorial](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
+[Web-Version of Tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
 [PDF-Version of Tutorial](https://simson.io/intro-to-git/output/resources/ssh/how-to-setup-github-ssh.pdf)
 
 ## 3.1: Course Summary Repository
@@ -71,7 +71,7 @@ git config --global core.autocrlf true
 - [GitHub Student Pack](https://education.github.com/pack)
 - `git` Guides
   - <https://github.com/git-guides>
-  - [Introduction to RStudio Git & GitHub](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/)
+  - [Introduction to RStudio Git & GitHub](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/)
   - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
   - <https://gitimmersion.com>
 - Further Reading

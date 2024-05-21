@@ -43,8 +43,8 @@ This repository contains the course materials for a one-day workshop titled "Dat
 ### Supporting Documents
 
 - Supplementary [student information sheet](output/resources/student-info/student-info.pdf)
-- How to Setup SSH authentication for GitHub [[PDF]](output/resources/ssh/how-to-setup-github-ssh.pdf) [[HTML]](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
-  - By [Mike Croucher & Malika Ihle](https://github.com/MalikaIhle/Introduction-RStudio-Git-GitHub)
+- How to Setup SSH authentication for GitHub [[PDF]](output/resources/ssh/how-to-setup-github-ssh.pdf) [[HTML]](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
+  - By [Mike Croucher & Malika Ihle](https://github.com/lmu-osc/Introduction-RStudio-Git-GitHub)
 - Git Cheatsheet [[PDF]](resources/git-cheat-sheet-education.pdf)
   - By [GitHub Education](https://education.github.com/)
 
@@ -58,7 +58,7 @@ This repository contains the course materials for a one-day workshop titled "Dat
 - Guides to review & refresh your knowledge
   - <https://gitimmersion.com>
   - <https://github.com/git-guides>
-  - [Introduction to RStudio Git & GitHub](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/)
+  - [Introduction to RStudio Git & GitHub](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/)
   - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - Further reading (beyond the contents of the course)
   - [Trunk Based Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development), a popular and advanced workflow of using git (currently concidered a best-practice)

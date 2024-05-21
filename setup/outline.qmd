@@ -81,7 +81,7 @@ format:
   - What is GitHub? What are its alternatives?
     - Gitlab, Bitbucket, Codeberg
   - Remotes in git
-  - Authenticating with github (https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
+  - Authenticating with github (https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
   - Cloning a respository, manually managing remotes
   - Clone a public repository
   - Create a new github repository

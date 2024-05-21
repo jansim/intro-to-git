@@ -29,10 +29,10 @@ subtitle: "Block 3.1: Going Online - Github"
 ## Authenticating with GitHub 🗝️ {background-color="black"}
 
 - We will use a great external guide to set up the authentication with GitHub
-- Please go to the [website](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html) and follow the steps to authenticate with GitHub
+- Please go to the [website](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html) and follow the steps to authenticate with GitHub
 - A PDF version of the guide can be found [here](./resources/ssh/how-to-setup-github-ssh.pdf)
 
-![https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/SSH.html](images/qr_code-malikaihle-ssh.svg)
+![https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html](images/qr_code-lmu-osc-ssh.svg)
 
 ::: attribution
 External Guide by Mike Croucher & Malika Ihle

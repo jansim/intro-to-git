@@ -51,7 +51,7 @@ Most of the information in these guides, we already covered, but they can be gre
 
 - https://learngitbranching.js.org/
 - https://github.com/git-guides
-- [Introduction to RStudio Git & GitHub](https://malikaihle.github.io/Introduction-RStudio-Git-GitHub/)
+- [Introduction to RStudio Git & GitHub](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/)
 - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - https://gitimmersion.com
 
