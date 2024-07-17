@@ -100,7 +100,7 @@ git remote -h
 ```
 :::
 
-## *End of Block* 🎉 {background-color="black"}
+## *End of Section* 🎉 {background-color="black"}
 
 :::{.r-fit-text}
 Any Questions?
@@ -108,4 +108,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Block]](./3.2-synching_changes.html) 
+[[⏩️ Next Section]](./3.2-synching_changes.html) 

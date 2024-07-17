@@ -275,7 +275,7 @@ I'm aware this was a lot to take in.
 - See all stashes via `git stash list`
 - Apply your stahes via `git stash apply`
 
-## *End of Section* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
+## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
 :::{.r-fit-text}
 Any Questions?
@@ -283,4 +283,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./2.1-gitignore.html) 
+[[⏩️ Next Block]](./2.1-gitignore.html) 

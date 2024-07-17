@@ -71,7 +71,7 @@ Website template originally from: https://github.com/academicpages/academicpages
 4. Push and pull to synchronize your changes
 5. Try to create a merge conflict
 
-## *End of Section* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
+## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
 :::{.r-fit-text}
 Any Questions?
@@ -79,4 +79,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./4.1-advanced_github.html) 
+[[⏩️ Next Block]](./4.1-advanced_github.html) 

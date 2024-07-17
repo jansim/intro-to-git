@@ -237,7 +237,7 @@ Rebasing
 
 ::::
 
-## *End of Section* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
+## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
 :::{.r-fit-text}
 Any Questions?
@@ -245,4 +245,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./3.1-what_is_github.html) 
+[[⏩️ Next Block]](./3.1-what_is_github.html) 

@@ -73,7 +73,7 @@ Most of the information in these guides, we already covered, but they can be gre
 
 ![I hope this makes sense to you after the course](images/in_case_of_fire.svg)
 
-## *End of Section* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
+## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
 :::{.r-fit-text}
 Any Questions?
@@ -81,4 +81,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./5.0-outro.html) 
+[[⏩️ Next Block]](./5.0-outro.html) 

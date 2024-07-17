@@ -51,7 +51,7 @@ The .gitignore uses the same kind of pattern matching as `git add` (or other git
 4. Create a new .gitignore file to ignore only this cheatsheet
 5. Commit the .gitignore file
 
-## *End of Block* 🎉 {background-color="black"}
+## *End of Section* 🎉 {background-color="black"}
 
 :::{.r-fit-text}
 Any Questions?
@@ -59,4 +59,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Block]](./2.2-history.html) 
+[[⏩️ Next Section]](./2.2-history.html) 

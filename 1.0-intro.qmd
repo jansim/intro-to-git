@@ -101,7 +101,7 @@ Quick Round of Introductions
 4. Open `git-exercise` in Visual Studio Code
     - Create a new file `test.txt` and write in it <br> `Hello World!`
 
-## *End of Block* 🎉 {background-color="black"}
+## *End of Section* 🎉 {background-color="black"}
 
 :::{.r-fit-text}
 Any Questions?
@@ -109,4 +109,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Block]](./1.1-what_is_git.html) 
+[[⏩️ Next Section]](./1.1-what_is_git.html) 
