@@ -59,3 +59,13 @@ git push <remote>/<branch>
 2. In the example git repository we've been working in so far, add the just created GitHub repo as a remote
     - `git remote add origin <URL>`
 3. Push you changes so far to GitHub
+
+## *End of Block* 🎉 {background-color="black"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./3.3-pages_markdown.html) 

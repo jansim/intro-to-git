@@ -97,3 +97,13 @@ Repository: <https://github.com/microsoft/vscode>
     - Use the pull request to discuss
 2. Approve the pull request when you're done and all changes are implemented.
 3. Merge your edits into the repository.
+
+## *End of Block* 🎉 {background-color="black"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./4.2-final_notes.html) 

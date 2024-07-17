@@ -99,3 +99,13 @@ To learn about all possible commands for remotes use `-h`
 git remote -h
 ```
 :::
+
+## *End of Block* 🎉 {background-color="black"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./3.2-synching_changes.html) 

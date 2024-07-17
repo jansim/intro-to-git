@@ -191,3 +191,13 @@ Alternatively, we can download a repository from the internet using the `clone` 
 ```bash
 git clone https://github.com/open-teaching/git-murder-mystery.git
 ```
+
+## *End of Block* 🎉 {background-color="black"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./1.2-tracking_changes.html) 

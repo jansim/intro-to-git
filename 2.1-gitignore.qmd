@@ -50,3 +50,13 @@ The .gitignore uses the same kind of pattern matching as `git add` (or other git
 3. Copy the PDF into your `git-exercise` directory
 4. Create a new .gitignore file to ignore only this cheatsheet
 5. Commit the .gitignore file
+
+## *End of Block* 🎉 {background-color="black"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./2.2-history.html) 

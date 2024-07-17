@@ -141,3 +141,13 @@ git checkout 795780d
    - Use `git log` to see the history of the repository
    - Use `git checkout` to travel through time
 2. Compare the different suspects over time to determine who was present at all three scenes.
+
+## *End of Block* 🎉 {background-color="black"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./2.3-branches_merging.html) 
