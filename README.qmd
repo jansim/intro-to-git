@@ -10,7 +10,7 @@ format:
   gfm:
     toc: false
     output-file: README.md
-format-links: []
+format-links: false
 ---
 
 This repository contains the course materials for a one-day workshop titled "Data Literacy: Introduction to `git`" which I gave at the Karlsruhe Institute for Technology (KIT).
