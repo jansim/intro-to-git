@@ -5,3 +5,7 @@
 
 /.quarto/
 untracked/
+
+output/
+*.html
+*_files/
