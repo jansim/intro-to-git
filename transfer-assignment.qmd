@@ -10,6 +10,10 @@ Thank you for participating in the workshop "Data Literacy: Introduction to `git
 
 Please finish this transfer assignment within the next month to complete the workshop.
 
+:::{.callout-note}
+If you also took part in the "Advanced `git`" course this term, I kindly ask you to submit both transfer assignments at once. Please refer to the "Advanced `git`" transfer assignment for detailed instructions on how to do this.
+:::
+
 ## Task 1: Creating the Respository 🆕
 
 1. Create a new GitHub repository named **`transfer-assignment`**. This repository can be either public or private, but if it is private you will have to add me as a collaborator to the repository so I can see it. My username on GitHub is `jansim`.

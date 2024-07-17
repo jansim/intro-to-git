@@ -55,6 +55,10 @@ Most of the information in these guides, we already covered, but they can be gre
 - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - https://gitimmersion.com
 
+## Git Game
+
+[![](images/screenshots/ohmygit.png)](https://ohmygit.org/)
+
 ## Further Reading
 
 - Popular Workflow: [Trunk Based Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
@@ -64,3 +68,7 @@ Most of the information in these guides, we already covered, but they can be gre
 - If you have a problem
   - [ohshitgit.com](https://ohshitgit.com/) [(🇩🇪)](https://ohshitgit.com/de)
   - Google
+
+## And finally.. a meme 🔥
+
+![I hope this makes sense to you after the course](images/in_case_of_fire.svg)

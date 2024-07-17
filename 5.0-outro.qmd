@@ -7,9 +7,7 @@ subtitle: "Course Outro"
 
 ## Outlook 👀
 
-- Next summer there will be a follow-up course on **advanced features of git**
-- You are the main audience
-  - If you are interested in particular topics.. email me!
+- Follow-up course on **advanced features of git**
 
 ## Sources
 

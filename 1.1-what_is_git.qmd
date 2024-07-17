@@ -83,10 +83,10 @@ Git can be used via both a CLI and GUI.
 
 - `git` itself is a CLI program
 - But, many GUIs are available
-  - Sourcetree
-  - Visual Studio Code*
-  - Rstudio*
-  - Github Desktop
+  - [Sourcetree](https://www.sourcetreeapp.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/)*
+  - [Rstudio](https://posit.co/download/rstudio-desktop/)*
+  - [GitButler](https://gitbutler.com/)
   - ... (full list: <https://git-scm.com/downloads/guis>)
 
 ::: {.fragment}
