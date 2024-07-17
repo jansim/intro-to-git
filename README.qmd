@@ -7,6 +7,11 @@ format:
     toc: true
     output-file: index.html
     theme: cosmo
+    code-links:
+      - text: Repository
+        href: https://github.com/jansim/intro-to-git
+        icon: github
+        target: _blank
   gfm:
     toc: false
     output-file: README.md
