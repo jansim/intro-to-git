@@ -35,13 +35,24 @@ Ignore all PDF files
 The .gitignore uses the same kind of pattern matching as `git add` (or other git commands)
 :::
 
-## `.gitignore`: global vs. local
+## `.gitignore`: global vs. local 🫥
 
 - There can be multiple different `.gitignore` files at different levels
 - There's one *global* `.gitignore`, that will work across your whole computer
 - There are local gitignore files within your repositories
   - You can even have a gitignore file in a directory within your repository and it will apply only within that directory
-- You can find a list of very useful templates for `.gitignore` files at <https://github.com/github/gitignore>.
+  - You can find a list of very useful templates for local`.gitignore` files at <https://github.com/github/gitignore>.
+  - A classic example for files to ignore globally are `.DS_Store` files on macOS.
+
+## Once it's in, it's too late
+
+Once a file is tracked by `git`, adding it to the `.gitignore` will not do anything.
+
+- You will first have to remove it from git
+- **Option 1:** Delete the file and commit the deletion
+- **Option 2:** Remove file from index only (and commit)
+  - `git rm --cached <file>`
+  - ⚠️ Warning: This will delete the file for anyone else working with the repository!
 
 ## Practical: Ignoring Files {background-color="black"}
 
