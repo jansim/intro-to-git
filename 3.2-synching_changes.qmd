@@ -7,7 +7,7 @@ subtitle: "Block 3.2: Synchronizing Changes"
 
 You first `pull` the latest changes from the remote and then `push` your own changes
 
-![](images/drawings/pull-push.svg)
+![](images/drawings/pull-push.png)
 
 ## Getting Changes: `git pull`
 
