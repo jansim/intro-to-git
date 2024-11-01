@@ -50,21 +50,26 @@ The speed of the class is always a bit variable, so the number of covered topics
 
 ## Introductions: Who are you? 🙋🏻‍♀️🙋🏽‍♂️🙋
 
-Quick Round of Introductions
+::: {.nonincremental}
+
+- What do you wish to learn from this course?
+- Do you have any experience with git already?
+- What's your GitHub username?
+
+:::
+
+![](images/qr_code-quiz.svg)
+
+<https://pingo.scc.kit.edu/>
+
+## Introductions: Administration 📜
 
 ::: {.nonincremental}
 
 - I will go over the list of registered students
-- Questions
-  - What do you wish to learn from this course?
-  - Do you have any experience with git already?
-  - What's your GitHub username?
+- Is everyone registered for the course?
 
 :::
-
-## Introductions: Administration 📜
-
-- Is everyone registered for the course?
 
 ## Prerequisites (Any Problems?)
 
