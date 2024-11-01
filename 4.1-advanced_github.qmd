@@ -79,6 +79,24 @@ Repository: <https://github.com/microsoft/vscode>
 
 # Questions?
 
+## Practical: Pull Requests by Yourself {background-color="black"}
+
+1. Create a new branch `trying-out-pr`
+   - Make sure to also checkout that branch, you can check whether you're on it with `git status`
+2. Add another entry to your `library.txt` (run any `git` command with `-h`)
+3. Push the branch to GitHub
+4. Create a pull request on GitHub
+5. Merge the changes by creating a Pull Request
+
+## Addendum: Checking out Remote Branches 🏝️
+
+When collaborating, it can often be the case that you want to checkout a branch from a remote locally (e.g. one created by your colleague).
+
+- First run `git fetch` to get branches
+- Option 1: `git checkout --track <remote>/<branch>`
+- Option 2: `git switch <branch>`
+  - Git switch will try to be smart here and guess that you want the remote branch ✨
+
 ## Practical: Collaborating via GitHub {background-color="black"}
 
 1. Form groups of 2 - 3 people (we need exactly 10 teams total)
