@@ -33,6 +33,15 @@ subtitle: "Block 4.2: Final Bits"
 - You can automatically run code via [GitHub Actions](https://github.com/features/actions)
 - You can get all sorts of goodies via the [GitHub Student Pack](https://education.github.com/pack)
 
+## Advanced Github: Pages
+
+- One of the coolest features of GitHub is that you can host your own website there for free
+- This service is called GitHub Pages
+- You can create websites for specific projects (i.e. repositories)
+  - \<your_gh_username\>.github.io/\<your_repo_name\>
+- Special repository name: \<your_gh_username\>.github.io
+  - To create a personal website
+
 ## Final Summary
 
 - Initialize a repository with `git init`
@@ -68,10 +77,6 @@ Most of the information in these guides, we already covered, but they can be gre
 - If you have a problem
   - [ohshitgit.com](https://ohshitgit.com/) [(🇩🇪)](https://ohshitgit.com/de)
   - Google
-
-## And finally.. a meme 🔥
-
-![I hope this makes sense to you after the course](images/in_case_of_fire.svg)
 
 ## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
