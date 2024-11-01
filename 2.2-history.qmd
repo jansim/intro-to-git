@@ -136,19 +136,13 @@ git checkout 795780d
 
 # Questions?
 
-## Practical: Murder Mystery (Setup) 👮 {background-color="black"  background-opacity="0.3" background-image="images/backgrounds/murder-mystery.jpg"}
+## Practical: Time-Travel ⏱️ {background-color="black"}
 
-1. We will copy a repository from the internet.
-2. Navigate your Terminal to `repositories`
-3. Navigate to that directory in your Terminal.
-4. Run the following command `git clone https://github.com/open-teaching/git-murder-mystery.git`
-
-## Practical: git Murder Mystery 🕵️ {background-color="black"  background-opacity="0.3" background-image="images/backgrounds/murder-mystery.jpg"}
-
-1. Unravel the murder case.
-   - Use `git log` to see the history of the repository
-   - Use `git checkout` to travel through time
-2. Compare the different suspects over time to determine who was present at all three scenes.
+1. Go back to your Terminal
+2. Open the `git log` of your respository
+3. *Checkout* the previous commit using `HEAD~1`
+4. Go back to your `main` branch
+5. Checkout your very first commit through its hash
 
 ## *End of Section* 🎉 {background-color="black"}
 
