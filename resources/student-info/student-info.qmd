@@ -40,10 +40,6 @@ git config --global core.autocrlf true
 
 <https://github.com/github/gitignore>.
 
-## 2.2: Murder Mystery
-
-`git clone https://github.com/open-teaching/git-murder-mystery.git`
-
 ## 2.3: learngitbranching
 
 <https://learngitbranching.js.org/>
@@ -52,10 +48,6 @@ git config --global core.autocrlf true
 
 [Web-Version of Tutorial](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html)
 [PDF-Version of Tutorial](https://simson.io/intro-to-git/output/resources/ssh/how-to-setup-github-ssh.pdf)
-
-## 3.1: Course Summary Repository
-
-<https://github.com/open-teaching/git-course-summary-ss23>
 
 ## 3.2: GitHub Pages Template
 
