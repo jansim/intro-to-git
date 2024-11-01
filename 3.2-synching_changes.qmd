@@ -13,7 +13,7 @@ You first `pull` the latest changes from the remote and then `push` your own cha
 
 - You can retrieve the latest changes from github by running `git pull`
 - This *fetches* the latest changes and *merges* them into your current branch
-- Typically your local branch is set up to *track* a remote branch with the same name
+- Typically your local branch is set up to *track* a remote branch with the same name (the `upstream`)
   - If not, you get a warning from git
 
 ::: {.fragment}
@@ -22,7 +22,7 @@ You first `pull` the latest changes from the remote and then `push` your own cha
 git pull
 
 # Pull from a specific branch
-git pull <remote>/<branch>
+git pull <remote> <branch>
 ```
 :::
 
@@ -44,8 +44,9 @@ git pull <remote>/<branch>
 # Push to the tracked remote branch
 git push
 
-# Push to a specific branch
-git push <remote>/<branch>
+# Push a branch to the remote for the first time
+# -u is short for --set-upstream
+git push -u <remote> <branch>
 ```
 :::
 
@@ -54,11 +55,21 @@ git push <remote>/<branch>
 # Questions?
 
 ## Practical: Adding your own repository to Github {background-color="black"}
+
 1. Create a new repository on GitHub with the name `git-intro-example`
     - Make sure NOT to add a README or any other file when creating it
 2. In the example git repository we've been working in so far, add the just created GitHub repo as a remote
     - `git remote add origin <URL>`
 3. Push you changes so far to GitHub
+   - `git push -u origin main`
+
+## Optional Practical: Collaboration {background-color="black"}
+
+1. Form pairs
+2. One person adds the other to their `git-intro-example` repository
+   - Via the GitHub UI (write privileges)
+3. Each, add a new entry to the `library.txt`
+4. Try to provoke a merge conflict
 
 ## *End of Section* 🎉 {background-color="black"}
 
@@ -68,4 +79,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./3.3-pages_markdown.html) 
+[[⏩️ Next Section]](./3.3-markdown.html) 
