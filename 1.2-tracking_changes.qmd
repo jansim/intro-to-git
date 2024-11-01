@@ -81,6 +81,27 @@ git status
 - The classic way to undo a commited change in git would be to make another commit with the reverse change.
 - Modifying a commit is possible, but you should now what you are doing. Typically this is called "changing history" and is (esp. in collaborative settings) frowned upon.
 
+## Stuck in an Editor 🛗 
+
+Forgot the `-m "insightful commit message"`?
+
+- Every commit needs a message
+- If you don't provide one, `git` will open an editor for you to write the message in
+- This editor may also open itself for other `git` commands
+  - Every line with a `#` at the beginning is a comment and will be ignored by `git` (usually some helpful extra info)
+  - Save and close the editor for `git` to proceed
+
+## Stuck in an Editor: Breaking Free ⛓️‍💥
+
+The default editor in git is (usually) `vim`
+
+- `vim` is notoriously hard to get out of
+- Press `ESC`, then write `:wq` and hit `Enter`
+- You can also change the default editor to e.g. VSCode
+  - ⚠️ Important: Verify first whether you can start VSCode from the comand line by running the `code` command
+  - `git config --global core.editor "code"`
+- For fun: <https://github.com/hakluke/how-to-exit-vim>
+
 # Questions?
 
 # Demo: <br> Using git via the CLI
@@ -262,18 +283,18 @@ I'm aware this was a lot to take in.
 4. Repeat steps 2. - 4. for **another command** we learned so far, using a separate commit
 5. Delete the `library.txt` and restore it
 
+## Note: Git and Code
+
+- You have noticed that we're not using `git` with source code here
+- Mainly for teaching purposes
+  - Not everyone is comfortable coding in the same programming language
+- However, also good to be aware that `git` can handle more than just code! 💪
+
 ## 🎉 Bonus Practical: Binary Files {background-color="black"}
 
 1. Create a Word document called `library.docx` and copy over the contents from `library.txt`
 2. Run `git stash -h` and copy the output into both `library.docx` and `library.txt`
 3. Use `git diff` to compare how the same change is recognized by git in the two documents
-
-## 🎉 Bonus Temporarily Storing Changes: `git stash`
-
-- If you're not yet ready to commit your changes, but want to quickly store them and work on something else, you can do so with `git stash`
-- When stashing your changes, all changes will be removed (similarly to `git restore`), but they will be saved
-- See all stashes via `git stash list`
-- Apply your stahes via `git stash apply`
 
 ## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
