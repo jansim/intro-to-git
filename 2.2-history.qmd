@@ -11,7 +11,7 @@ Background: https://giphy.com/gifs/back-to-the-future-dgEIhYAo3lZiE
 
 ## Seeing History
 
-We can also see the history of our committed changes, called `commits` using `git log`.
+We can see the history of our committed changes, called `commits` using `git log`.
 
 ```bash
 git log
