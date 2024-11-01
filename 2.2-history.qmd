@@ -113,14 +113,22 @@ git checkout 795780d
 # HEAD is now at 795780d Adding hello.txt
 ```
 
-## Detached HEAD, everything OK? 🤕
+## Detached `HEAD`, everything OK? 🤕
 
 - When traveling back to a commit, we got a scary warning about a `detached HEAD`
 - Normally we are always on a branch in git
-- The HEAD is always the currently checked out state of your repository
-  - If the HEAD is detached, it is not associated with a branch
-  - If we make commits with a detached HEAD our changes will be lost
+- The `HEAD` is always the currently checked out state of your repository
+  - If the `HEAD` is detached, it is not associated with a branch
+  - If we make commits with a detached `HEAD` our changes will be lost
 - We can go back to `main` with `git checkout main`
+
+## Referencing Commits Relatively
+
+- You will also see `HEAD` in e.g. the `git log` or Sourcetree view
+- `HEAD` can be used to reference commits *relatively*
+  - `HEAD` the current commit
+  - `HEAD~1` the previous commit
+  - `HEAD~2` two commits ago
 
 ## Tracking changes: Using a GUI
 
