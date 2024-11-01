@@ -1,0 +1,26 @@
+---
+title: "Intro to `git`"
+subtitle: "Bonus Block: Deploying a Website"
+---
+
+## Deploying Your Own Website
+
+- You can host your own website for free on GitHub / GitLab Pages 
+- Also very useful for hosting technical documentation for your projects
+
+## Practical: Your Own Website {background-color="black"}
+
+1. Go to <https://github.com/arifszn/gitprofile>
+2. Fork the repository
+3. Enable GitHub Actions
+4. Look at the website at https://<your-username>.github.io/gitprofile/
+5. Configure `gitprofile.config.ts`
+
+
+## *End of Block* 🎉 {background-color="black" background-opacity="0.2" background-image="images/backgrounds/kaiser.jpg"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)

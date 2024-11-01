@@ -1,0 +1,61 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 3.3: Let's Get Writing"
+---
+
+## Markdown
+
+Markdown is a simple language for basic text formatting
+
+- Markdown is widely used for simple text documents
+- It's used by GitHub Pages for content formatting
+- It's also used for `READMEs`
+  - These are files describing a repository / giving an introduction
+  - They will be shown by default when you open a repository on a hosting website
+- [Example 🐍](https://github.com/python/cpython)
+
+## Markdown: The Basics
+
+Markdown is a simple language for basic text formatting
+
+```md
+# Big heading
+## Slightly smaller heading
+### Even smaller heading
+
+Normal text
+*italic text*
+**thick text**
+
+- A
+- Simple
+- List
+```
+
+## Markdown: The Basics
+
+![Example of the markdown code from before, but now rendered](images/screenshots/markdown.png)
+
+## Practical: README 📚️ {background-color="black"}
+
+1. Add a `README` to your `git-example` repository
+
+- Examples
+  - <https://github.com/pcottle/learnGitBranching>
+  - <https://github.com/microsoft/vscode>
+  - <https://github.com/iterative/dvc>
+
+## 🎉 Bonus Practical: *learngitbranching* #2 {background-color="black"}
+
+1. Go to https://learngitbranching.js.org/
+2. Finish Lessons 1 - 6 in the **remote** section on the website
+
+## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./4.1-advanced_github.html) 

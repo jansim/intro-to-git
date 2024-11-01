@@ -33,14 +33,16 @@ Karlsruhe Institute for Technology (KIT).
     [\[slides\]](https://simson.io/intro-to-git/3.1-what_is_github.html)
   - 3.2 Synching Changes
     [\[slides\]](https://simson.io/intro-to-git/3.2-synching_changes.html)
-  - 3.3 Markdown & GitHub Pages
-    [\[slides\]](https://simson.io/intro-to-git/3.3-pages_markdown.html)
+  - 3.3 Markdown
+    [\[slides\]](https://simson.io/intro-to-git/3.3-markdown.html)
 - Block 4: Advanced Github & Beyond
   - 4.1 Advanced GitHub
     [\[slides\]](https://simson.io/intro-to-git/4.1-advanced_github.html)
   - 4.2 Final Notes
     [\[slides\]](https://simson.io/intro-to-git/4.2-final_notes.html)
   - *Outro*
+- Bonus Practical
+  [\[slides\]](https://simson.io/intro-to-git/6.0-bonus-practical.html)
 
 <!-- *: Since they have to be manually generated, the PDF version of slides may be slightly outdated. Please refer to [this guide](https://revealjs.com/pdf-export/), on how to export your own PDF version from the online slides. -->
 
