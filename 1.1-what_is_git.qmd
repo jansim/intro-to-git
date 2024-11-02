@@ -118,6 +118,9 @@ git config --global user.name "Your Name"
 
 # Add your email address
 git config --global user.email "your.email@kit.edu"
+
+# Use modern main branch name
+git config --global init.defaultbranch main
 ```
 
 ## Let's Set Things Up: `git config` ⚙️
