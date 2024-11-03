@@ -249,7 +249,7 @@ I'm aware this was a lot to take in.
 
 ## Practical: git Command Library (1){background-color="black"}
 
-1. Create a new file `library.txt` in your `git-example` directory
+1. Create a new file `library.txt` in your `git-exercise` directory
 2. Run `git init -h` and copy the output into your `library.txt`
 3. Explore the repo status using `git status` and `git diff`
 4. Commit the changes (with a good commit message)
