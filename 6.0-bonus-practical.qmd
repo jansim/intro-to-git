@@ -12,9 +12,10 @@ subtitle: "Bonus Block: Deploying a Website"
 
 1. Go to <https://github.com/arifszn/gitprofile>
 2. Fork the repository
-3. Enable GitHub Actions
-4. Look at the website at https://<your-username>.github.io/gitprofile/
-5. Configure `gitprofile.config.ts`
+3. Enable GitHub Pages (→ Settings)
+4. Enable GitHub Actions (→ Actions)
+5. Look at the website at `https://<your-username>.github.io/gitprofile/`
+6. Configure `gitprofile.config.ts`
 
 
 ## *End of Block* 🎉 {background-color="black" background-opacity="0.2" background-image="images/backgrounds/kaiser.jpg"}
