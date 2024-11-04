@@ -10,7 +10,7 @@ Thank you for participating in the workshop "Data Literacy: Introduction to `git
 
 Please finish this transfer assignment within the next month to complete the workshop.
 
-Please note that since I receive solutions spread around the month, I usually only grade them after the deadline has passed. If you need to receive your credit(s) by a specific time, please let me know in a *separate email*.
+Please also note that since I receive solutions spread around the month, I usually only grade them after the deadline has passed. If you need to receive your credit(s) by a specific time, please let me know in a *separate email*.
 
 :::{.callout-note}
 If you also took part in the "Advanced `git`" course this term, I kindly ask you to submit both transfer assignments at once. Please refer to the "Advanced `git`" transfer assignment for detailed instructions on how to do this.
