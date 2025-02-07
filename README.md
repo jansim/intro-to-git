@@ -76,6 +76,8 @@ Karlsruhe Institute for Technology (KIT).
   - [The Carpentries: Version Control with
     Git](https://swcarpentry.github.io/git-novice/)
 - Further reading (beyond the contents of the course)
+  - Pretty comprehensive guide: [Beej’s Guide to
+    Git](https://beej.us/guide/bggit/html/split/)
   - [Trunk Based
     Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development),
     a popular and advanced workflow of using git (currently concidered a

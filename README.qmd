@@ -74,6 +74,7 @@ This repository contains the course materials for a one-day workshop titled "Dat
   - [Introduction to RStudio Git & GitHub](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/)
   - [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
 - Further reading (beyond the contents of the course)
+  - Pretty comprehensive guide: [Beej's Guide to Git](https://beej.us/guide/bggit/html/split/)
   - [Trunk Based Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development), a popular and advanced workflow of using git (currently concidered a best-practice)
   - Using git with data
     - [dvc](https://dvc.org/): Data Version Control
