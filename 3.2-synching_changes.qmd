@@ -33,6 +33,20 @@ git pull <remote> <branch>
 - You can also run `git fetch` to fetch the latest changes and then `git merge <remote>/branch` to merge them
 - `git fetch` will always fetch the latest changes without doing anything with them (which can be useful)
 
+## Getting Changes: `git pull`
+
+- When you run `git pull` for the first time, you will need to choose a default *merge strategy*
+- When you receive the message, just copy this line of code (or the one you prefer) 
+
+::: {.fragment}
+
+```bash
+# Default to merge
+git config pull.rebase false
+```
+
+:::
+
 ## Pushing Your Changes: `git push`
 
 - You can send *your* changes to github by running `git push`
