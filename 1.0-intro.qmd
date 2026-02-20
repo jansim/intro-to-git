@@ -40,11 +40,11 @@ The speed of the class is always a bit variable, so the number of covered topics
 ## Introductions: Who am I? 🙋🏼‍♂️
 
 - Jan Simson
-- Doing PhD at Ludwig-Maximilian University München
 - Background
   - Computer Science (Ausbildung)
   - BSc Psychology (Konstanz)
   - MSc Behavioural Data Science (Amsterdam)
+  - PhD Statistics (München)
   - Worked at research lab & startup before
 - Worked with `git` for a couple of years
 
