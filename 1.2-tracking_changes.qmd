@@ -99,7 +99,7 @@ The default editor in git is (usually) `vim`
 - Press `ESC`, then write `:wq` and hit `Enter`
 - You can also change the default editor to e.g. VSCode
   - ⚠️ Important: Verify first whether you can start VSCode from the comand line by running the `code` command
-  - `git config --global core.editor "code"`
+  - `git config --global core.editor "code --wait"`
 - For fun: <https://github.com/hakluke/how-to-exit-vim>
 
 # Questions?
