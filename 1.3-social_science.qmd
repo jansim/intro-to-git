@@ -1,0 +1,71 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 1.3: git for *social science*"
+---
+
+## Git for Social Science ✨
+
+There are several ways git can be useful for social science:
+
+- Evolution and provenance of data and code
+- Collaboration with others
+  - Analysis code
+  - Paper writing
+- Sharing code
+- Websites
+
+## Tracking (Small) Datasets 📊
+
+- Git can be used to track changes in data
+- Due to the weaknesses / strengths discussed above this works best for small datasets (e.g., CSV files)
+
+## A Special Use-Case: Git Scraping 🕷  ️
+
+Track changes over time by writing storing them in a Git repository
+
+<https://simonwillison.net/2020/Oct/9/git-scraping/>
+
+e.g. <https://github.com/simonw/ca-fires-history>
+
+## Detour: Git vs. GitHub ↪️
+
+- We only talked about `git` (the software) so far
+- `GitHub` is a website that hosts Git repositories
+  - enables several interesting things incl. collaboration
+  - 2nd half of today
+
+## Project Websites 🌐
+
+If you are working on a larger project, it can be helpful to have a website to publicize your work.
+
+This can be done for free via *GitHub Pages*, which allows you to host a website directly from a GitHub repository.
+
+e.g. <https://nvlabs.github.io/Sana/>
+
+## More Websites ✨
+
+You can also use GitHub Pages to host your own personal website, e.g., <https://jansim.github.io/>. Several [themes](https://github.com/alshedivat/al-folio) are available to make this easier.
+
+Pages can also be helpful for workshops, both for [research](https://github.com/pluralistic-alignment/pluralistic-alignment.github.io) and [educational](https://github.com/carpentries/workshop-template) workshops.
+
+## Project Management
+
+Websites like GitHub come with several tools to manage collaboration, including project management via tracking, discussion and organization of *issues*.
+
+The open journals (JOSS, JOSE) use this system to handle the full peer review process (non-blind).
+
+<https://github.com/openjournals/joss/issues>
+
+## Anything of Particular Interest?
+
+If there's anything here that stood out to you as particularly interesting, we can zoom in on it and make sure to cover it / dive a bit deeper.
+
+## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Block]](./2.1-gitignore.html) 
