@@ -21,9 +21,9 @@ There are several ways git can be useful for social science:
 
 ## A Special Use-Case: Git Scraping 🕷  ️
 
-Track changes over time by writing storing them in a Git repository
+Track changes over time by writing them in a Git repository
 
-<https://simonwillison.net/2020/Oct/9/git-scraping/>
+Read more: <https://simonwillison.net/2020/Oct/9/git-scraping/>
 
 e.g. <https://github.com/simonw/ca-fires-history>
 
@@ -48,15 +48,19 @@ You can also use GitHub Pages to host your own personal website, e.g., <https://
 
 Pages can also be helpful for workshops, both for [research](https://github.com/pluralistic-alignment/pluralistic-alignment.github.io) and [educational](https://github.com/carpentries/workshop-template) workshops.
 
-## Project Management
+## Project Management 📋
 
 Websites like GitHub come with several tools to manage collaboration, including project management via tracking, discussion and organization of *issues*.
+
+::: {.fragment .fade-in}
 
 The open journals (JOSS, JOSE) use this system to handle the full peer review process (non-blind).
 
 <https://github.com/openjournals/joss/issues>
 
-## Anything of Particular Interest?
+:::
+
+## Anything of Particular Interest?! 🔍
 
 If there's anything here that stood out to you as particularly interesting, we can zoom in on it and make sure to cover it / dive a bit deeper.
 
