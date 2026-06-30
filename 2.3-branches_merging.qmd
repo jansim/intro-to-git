@@ -148,8 +148,7 @@ Question B
 
 Question C
 
-Question D
-
+End.
 ```
 
 ## Practical: Setup {background-color="black"}
@@ -162,10 +161,9 @@ Question D
 
 Write your guess below the line with the matching letter.
 
-a) How many liters of Beer have been drunken at the Oktoberfest in Munich in 2019? 🍻
-b) How many people live in Karlsruhe? (Exactly) 🏘️
-c) What percentage of Americans asked in a survey in 2017, indicated that they believe in Astrology? 🌟
-d) What percentage (same sample as C), indicated that they believe in psychics? 🔮
+a) What percentage of developers report using git for version control in 2025?
+b) What fraction of long distance trains in Germany were on time in May 2026? 
+c) How many liters of Beer have been drunken at the Oktoberfest in Munich in 2019? 🍻
 
 ## Practical: Guessing Game Answers {background-color="black"}
 
@@ -173,19 +171,17 @@ d) What percentage (same sample as C), indicated that they believe in psychics? 
 6. Write down the actual answers below the letters in the now empty file again
 
 ```text
-Question A 🍻 Liters of beer [^1]
+Question A 🧑🏻‍💻 git users [^1]
+93%
+Question B 🚂 Trains on time [^2]
+61.2%
+Question C 🍻 Liters of beer [^3]
 7,850,200
-Question B 🏘️ People in Karlsruhe
-313,092
-Question C 🌟 % believing in Astrology [^2]
-29%
-Question D 🔮 % believing in Psychics [^2]
-41%
 ```
 
-[^1]: https://opendata.muenchen.de/tr/dataset/oktoberfest
-[^2]: https://www.pewresearch.org/fact-tank/2018/10/01/new-age-beliefs-common-among-both-religious-and-nonreligious-americans/
-https://opendata.muenchen.de/tr/dataset/oktoberfest
+[^1]: https://stackoverflow.blog/2023/01/09/beyond-git-the-other-version-control-systems-developers-use/
+[^2]: https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476
+[^3]: https://opendata.muenchen.de/tr/dataset/oktoberfest
 
 ## Practical: The Actual Conflcit {background-color="black"}
 
