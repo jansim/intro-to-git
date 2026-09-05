@@ -56,7 +56,9 @@ git clone git@github.com:jansim/intro-to-git.git
 
 1. Go to the website of the repository I added you all to: `https://github.com/open-teaching/git-course-summary-<current-term>`
 2. Copy the SSH clone URL from the repositories website
-3. Clone the repository to check whether you can authenticate with github
+3. In the terminal, navigate up one folder (`cd ..`)
+4. Clone the repository to check whether you can authenticate with github
+5. Go back to the `git-exercise` folder (`cd git-exercise`)
 
 # Remotes {background-color="black" background-opacity="0.3" background-image="images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
 
