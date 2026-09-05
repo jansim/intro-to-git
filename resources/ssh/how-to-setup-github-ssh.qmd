@@ -3,6 +3,7 @@ title: Authenticating to GitHub via SSH
 format:
   html:
     toc: true
+    theme: cosmo
   pdf: default
 ---
 
