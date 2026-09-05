@@ -16,8 +16,22 @@ Background: https://unsplash.com/photos/V1YEEItoOTE
 - In the end you can merge your changes back into your `main` branch
 
 :::{.callout-note}
-The default branch used to be called `master`, this was more-or-less recently changed to `main`, but not all repositories have changed yet.
+The default branch used to be called `master` and was then changed to `main` (next slide).
 :::
+
+## `master` vs. `main` ⚙️
+
+The default branch used to be called `master`, this was more-or-less recently changed to `main`, but not all repositories / git installations have changed yet.
+
+Whether git on your computer uses `master` or `main` depends on when it was installed.
+
+```bash
+# See the default branch name
+git status
+
+# Use modern main branch name
+git config --global init.defaultbranch main
+```
 
 ## What are git branches? 🌲 {background-color="#5cbcfc"}
 
