@@ -98,41 +98,10 @@ Git can be used via both a CLI and GUI.
 ## Using the `git` CLI
 
 - We will first use git via its CLI (i.e. in the Terminal).
-  - On windows, open Git Bash (start menu -> Git Bash).
-  - On MacOS, open the Terminal app.
-  - On Linux, open your distribution’s (or any other) terminal emulator.
+  - In Visual Studio Code, open the bottom panel
+    - Button in top-left corner or [Cmd/Ctrl] + J
+  - On Windows, select "Git Bash" in little dropdown
 - Let's do this together now!
-
-## Let's Set Things Up: `git config` ⚙️
-
-Run the following commands in your terminal to correctly configure git on your computer.
-
-```bash
-# Add your name
-git config --global user.name "Your Name"
-
-# Add your email address
-git config --global user.email "your.email@kit.edu"
-
-# Use modern main branch name
-git config --global init.defaultbranch main
-```
-
-## Let's Set Things Up: `git config` ⚙️
-
-For Linux/Mac:
-
-```bash
-git config --global core.autocrlf input
-```
-
-For Windows:
-
-```bash
-git config --global core.autocrlf true
-```
-
-Why? Windows saves linebreaks (enter) differently then Linux/Mac does 🤷‍♂️
 
 # Getting started with git (for real) {background-color="black" background-opacity="0.7" background-image="images/backgrounds/rolling-up-sleeves.gif"}
 
@@ -182,12 +151,16 @@ With `git init` we turn the *directory* into a *repository*.
 3. Use `git init` to initialize a new repository there
 4. Keep VS Code open in this directory for later
 
-## Downloading a repository: `git clone`
+## One more thing: `git config` ⚙️
 
-Alternatively, we can download a repository from the internet using the `clone` command. This will create a new repository on our machine and fill it with the remote repository's contents.
+Run the following commands in your terminal to correctly configure git on your computer.
 
 ```bash
-git clone https://github.com/open-teaching/git-murder-mystery.git
+# Add your name
+git config --global user.name "Your Name"
+
+# Add your email address
+git config --global user.email "your.email@yourmail.edu"
 ```
 
 ## *End of Section* 🎉 {background-color="black"}
