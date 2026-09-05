@@ -4,6 +4,7 @@ format:
   html:
     toc: true
     theme: cosmo
+    output-file: index.html
   pdf: default
 ---
 
