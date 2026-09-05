@@ -33,7 +33,7 @@ the **Terminal** app. On Linux, open your distribution's (or any
 other) terminal emulator. Enter the following commands one after the
 other (hitting ENTER after each command).
 
-```
+```bash
 ls ~/.ssh
 ```
 
@@ -51,7 +51,7 @@ If you do you, can skip the section that generate a SSH key pair, and go to the 
 
 In the command line, type the following by replacing your_email@email.com with your own email address. Pay attention to spaces and capital letter!
 
-```
+```bash
 ssh-keygen -t ed25519 -C "your_email@email.com"
 ```
 
@@ -101,7 +101,7 @@ We now need to tell GitHub about your public key. Display the contents of your n
 **Be careful**: do not copy the content of your *private* key, but your *public* key. Your public key ends with `.pub`.
 Please type the command below exactly as it is, in its entirety:
 
-```
+```bash
 cat ~/.ssh/id_ed25519.pub
 ```
 
@@ -142,7 +142,7 @@ repository, you can follow the following instructions.
 
 In the command line, start the ssh-agent with this command:
 
-```
+```bash
 eval "$(ssh-agent -s)"
 ```
 
@@ -153,7 +153,7 @@ Agent pid 59566
 
 Then, add your key to the ssh-agent by typing the entirety of this command:
 
-```
+```bash
 ssh-add ~/.ssh/id_ed25519
 ```
 
