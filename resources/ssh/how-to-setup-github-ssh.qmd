@@ -1,7 +1,9 @@
 ---
 title: Authenticating to GitHub via SSH
 format:
-  pdf
+  html:
+    toc: true
+  pdf: default
 ---
 
 :::{.callout-note}
