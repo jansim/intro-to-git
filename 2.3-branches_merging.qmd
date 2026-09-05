@@ -153,7 +153,7 @@ And how to avoid it.
 ## Practical: Setup {background-color="black"}
 
 1. Create a new file called `guessing_conflict.txt`
-2. Write the "Question" with the letters A to D into the file, with empty lines in between e.g.
+2. Write the "Question" with the letters A to C into the file, with empty lines in between e.g.
 
 ```text
 Question A
