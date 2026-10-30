@@ -1,0 +1,38 @@
+# Brand settings loosely based on the Digital Research Academy website
+# (https://digital-research.academy/). Kept intentionally subtle: the default
+# white slide background is preserved, only colours and typography are adapted.
+meta:
+  name: Digital Research Academy
+  link: https://digital-research.academy/
+
+color:
+  palette:
+    slate: "#40514e"
+    pink: "#eb8599"
+    pink-dark: "#b06473"
+    mint: "#e7f1e7"
+    grey: "#7a8288"
+  foreground: slate
+  background: "#ffffff"
+  primary: pink-dark
+  secondary: grey
+  light: mint
+  dark: slate
+
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+      weight: [300, 400, 500, 700]
+      style: [normal, italic]
+  base:
+    family: Roboto
+    weight: 400
+  headings:
+    family: Roboto
+    weight: 500
+    color: slate
+  link:
+    color: pink-dark
+  monospace-block:
+    background-color: mint
