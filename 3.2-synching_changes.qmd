@@ -11,7 +11,7 @@ You first `pull` the latest changes from the remote and then `push` your own cha
 
 ## Getting Changes: `git pull`
 
-- You can retrieve the latest changes from github by running `git pull`
+- You can retrieve the latest changes from GitLab by running `git pull`
 - This *fetches* the latest changes and *merges* them into your current branch
 - Typically your local branch is set up to *track* a remote branch with the same name (the `upstream`)
   - If not, you get a warning from git
@@ -49,7 +49,7 @@ git config pull.rebase false
 
 ## Pushing Your Changes: `git push`
 
-- You can send *your* changes to github by running `git push`
+- You can send *your* changes to GitLab by running `git push`
 - This only works if there are no new changes at the remote
   - If there have been changes since your last `pull` you need to `pull` again
 
@@ -68,20 +68,20 @@ git push -u <remote> <branch>
 
 # Questions?
 
-## Practical: Adding your own repository to Github {background-color="black"}
+## Practical: Adding your own repository to GitLab {background-color="black"}
 
-1. Create a new repository on GitHub with the name `git-intro-example`
+1. Create a new (blank) project on GitLab with the name `git-intro-example`
     - Make sure NOT to add a README or any other file when creating it
-2. In the example git repository we've been working in so far, add the just created GitHub repo as a remote
+2. In the example git repository we've been working in so far, add the just created GitLab repo as a remote
     - `git remote add origin <URL>`
-3. Push you changes so far to GitHub
+3. Push you changes so far to GitLab
    - `git push -u origin main`
 
 ## Optional Practical: Collaboration {background-color="black"}
 
 1. Form pairs
 2. One person adds the other to their `git-intro-example` repository
-   - Via the GitHub UI (write privileges)
+   - Via the GitLab UI (role *Maintainer*, so they can push to `main`)
 3. Each, add a new entry to the `library.txt`
 4. Try to provoke a merge conflict
 

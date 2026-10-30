@@ -124,15 +124,11 @@ git checkout 795780d
 
 ## Referencing Commits Relatively
 
-- You will also see `HEAD` in e.g. the `git log` or Sourcetree view
+- You will also see `HEAD` in e.g. the `git log` or VS Code
 - `HEAD` can be used to reference commits *relatively*
   - `HEAD` the current commit
   - `HEAD~1` the previous commit
   - `HEAD~2` two commits ago
-
-## Tracking changes: Using a GUI
-
-![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
 
 # Questions?
 

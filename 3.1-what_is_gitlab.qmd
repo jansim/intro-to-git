@@ -1,15 +1,16 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 3.1: Going Online - Github"
+subtitle: "Block 3.1: Going Online - GitLab"
 ---
 
-## What is GitHub?
+## What is GitLab?
 
-- GitHub is a website to host git repositories
+- GitLab is a website to host git repositories
 - By having your git repository online, you can easily collaborate with others
+- Helmholtz runs its own instance: [Helmholtz Codebase](https://codebase.helmholtz.cloud/)
 - There are many other similar, alternative websites
+  - GitHub
   - Codeberg 🇩🇪
-  - GitLab
   - Bitbucket
   - ... (and many more)
 - Together they contain the majority of the world's software
@@ -22,42 +23,35 @@ subtitle: "Block 3.1: Going Online - Github"
 - Free and Open-Source Software (FOSS)
 - Visibility
 
-# Demo: A Tour of github.com
+# Demo: A Tour of Helmholtz GitLab
 
-# Connecting git and github
+# Connecting git and GitLab
 
-## Authenticating with GitHub 🗝️ {background-color="black"}
+## Authenticating with GitLab 🗝️ {background-color="black"}
 
-- We will use a great external guide to set up the authentication with GitHub
-- Please go to the [website](https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html) and follow the steps to authenticate with GitHub
-- A PDF version of the guide can be found [here](./resources/ssh/how-to-setup-github-ssh.pdf)
-
-![https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/SSH.html](images/qr_code-lmu-osc-ssh.svg)
-
-::: attribution
-External Guide by Mike Croucher & Malika Ihle
-:::
+- You should already have set up the authentication with GitLab before the course
+- If you didn't (or ran into problems), please go to the [setup guide](https://gitlab.com/digital-research-academy/setup-git-gitlab) and follow the steps to authenticate with GitLab
 
 ## Cloning a Repository
 
-- You can download repositories from GitHub (and anywhere else), by *cloning* them
+- You can download repositories from GitLab (and anywhere else), by *cloning* them
 - For public repositories, `git clone` just works, for private ones you will need to be authenticated
 - `git clone <remote URL>`
 
 ## Cloning a Repository
 
-![You can find the remote URL by going to a repository on GitHub and clicking the Code button](images/screenshots/github-get-remote-url.png)
+You can find the remote URL by going to a repository on GitLab and clicking the *Code* button.
 
 ```bash
-git clone git@github.com:jansim/intro-to-git.git
+git clone git@codebase.helmholtz.cloud:<course-repository>.git
 ```
 
 ## Practical: Cloning a private repository {background-color="black"}
 
-1. Go to the website of the repository I added you all to: `https://github.com/open-teaching/git-course-summary-<current-term>`
-2. Copy the SSH clone URL from the repositories website
+1. Go to the website of the repository I added you all to: `https://codebase.helmholtz.cloud/<course-repository>`
+2. Copy the SSH clone URL from the repository's website
 3. In the terminal, navigate up one folder (`cd ..`)
-4. Clone the repository to check whether you can authenticate with github
+4. Clone the repository to check whether you can authenticate with GitLab
 5. Go back to the `git-exercise` folder (`cd git-exercise`)
 
 # Remotes {background-color="black" background-opacity="0.3" background-image="images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
@@ -76,7 +70,7 @@ Background: https://unsplash.com/photos/EOQhsfFBhRk
 
 ## Adding a Remote
 
-When you want to add an existing repository to github, you will have to add the remote yourself
+When you want to add an existing repository to GitLab, you will have to add the remote yourself
 
 ```bash
 git remote add <remote name> <remote URL>
@@ -88,7 +82,7 @@ git remote add <remote name> <remote URL>
 For example:
 
 ```bash
-git remote add origin git@github.com:jansim/intro-to-git.git
+git remote add origin git@codebase.helmholtz.cloud:<your-username>/git-intro-example.git
 ```
 :::
 

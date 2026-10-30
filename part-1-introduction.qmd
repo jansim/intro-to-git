@@ -1,0 +1,213 @@
+---
+title: "Git@Hereon"
+subtitle: "Part 1: Input, Introduction and Discussion"
+---
+
+## First things first: Language 🇬🇧/🇩🇪
+
+::: {.nonincremental}
+
+- Slides are in English
+- Spoken: German or English?
+  - Do you have a preference / does anyone not speak German?
+
+:::
+
+## Introductions: Who am I? 🙋🏼‍♂️
+
+::: {.nonincremental}
+
+- Jan Simson
+- Background
+  - Computer Science (Ausbildung)
+  - BSc Psychology (Konstanz)
+  - MSc Behavioural Data Science (Amsterdam)
+  - PhD Statistics (München)
+  - Worked at research lab & startup before
+- Worked with `git` for a couple of years
+
+:::
+
+## Introductions: Who are you? 🙋🏻‍♀️🙋🏽‍♂️🙋
+
+::: {.nonincremental}
+
+- Which group are you in and what are you working on?
+- What do you wish to learn from this course?
+- Do you have any experience with git already?
+
+:::
+
+## What is the course about?
+
+- **Goal**: By the end of the day you can...
+  - explain what version control changes for a research group
+  - use branches and merge requests in GitLab to make and review a change (incl. one made with Claude Code)
+  - take home a first draft of a shared Git guide for your group
+- **Format**: Mix of input, practicals & discussion
+  - Feel free to always ask questions any time!
+
+## Agenda & Timeline
+
+::: {.nonincremental}
+
+- 09:00 - 10:00 **Part 1:** Input, Introduction and Discussion (1:00)
+- 10:00 - 10:20 *Pause* ☕️
+- 10:20 - 12:00 **Part 2.1:** Your Repository – Technical Basis (1:40)
+- 12:00 - 13:00 *Lunchbreak* 🍲
+- 13:00 - 14:40 **Part 2.2:** Your Repository – Technical Basis (1:40)
+- 14:40 - 15:00 *Pause* ☕️
+- 15:00 - 16:00 **Part 3:** Developing a Shared Git Guide Together (1:00)
+- 16:00 - 16:20 *Pause* ☕️
+- 16:20 - 17:00 **Part 3:** Developing a Shared Git Guide Together (0:40)
+
+:::
+
+The speed of the class is always a bit variable, so the number of covered topics may differ a bit.
+
+# Why Version Control Matters for Research {background-color="black" background-opacity="0.3" background-image="images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg"}
+
+::: attribution
+Background: https://unsplash.com/photos/842ofHC6MaI
+:::
+
+## Sounds Familiar? 📁
+
+```text
+analysis.py
+analysis_v2.py
+analysis_v2_final.py
+analysis_v2_final_FINAL.py
+analysis_v2_final_FINAL_comments-jan.py
+```
+
+::: {.fragment}
+Version control replaces this with a single file and a full history of all its changes.
+:::
+
+## What is Version Control?
+
+- Records all changes to your files over time
+  - Who changed what, when and (ideally) why
+- Allows you to go back to any previous version
+- Allows multiple people to work on the same files at the same time
+- The most common tool for this is `git` (more on that in Part 2)
+
+## Why does it Matter for Research? 🔬
+
+- Research increasingly depends on code
+  - Analysis scripts, models, simulations, data processing, ...
+- Results are only as trustworthy as the code that produced them
+- Research code is often written by small and changing teams
+  - Frequently without any formal training in software development
+
+# Code as a Research Record
+
+## Code as a Research Record 📜
+
+- Like a lab notebook, a repository documents how results came about
+- Each commit records what changed, when, by whom and why
+- You can go back to exactly the version that was used for a paper, figure or dataset
+  - Even years later
+
+## Continuity: When People Move On 👋
+
+- PhD students and postdocs leave, their code stays
+- Without version control, code often lives on someone's laptop (or in someone's head)
+- With a shared repository
+  - Code is in a central place that the *group* owns
+  - The history explains *why* things are the way they are
+  - New people can pick up where others left off
+
+## Discussion 💬
+
+::: {.nonincremental}
+
+- Where does the code of your group live right now?
+- What would happen if the person who wrote it left tomorrow?
+
+:::
+
+# Review: Peer Review for Code
+
+## Bringing Peer Review to Code 🔍
+
+- We review papers before they are published, but code is rarely reviewed
+- *Merge requests* bring a review step to code
+  - Changes are proposed on a separate *branch*
+  - Someone else looks at them, comments and approves them
+  - Only then are they merged into the main version
+- Catches errors early & spreads knowledge across the group
+
+## Review Doesn't Have to be Heavy 🪶
+
+- A second pair of eyes is already a big improvement
+- Questions to ask in a review
+  - Do I understand what this change does and why?
+  - Does it do what it claims to do?
+  - Could it break something else?
+- We will practice this in Part 2
+
+# AI Assistants and Accountability
+
+## AI Coding Assistants 🤖
+
+- Tools like Claude Code can read, write and change code in your projects
+- They can save a lot of time
+  - e.g. for documentation, refactoring or understanding unfamiliar code
+- **But**: They also make mistakes, which can look very convincing
+
+## Who is Accountable? ⚖️
+
+- The person who merges a change is responsible for it
+  - No matter who (or what) wrote it
+- Version control makes changes by AI assistants visible & reviewable
+  - Let the assistant work on a separate branch
+  - Review its changes just like those of a colleague (via a merge request)
+
+## Who is Accountable? Open Questions 🤔
+
+Questions your group will need to answer:
+
+- Which tools are we allowed to use?
+- Which code and data may be shared with them?
+- Should changes made with an AI assistant be marked as such?
+
+# Open Science and Group Decisions
+
+## Open Science 🔓
+
+- Sharing code makes research more transparent and reproducible
+- Journals and funders increasingly expect code to be available
+- When making code public, also think about
+  - A license, so others know how they are allowed to use it
+    - To help you pick a license: <https://choosealicense.com/>
+  - A `CITATION` file, so people know how to cite it
+  - A DOI (digital object identifier), e.g. via [Zenodo](https://zenodo.org/about)
+
+## Decisions Your Group Needs to Make 🧭
+
+Version control works best when a group agrees on how to use it.
+
+- *Scope*: What goes into git (and what doesn't)?
+- *Collaboration*: How do we change shared code?
+- *AI assistants*: How do we work with tools like Claude Code?
+- *Continuity*: How do we ensure reproducibility, publishing and handover?
+
+::: {.fragment}
+We will draft answers to these questions together in Part 3 ✍️
+:::
+
+# Questions & Discussion {background-opacity="0.4" background-image="images/backgrounds/questions.gif" background-position="top"}
+
+<!-- Src: https://giphy.com/gifs/dogs-puppy-confused-xT0xeuOy2Fcl9vDGiA -->
+
+## *End of Part 1* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Part]](./1.0-intro.html)

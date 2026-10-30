@@ -3,7 +3,6 @@ project:
   output-dir: "output"
   render:
     - "/*.qmd"
-    - "resources/*/*.qmd"
 
 author: "Jan Simson"
 format:
