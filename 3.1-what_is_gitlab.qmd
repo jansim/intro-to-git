@@ -43,12 +43,12 @@ subtitle: "Block 3.1: Going Online - GitLab"
 You can find the remote URL by going to a repository on GitLab and clicking the *Code* button.
 
 ```bash
-git clone git@codebase.helmholtz.cloud:<course-repository>.git
+git clone git@github.com:jansim/dra-git-hereon.git
 ```
 
 ## Practical: Cloning a private repository {background-color="black"}
 
-1. Go to the website of the repository I added you all to: `https://codebase.helmholtz.cloud/<course-repository>`
+1. Go to the website of the repository I added you all to: `https://github.com/jansim/dra-git-hereon/`
 2. Copy the SSH clone URL from the repository's website
 3. In the terminal, navigate up one folder (`cd ..`)
 4. Clone the repository to check whether you can authenticate with GitLab
