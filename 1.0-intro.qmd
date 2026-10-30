@@ -1,23 +1,14 @@
 ---
 title: "Intro to `git`"
-subtitle: "Course Introduction"
+subtitle: "Part 2: Your Repository – Technical Basis"
 ---
 
-## First things first: Language 🇬🇧/🇩🇪
+## What is this part about?
 
-::: {.nonincremental}
-
-- Slides are in English
-- Spoken: German or English?
-  - Do you have a preference / does anyone not speak German?
-
-:::
-
-## What is the course about?
-
-- **Goal**: Learn everything that is necessary to effectively...
-  - use `git` to track your own work
-  - use `git` to collaborate with others
+- **Goal**: Learn everything that is necessary to...
+  - create your own repository in GitLab
+  - use branches and merge requests to make and review a change
+  - including a change made with Claude Code
 - **Format**: Mix of theory & practicals
   - Feel free to always ask questions any time!
 
@@ -25,53 +16,13 @@ subtitle: "Course Introduction"
 
 ::: {.nonincremental}
 
-- 10:00 - 11:30 **Block 1:** Introduction & Basics (1:30)
-- 11:30 - 11:45 *Pause* ☕️
-- 11:45 - 13:00 **Block 2:** Branches & More (1:15)
-- 13:00 - 14:00 *Lunchbreak* 🍲
-- 14:00 - 15:15 **Block 3:** Collaboration via Github (1:15)
-- 15:15 - 15:30 *Pause* ☕️
-- 15:30 - 16:45 **Block 4:** Advanced Github & Beyond (1:15)
-
-:::
-
-The speed of the class is always a bit variable, so the number of covered topics may differ a bit.
-
-## Introductions: Who am I? 🙋🏼‍♂️
-
-::: {.nonincremental}
-
-- Jan Simson
-- Background
-  - Computer Science (Ausbildung)
-  - BSc Psychology (Konstanz)
-  - MSc Behavioural Data Science (Amsterdam)
-  - PhD Statistics (München)
-  - Worked at research lab & startup before
-- Worked with `git` for a couple of years
-
-:::
-
-## Introductions: Who are you? 🙋🏻‍♀️🙋🏽‍♂️🙋
-
-::: {.nonincremental}
-
-- What do you wish to learn from this course?
-- Do you have any experience with git already?
-- What's your GitHub username?
-
-:::
-
-![](images/qr_code-quiz.svg)
-
-<https://pingo.scc.kit.edu/>
-
-## Introductions: Administration 📜
-
-::: {.nonincremental}
-
-- I will go over the list of registered students
-- Is everyone registered for the course?
+- 10:20 - 12:00 **Part 2.1** (1:40)
+  - **Block 1:** Introduction & Basics
+  - **Block 2:** Branches & More
+- 12:00 - 13:00 *Lunchbreak* 🍲
+- 13:00 - 14:40 **Part 2.2** (1:40)
+  - **Block 3:** Collaboration via GitLab
+  - **Block 4:** Merge Requests & Claude Code
 
 :::
 
@@ -79,10 +30,10 @@ The speed of the class is always a bit variable, so the number of covered topics
 
 - Software
   - *git*: The tool itself
-  - *Sourcetree*: A graphical user interface (GUI) to use git
-  - *Visual Studio Code*: A text editor, which also allows using git via its GUI
+  - *Visual Studio Code*: A text editor, which also allows using git via its graphical user interface (GUI)
 
-- *GitHub*: Website to collaborate via git
+- *Helmholtz GitLab*: Website to collaborate via git
+- Setup guide: <https://gitlab.com/digital-research-academy/setup-git-gitlab>
 
 ## Text Editor: Visual Studio Code
 

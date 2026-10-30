@@ -144,9 +144,9 @@ And how to avoid it.
 - To resolve a merge conflict, we will have to pick one of the two versions
   - Once a solution is picked for every conflict you can commit the solution and the merge continues / finishes
 - Picking a solution is easiest to do by using GUI tools
-  - Both Sourcetree and VSCode have great UIs for this
+  - VSCode has a great UI for this
 
-# DEMO: Resolving merge conflicts in VS Code and SourceTree
+# DEMO: Resolving merge conflicts in VS Code
 
 # *Practical:* Creating & Resolving a Merge Conflict {background-color="black"}
 
@@ -208,45 +208,6 @@ Question C 🍻 Liters of beer [^3]
 1. Go to https://learngitbranching.js.org/
 2. Finish Lessons 1, 2 and 3 on the website
 
-## 🎉 Bonus: Rebasing - The Alternative to Merging
-
-- You can also combine two branches by rebasing them (instead of merging)
-- When rebasing, all extra commits on your current branch will be moved to the target branch
-  - This alters the affected commits ‼️
-  - Leads to a single history
-- Use with caution
-
-```bash
-# You call git rebase e.g. on the feature branch
-git checkout feature
-```
-
-::: attribution
-More Info: <https://www.atlassian.com/git/tutorials/merging-vs-rebasing>
-:::
-
-## 🎉 Rebasing: The Alternative to Merging {background-color="#5cbcfc"}
-
-:::: {.columns}
-
-::: {.column .fragment width="50%"}
-
-Merging
-
-![](images/screenshots/learngitbranching/merged.png){width=65%}
-
-:::
-
-::: {.column .fragment width="50%"}
-
-Rebasing
-
-![](images/screenshots/learngitbranching/rebased.png){width=65%}
-
-:::
-
-::::
-
 ## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
 :::{.r-fit-text}
@@ -255,4 +216,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Block]](./3.1-what_is_github.html) 
+[[⏩️ Next Block]](./3.1-what_is_gitlab.html) 

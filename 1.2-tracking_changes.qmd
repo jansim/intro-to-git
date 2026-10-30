@@ -255,27 +255,13 @@ I'm aware this was a lot to take in.
 4. Commit the changes (with a good commit message)
 5. Delete the `library.txt` and restore it
 
-## Let's get Graphical: Tracking Changes in SourceTree
-
-![The labels in Sourcetree mirror the names within the git CLI](images/screenshots/sourcetree-test.png)
-
-- Demo!
-
-## Practical: git Command Library (2){background-color="black"}
-
-1. Run `git <command> -h` and copy the output into your `library.txt`
-2. Explore the repo status *using the GUI*
-3. Commit the changes (with a good commit message)
-4. Repeat steps 2. - 4. for **another command** we learned so far, using a separate commit
-5. Delete the `library.txt` and restore it
-
 ## Demo: Tracking Changes in VSCode
 
 ![Since VSCode is primarily a text editor, git functionality is hidden in the sidebar](images/screenshots/vscode-git.png)
 
 - Demo!
 
-## Practical: git Command Library (3){background-color="black"}
+## Practical: git Command Library (2){background-color="black"}
 
 1. Run `git <command> -h` and copy the output into your `library.txt`
 2. Explore the repo status *using the VSCode*

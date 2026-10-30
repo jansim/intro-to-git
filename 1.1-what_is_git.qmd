@@ -74,7 +74,7 @@ Git can be used via both a CLI and GUI.
 :::
 
 ::: {.column width="50%"}
-![An example of using git in SourceTree, a graphical user interface (GUI)](images/screenshots/sourcetree-test.png)
+![An example of using git in Visual Studio Code, a graphical user interface (GUI)](images/screenshots/vscode-git.png)
 :::
 
 ::::

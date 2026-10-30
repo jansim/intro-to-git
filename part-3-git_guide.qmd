@@ -1,0 +1,143 @@
+---
+title: "Git@Hereon"
+subtitle: "Part 3: Developing a Shared Git Guide Together"
+---
+
+## Why a Shared Git Guide? 🧭
+
+- `git` is very flexible, so every group uses it a bit differently
+- A shared guide writes down how *your* group wants to use it
+  - Makes it easier for new people to get started
+  - Avoids having the same discussions over and over again
+  - Makes expectations clear (e.g. regarding reviews or AI assistants)
+- It doesn't have to be perfect, a first draft is already a great start!
+
+## Agenda & Timeline
+
+::: {.nonincremental}
+
+- 15:00 - 15:10 Introduction to the session
+- 15:10 - 16:00 Group work: Drafting the sections
+- 16:00 - 16:20 *Pause* ☕️
+- 16:20 - 16:40 Presenting and discussing the drafts
+- 16:40 - 16:50 Compiling the sections into one guide
+- 16:50 - 17:00 Next steps
+
+:::
+
+## How We'll Work 🛠️
+
+- Each group drafts one section of the guide
+- We write the guide in Markdown, in a shared repository on GitLab
+  - Using exactly what you learned in Part 2!
+- Each group
+  - creates its own branch, e.g. `section-scope`
+  - writes its section in its own file, e.g. `scope.md`
+  - creates a merge request once the draft is done
+
+## Themes for the Sections 📋
+
+::: {.nonincremental}
+
+- *Scope*: What goes into Git
+- *Collaboration*: How we change shared code
+- *AI assistants*: How we work with Claude Code
+- *Continuity*: Reproducibility, publishing and handover
+
+:::
+
+## Theme: Scope 📦
+
+Some questions to get you started:
+
+::: {.nonincremental}
+
+- Which projects and files belong into git, which don't (e.g. large data, passwords)?
+- What do we put into our `.gitignore` files?
+- Where do our repositories live (e.g. which GitLab group)?
+- One repository per project, per paper or per person?
+
+:::
+
+## Theme: Collaboration 🤝
+
+Some questions to get you started:
+
+::: {.nonincremental}
+
+- When do we work on branches and how do we name them?
+- When do we use merge requests and who reviews them?
+- What makes a good commit (message)?
+- What do we do when we get stuck (e.g. in a merge conflict)?
+
+:::
+
+## Theme: AI Assistants 🤖
+
+Some questions to get you started:
+
+::: {.nonincremental}
+
+- Which AI assistants do we use and what for?
+- Which code and data may (not) be shared with them?
+- How do we review changes made with an AI assistant?
+- Do we mark these changes (e.g. in the commit message or merge request)?
+
+:::
+
+## Theme: Continuity 🔁
+
+Some questions to get you started:
+
+::: {.nonincremental}
+
+- How do we make sure results can be reproduced later on?
+- When and how do we publish our code (license, citation, DOI)?
+- What happens to a repository when someone leaves the group?
+- What documentation does every repository need (e.g. a `README`)?
+
+:::
+
+## Practical: Drafting a Section {background-color="black"}
+
+1. Form groups and pick one of the themes
+2. Clone the guide repository and create a new branch for your section
+3. Discuss the questions and write down your group's answers in your section's Markdown file
+    - Short and concrete is better than complete
+4. Commit and push your changes regularly
+5. Create a merge request once your draft is done
+
+## Presenting the Drafts 🎤
+
+- Each group presents their section (~5 min)
+  - What did you decide on?
+  - Where were you unsure or did you disagree?
+- Everyone else: Questions, comments and additions
+  - You can also comment directly in the merge request
+
+## Practical: Compiling the Guide {background-color="black"}
+
+1. Review the merge request of another group
+2. Incorporate (or discuss) the feedback you received
+3. Merge your section into `main`
+
+## Next Steps 🚀
+
+- The guide is a first draft, now it needs to be finalised
+- Who finalises the guide (and by when)?
+- How is the guide introduced to the rest of the group?
+- How is the guide kept up to date?
+  - Changes to the guide can be proposed via merge requests as well ✨
+
+# Evaluation
+
+## Sources
+
+This course uses materials from, builds upon and is inspired by the following amazing resources ✨
+
+- [The Carpentries: Version Control with Git](https://swcarpentry.github.io/git-novice/)
+- https://lmu-osc.github.io/Introduction-RStudio-Git-GitHub/
+- https://github.com/edunford/git-scavenger-hunt
+- https://gitimmersion.com
+
+# The End, Thank You! ❤️

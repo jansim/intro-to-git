@@ -1,0 +1,85 @@
+---
+title: "Intro to `git`"
+subtitle: "Block 4.2: Working with Claude Code"
+---
+
+## What is Claude Code? 🤖
+
+- An AI assistant that works directly in your project
+- Runs in the terminal (and inside VS Code)
+- It can read your files, change them and run commands (including `git`)
+- It asks for your permission before changing files or running commands
+
+## Starting Claude Code
+
+Open the terminal in your repository and run:
+
+```bash
+claude
+```
+
+Then just describe what you want it to do, e.g.
+
+```text
+Add a section to the README explaining what this repository is about
+```
+
+## Claude Code & git: Use a Branch 🌳
+
+- Let Claude Code work on its own branch, not on `main`
+  - Its changes stay separate until you reviewed them
+  - If you don't like the result, you can simply delete the branch
+
+::: {.fragment}
+```bash
+git checkout -b claude-readme
+# Switched to a new branch 'claude-readme'
+```
+:::
+
+## Reviewing the Changes 🔍
+
+- Treat changes by Claude Code just like changes by a colleague
+- Before committing, look at what actually changed
+  - `git status` to see which files were changed
+  - `git diff` (or VS Code) to see the changes line by line
+- Then commit, push and create a merge request as usual
+
+::: {.fragment}
+:::{.callout-important}
+You are responsible for what you merge, not the AI assistant!
+:::
+:::
+
+## Working with Claude Code: Tips 💡
+
+- Be specific about what you want
+- Keep changes small, so they are easy to review
+- Ask Claude Code to explain changes you don't understand
+- Never share passwords, keys or sensitive data with it
+
+# Demo: Claude Code on a Branch
+
+## Practical: Claude Code on a Branch {background-color="black"}
+
+1. Go back to your Terminal in `git-exercise`
+2. Create a new branch called `claude-code` and check it out
+3. Start Claude Code with `claude` and ask it to make a change (e.g. improve your `README`)
+4. Review the changes with `git status` and `git diff`
+5. Commit the changes and push the branch to GitLab
+6. Create a merge request and review the changes there once more
+7. Merge (or close) the merge request
+
+:::{.callout-note}
+No access to Claude Code? Pair up with someone who has access.
+:::
+
+## *End of Section* 🎉 {background-color="black"}
+
+:::{.r-fit-text}
+Any Questions?
+:::
+
+[[🏡 Back to Overview]](./index.html)
+
+[[⏩️ Next Section]](./4.3-final_notes.html)
