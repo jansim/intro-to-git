@@ -32,20 +32,6 @@ subtitle: "Block 3.1: Going Online - GitLab"
 - You should already have set up the authentication with GitLab before the course
 - If you didn't (or ran into problems), please go to the [setup guide](https://gitlab.com/digital-research-academy/setup-git-gitlab) and follow the steps to authenticate with GitLab
 
-## Cloning a Repository
-
-- You can download repositories from GitLab (and anywhere else), by *cloning* them
-- For public repositories, `git clone` just works, for private ones you will need to be authenticated
-- `git clone <remote URL>`
-
-## Cloning a Repository
-
-You can find the remote URL by going to a repository on GitLab and clicking the *Code* button.
-
-```bash
-git clone git@github.com:jansim/dra-git-hereon.git
-```
-
 # Remotes {background-color="black" background-opacity="0.3" background-image="images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
 
 ::: attribution
