@@ -9,6 +9,29 @@ author: "Jan Simson"
 format:
   revealjs:
     incremental: true
+    menu:
+      # Extra panel in the slide menu linking to the home page and all sections.
+      # Quarto merges this with its own "Tools" panel.
+      custom:
+        - title: "Course"
+          icon: '<span style="display: inline-block; font-size: 1.5rem; line-height: 1.8rem; height: 1.8rem; vertical-align: -0.125em;">🏠</span>'
+          content: |
+            <ul class="slide-menu-items">
+              <li class="slide-menu-item"><a href="index.html"><b>Home</b></a></li>
+              <li class="slide-menu-item"><a href="1.0-intro.html">1.0 Intro</a></li>
+              <li class="slide-menu-item"><a href="1.1-what_is_git.html">1.1 What is git?</a></li>
+              <li class="slide-menu-item"><a href="1.2-tracking_changes.html">1.2 Tracking Changes</a></li>
+              <li class="slide-menu-item"><a href="2.1-gitignore.html">2.1 .gitignore</a></li>
+              <li class="slide-menu-item"><a href="2.2-history.html">2.2 History</a></li>
+              <li class="slide-menu-item"><a href="2.3-branches_merging.html">2.3 Branches &amp; Merging</a></li>
+              <li class="slide-menu-item"><a href="3.1-what_is_github.html">3.1 What is GitHub?</a></li>
+              <li class="slide-menu-item"><a href="3.2-synching_changes.html">3.2 Synching Changes</a></li>
+              <li class="slide-menu-item"><a href="3.3-markdown.html">3.3 Markdown</a></li>
+              <li class="slide-menu-item"><a href="4.1-advanced_github.html">4.1 Advanced GitHub</a></li>
+              <li class="slide-menu-item"><a href="4.2-final_notes.html">4.2 Final Notes</a></li>
+              <li class="slide-menu-item"><a href="5.0-outro.html">5.0 Outro</a></li>
+              <li class="slide-menu-item"><a href="6.0-bonus-practical.html">Bonus Practical</a></li>
+            </ul>
 revealjs-plugins:
   - attribution
 title-slide-attributes:
