@@ -52,6 +52,8 @@ format:
           #title-slide .title,
           #title-slide .subtitle,
           #title-slide .quarto-title-authors {
+            /* Purple from the DRA logo */
+            color: #77648a;
             /* Halo in the video's background colour keeps text legible */
             text-shadow: 0 0 6px #f1ece2, 0 0 12px #f1ece2, 0 0 24px #f1ece2;
           }

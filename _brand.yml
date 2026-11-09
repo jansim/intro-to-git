@@ -10,11 +10,12 @@ color:
     slate: "#40514e"
     pink: "#eb8599"
     pink-dark: "#b06473"
+    purple: "#77648a"
     mint: "#e7f1e7"
     grey: "#7a8288"
   foreground: slate
   background: "#ffffff"
-  primary: pink-dark
+  primary: purple
   secondary: grey
   light: mint
   dark: slate
@@ -33,6 +34,6 @@ typography:
     weight: 500
     color: slate
   link:
-    color: pink-dark
+    color: purple
   monospace-block:
     background-color: mint
