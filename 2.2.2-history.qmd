@@ -1,6 +1,6 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 2.2: History"
+subtitle: "Block 2.2.2: History"
 ---
 
 # Traveling Through Time: `git log` {background-color="black" background-opacity="0.5" background-image="images/backgrounds/back-to-the-future-time.gif"}
@@ -148,4 +148,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./2.3-branches_merging.html) 
+[[⏩️ Next Section]](./2.2.3-branches_merging.html) 

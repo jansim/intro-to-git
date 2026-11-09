@@ -1,6 +1,6 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 1.1: What is git?"
+subtitle: "Block 2.1.1: What is git?"
 ---
 
 ::: attribution
@@ -171,4 +171,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./1.2-tracking_changes.html) 
+[[⏩️ Next Section]](./2.1.2-tracking_changes.html) 

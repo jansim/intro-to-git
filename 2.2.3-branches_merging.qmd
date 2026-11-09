@@ -1,6 +1,6 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 2.3: Branches & Merging"
+subtitle: "Block 2.2.3: Branches & Merging"
 ---
 
 # Alternate Realities: <br> `git branches` {background-color="black" background-opacity="0.7" background-image="images/backgrounds/suganth-V1YEEItoOTE-unsplash.jpg"}
@@ -216,4 +216,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Block]](./3.1-what_is_gitlab.html) 
+[[⏩️ Next Block]](./2.3.1-what_is_gitlab.html) 

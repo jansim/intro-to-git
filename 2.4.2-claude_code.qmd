@@ -1,6 +1,6 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 4.2: Working with Claude Code"
+subtitle: "Block 2.4.2: Working with Claude Code"
 ---
 
 ## What is Claude Code? 🤖
@@ -82,4 +82,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./4.3-final_notes.html)
+[[⏩️ Next Section]](./2.4.3-final_notes.html)

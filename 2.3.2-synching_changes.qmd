@@ -1,6 +1,6 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 3.2: Synchronizing Changes"
+subtitle: "Block 2.3.2: Synchronizing Changes"
 ---
 
 ## Syncing Changes: Overview
@@ -93,4 +93,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./3.3-markdown.html) 
+[[⏩️ Next Section]](./2.3.3-markdown.html) 

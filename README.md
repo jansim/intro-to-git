@@ -14,43 +14,43 @@ workshop “Git@Hereon”.
 ### Slides
 
 - Part 1: Input, Introduction and Discussion
-  [\[slides\]](https://simson.io/dra-git-hereon/part-1-introduction.html)
+  [\[slides\]](https://simson.io/dra-git-hereon/1.0-introduction.html)
 
 - Part 2: Your Repository – Technical Basis
 
   - Part 2.1 (before lunch)
-    - Block 1: Introduction & Basics
-      - 1.0 Intro
-        [\[slides\]](https://simson.io/dra-git-hereon/1.0-intro.html)
-      - 1.1 What is git?
-        [\[slides\]](https://simson.io/dra-git-hereon/1.1-what_is_git.html)
-      - 1.2 Tracking Changes
-        [\[slides\]](https://simson.io/dra-git-hereon/1.2-tracking_changes.html)
-    - Block 2: Branches & More
-      - 2.1 .gitignore
-        [\[slides\]](https://simson.io/dra-git-hereon/2.1-gitignore.html)
-      - 2.2 History
-        [\[slides\]](https://simson.io/dra-git-hereon/2.2-history.html)
-      - 2.3 Branches & Merging
-        [\[slides\]](https://simson.io/dra-git-hereon/2.3-branches_merging.html)
+    - Block 2.1: Introduction & Basics
+      - 2.1.0 Intro
+        [\[slides\]](https://simson.io/dra-git-hereon/2.1.0-intro.html)
+      - 2.1.1 What is git?
+        [\[slides\]](https://simson.io/dra-git-hereon/2.1.1-what_is_git.html)
+      - 2.1.2 Tracking Changes
+        [\[slides\]](https://simson.io/dra-git-hereon/2.1.2-tracking_changes.html)
+    - Block 2.2: Branches & More
+      - 2.2.1 .gitignore
+        [\[slides\]](https://simson.io/dra-git-hereon/2.2.1-gitignore.html)
+      - 2.2.2 History
+        [\[slides\]](https://simson.io/dra-git-hereon/2.2.2-history.html)
+      - 2.2.3 Branches & Merging
+        [\[slides\]](https://simson.io/dra-git-hereon/2.2.3-branches_merging.html)
   - Part 2.2 (after lunch)
-    - Block 3: Collaboration via GitLab
-      - 3.1 What is GitLab?
-        [\[slides\]](https://simson.io/dra-git-hereon/3.1-what_is_gitlab.html)
-      - 3.2 Synching Changes
-        [\[slides\]](https://simson.io/dra-git-hereon/3.2-synching_changes.html)
-      - 3.3 Markdown
-        [\[slides\]](https://simson.io/dra-git-hereon/3.3-markdown.html)
-    - Block 4: Merge Requests & Claude Code
-      - 4.1 Merge Requests
-        [\[slides\]](https://simson.io/dra-git-hereon/4.1-merge_requests.html)
-      - 4.2 Working with Claude Code
-        [\[slides\]](https://simson.io/dra-git-hereon/4.2-claude_code.html)
-      - 4.3 Final Notes
-        [\[slides\]](https://simson.io/dra-git-hereon/4.3-final_notes.html)
+    - Block 2.3: Collaboration via GitLab
+      - 2.3.1 What is GitLab?
+        [\[slides\]](https://simson.io/dra-git-hereon/2.3.1-what_is_gitlab.html)
+      - 2.3.2 Synching Changes
+        [\[slides\]](https://simson.io/dra-git-hereon/2.3.2-synching_changes.html)
+      - 2.3.3 Markdown
+        [\[slides\]](https://simson.io/dra-git-hereon/2.3.3-markdown.html)
+    - Block 2.4: Merge Requests & Claude Code
+      - 2.4.1 Merge Requests
+        [\[slides\]](https://simson.io/dra-git-hereon/2.4.1-merge_requests.html)
+      - 2.4.2 Working with Claude Code
+        [\[slides\]](https://simson.io/dra-git-hereon/2.4.2-claude_code.html)
+      - 2.4.3 Final Notes
+        [\[slides\]](https://simson.io/dra-git-hereon/2.4.3-final_notes.html)
 
 - Part 3: Developing a Shared Git Guide Together
-  [\[slides\]](https://simson.io/dra-git-hereon/part-3-git_guide.html)
+  [\[slides\]](https://simson.io/dra-git-hereon/3.0-git_guide.html)
 
 <!-- *: Since they have to be manually generated, the PDF version of slides may be slightly outdated. Please refer to [this guide](https://revealjs.com/pdf-export/), on how to export your own PDF version from the online slides. -->
 

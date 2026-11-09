@@ -1,6 +1,6 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 4.3: Final Bits"
+subtitle: "Block 2.4.3: Final Bits"
 ---
 
 ## Final Summary
@@ -49,4 +49,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Part]](./part-3-git_guide.html) 
+[[⏩️ Next Part]](./3.0-git_guide.html) 

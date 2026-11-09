@@ -1,6 +1,6 @@
 ---
 title: "Intro to `git`"
-subtitle: "Block 4.1: Merge Requests"
+subtitle: "Block 2.4.1: Merge Requests"
 ---
 
 ## Merge Requests (MRs)
@@ -77,4 +77,4 @@ Any Questions?
 
 [[🏡 Back to Overview]](./index.html)
 
-[[⏩️ Next Section]](./4.2-claude_code.html) 
+[[⏩️ Next Section]](./2.4.2-claude_code.html) 
