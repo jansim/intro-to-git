@@ -7,37 +7,6 @@ subtitle: "Block 2.1.1: What is git?"
 Background: https://unsplash.com/photos/842ofHC6MaI
 :::
 
-## What is git?
-
-- Version Control System (VCS)
-  - Looks at the changes in your files
-  - Records all changes over time to give you a full history
-  - Similar to "track changes" in Microsoft Word / LibreOffice
-
-::: {.fragment}
-
-![Git only looks at and tracks the *changes* in a file](images/carpentries/play-changes.svg)
-
-:::
-
-## What is git? *Strengths* & Weaknesses
-
-- Strengths 💪
-  - Very hard to lose files with git
-  - Great for collaboration
-  - Fast (like, really fast)
-  - History allows you to go back and understand changes or revert when there are problems
-  - Reproducibility
-
-## What is git? Strengths & *Weaknesses*
-
-- Weaknesses 😢
-  - Can be a bit complicated to use (esp. at first)
-  - History takes up file space (but only little)
-  - Struggles with binary (i.e. non-text) files
-  - Struggles with large files
-    - Not good for storing data!
-  - You do need to *explicitly* use it i.e. it doesn't just work in the background
 
 ## CLI vs. GUI?!
 
