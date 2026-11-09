@@ -3,12 +3,6 @@ title: "Git@Hereon"
 subtitle: "Part 3: Developing a Shared Git Guide Together"
 ---
 
-## Agenda
-
-- [x] **Part 1:** Input, Introduction and Discussion 
-- [x] **Part 2:** Your Repository - Technical Basis
-- [ ] **Part 3:** Developing a Shared Git Guide ⬅️
-
 ## Agenda & Timeline
 
 ::: {.nonincremental}

@@ -3,13 +3,9 @@ title: "Intro to `git`"
 subtitle: "Part 2: Your Repository – Technical Basis"
 ---
 
-## Agenda
-
-- [x] **Part 1:** Input, Introduction and Discussion 
-- [ ] **Part 2:** Your Repository - Technical Basis ⬅️
-- [ ] **Part 3:** Developing a Shared Git Guide
-
 ## What is this part about?
+
+::: {.nonincremental}
 
 - **Goal**: Learn everything that is necessary to...
   - create your own repository in GitLab
@@ -17,6 +13,8 @@ subtitle: "Part 2: Your Repository – Technical Basis"
   - including a change made with Claude Code
 - **Format**: Mix of theory & practicals
   - Feel free to always ask questions any time!
+
+:::
 
 ## Agenda & Timeline
 

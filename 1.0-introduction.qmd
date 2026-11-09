@@ -44,8 +44,7 @@ Show of hands.
   - explain what version control can do for a research group
   - use branches and merge requests in GitLab to make and review a change
   - take home a first draft of a shared Git guide
-- **Format**: Mix of input, practicals & discussion
-  - Feel free to always ask questions any time!
+- Feel free to always ask questions any time!
 
 ## Agenda & Timeline*
 
@@ -238,12 +237,6 @@ Questions your group will need to answer:
   - A DOI (digital object identifier), e.g. via [Zenodo](https://zenodo.org/about)
 
 # Questions & Discussion {background-opacity="0.4" background-image="images/backgrounds/questions.gif" background-position="top"}
-
-## Agenda
-
-- [x] **Part 1:** Input, Introduction and Discussion 
-- [ ] **Part 2:** Your Repository - Technical Basis
-- [ ] **Part 3:** Developing a Shared Git Guide
 
 ## *End of Part 1* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
