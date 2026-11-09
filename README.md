@@ -1,8 +1,23 @@
 # Git@Hereon
 Jan Simson
 
-This repository contains the course materials for the one-day, onsite
-workshop “Git@Hereon”.
+<a href="https://digital-research.academy/"><img src="images/DRA_LogoNoText.png" alt="Digital Research Academy logo" width="120" align="right"></a>
+
+This repository contains the course materials for “Git@Hereon”, a
+one-day, onsite workshop on version control with `git` and GitLab,
+offered by the [Digital Research Academy
+(DRA)](https://digital-research.academy/).
+
+Over the course of the day, participants learn what version control can
+do for a research group, practice the core `git` workflow (tracking
+changes, branches and merging), collaborate via GitLab using merge
+requests, and try out working with agentic coding tools such as Claude
+Code. The workshop closes with participants drafting a shared Git guide
+for their own group.
+
+The workshop mixes short input sessions with hands-on practicals and
+discussion. Below you will find links to all slides, as well as
+supporting documents and further resources.
 
 <!--
   To update the README, render this file directly via
