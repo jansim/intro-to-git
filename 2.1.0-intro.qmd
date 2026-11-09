@@ -3,6 +3,12 @@ title: "Intro to `git`"
 subtitle: "Part 2: Your Repository – Technical Basis"
 ---
 
+## Agenda
+
+- [x] **Part 1:** Input, Introduction and Discussion 
+- [ ] **Part 2:** Your Repository - Technical Basis ⬅️
+- [ ] **Part 3:** Developing a Shared Git Guide
+
 ## What is this part about?
 
 - **Goal**: Learn everything that is necessary to...
@@ -16,11 +22,11 @@ subtitle: "Part 2: Your Repository – Technical Basis"
 
 ::: {.nonincremental}
 
-- 10:50 - 12:30 **Part 2.1** (1:40)
+- 10:50 - 12:30 **Part 2**
   - Introduction & Basics
   - Branches & More
 - 12:30 - 13:30 *Lunchbreak* 🍲
-- 13:30 - 15:10 **Part 2.2** (1:40)
+- 13:30 - 15:10 **Part 2 ** *(cont.)*
   - Collaboration via GitLab
   - Merge Requests & Claude Code
 
