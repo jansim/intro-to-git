@@ -3,27 +3,27 @@ title: "Git@Hereon"
 subtitle: "Part 3: Developing a Shared Git Guide Together"
 ---
 
-## Why a Shared Git Guide? 🧭
-
-- `git` is very flexible, so every group uses it a bit differently
-- A shared guide writes down how *your* group wants to use it
-  - Makes it easier for new people to get started
-  - Avoids having the same discussions over and over again
-  - Makes expectations clear (e.g. regarding reviews or AI assistants)
-- It doesn't have to be perfect, a first draft is already a great start!
-
 ## Agenda & Timeline
 
 ::: {.nonincremental}
 
-- 15:00 - 15:10 Introduction to the session
-- 15:10 - 16:00 Group work: Drafting the sections
-- 16:00 - 16:20 *Pause* ☕️
-- 16:20 - 16:40 Presenting and discussing the drafts
-- 16:40 - 16:50 Compiling the sections into one guide
-- 16:50 - 17:00 Next steps
+- 15:30 - 15:40 Introduction to the session
+- 15:40 - 16:30 Group work: Drafting the sections
+- 16:30 - 16:50 *Pause* ☕️
+- 16:50 - 17:10 Presenting and discussing the drafts
+- 17:10 - 17:20 Compiling the sections into one guide
+- 17:20 - 17:30 Next steps
 
 :::
+
+## Why a Shared Git Guide?
+
+- `git` is very flexible, so every group uses it slightly differently
+- A shared guide writes down how *your organization* wants to use it
+  - Easier onboarding
+  - Clarity
+  - Consistency
+- It doesn't have to be perfect, a first draft is already a great start!
 
 ## How We'll Work 🛠️
 
@@ -31,11 +31,46 @@ subtitle: "Part 3: Developing a Shared Git Guide Together"
 - We write the guide in Markdown, in a shared repository on GitLab
   - Using exactly what you learned in Part 2!
 - Each group
-  - creates its own branch, e.g. `section-scope`
-  - writes its section in its own file, e.g. `scope.md`
-  - creates a merge request once the draft is done
+  - create you own branch, e.g. `section-scope`
+  - write your own section in its own file, e.g. `scope.md`
+  - create a merge request once the draft is done
 
-## Themes for the Sections 📋
+## Markdown
+
+Markdown is a simple language for basic text formatting
+
+- Markdown is widely used for simple text documents
+- We will also use it to write our Git guide in Part 3
+- It's also used for `READMEs`
+  - These are files describing a repository / giving an introduction
+  - They will be shown by default when you open a repository on a hosting website
+- [Example 🐍](https://github.com/python/cpython)
+
+## Markdown: The Basics
+
+Markdown is a simple language for basic text formatting
+
+```md
+# Big heading
+## Slightly smaller heading
+### Even smaller heading
+
+Normal text
+*italic text*
+**thick text**
+
+- A
+- Simple
+- List
+```
+
+## Markdown: The Basics
+
+![Example of the markdown code from before, but now rendered](images/screenshots/markdown.png)
+
+## Which Sections do you Want to Include?
+
+
 
 ::: {.nonincremental}
 

@@ -20,9 +20,9 @@ subtitle: "Part 1: Input, Introduction and Discussion"
 - Jan Simson
 - Background
   - Computer Science (Ausbildung)
-  - BSc Psychology (Konstanz)
   - MSc Behavioural Data Science (Amsterdam)
   - PhD Statistics (München)
+  - Digital Research Academy (DRA)
   - Worked at research lab & startup before
 - Worked with `git` for a couple of years
 
@@ -30,13 +30,10 @@ subtitle: "Part 1: Input, Introduction and Discussion"
 
 ## Introductions: Who are you? 🙋🏻‍♀️🙋🏽‍♂️🙋
 
-::: {.nonincremental}
+Show of hands.
 
-- Which group are you in and what are you working on?
-- What do you wish to learn from this course?
-- Do you have any experience with git already?
-
-:::
+- How many of you have used git before?
+- How many have used git with agentic tools? 
 
 ## What is the course about?
 
@@ -51,19 +48,19 @@ subtitle: "Part 1: Input, Introduction and Discussion"
 
 ::: {.nonincremental}
 
-- 09:00 - 10:00 **Part 1:** Input, Introduction and Discussion (1:00)
-- 10:00 - 10:20 *Pause* ☕️
-- 10:20 - 12:00 **Part 2.1:** Your Repository – Technical Basis (1:40)
-- 12:00 - 13:00 *Lunchbreak* 🍲
-- 13:00 - 14:40 **Part 2.2:** Your Repository – Technical Basis (1:40)
-- 14:40 - 15:00 *Pause* ☕️
-- 15:00 - 16:00 **Part 3:** Developing a Shared Git Guide Together (1:00)
-- 16:00 - 16:20 *Pause* ☕️
-- 16:20 - 17:00 **Part 3:** Developing a Shared Git Guide Together (0:40)
+- 09:30 - 10:30 **Part 1:** Input, Introduction and Discussion
+- 10:30 - 10:50 *Pause* ☕️
+- 10:50 - 12:30 **Part 2.1:** Your Repository – Technical Basis
+- 12:30 - 13:30 *Lunchbreak* 🍲
+- 13:30 - 14:70 **Part 2.2:** Your Repository – Technical Basis
+- 14:70 - 15:30 *Pause* ☕️
+- 15:30 - 16:30 **Part 3:** Developing a Shared Git Guide Together
+- 16:30 - 16:50 *Pause* ☕️
+- 16:50 - 17:30 **Part 3:** Developing a Shared Git Guide Together
 
 :::
 
-The speed of the class is always a bit variable, so the number of covered topics may differ a bit.
+The speed of these courses is always a bit variable.
 
 # Why Version Control Matters for Research {background-color="black" background-opacity="0.3" background-image="images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg"}
 
@@ -90,29 +87,28 @@ Version control replaces this with a single file and a full history of all its c
 - Records all changes to your files over time
   - Who changed what, when and (ideally) why
 - Allows you to go back to any previous version
-- Allows multiple people to work on the same files at the same time
-- The most common tool for this is `git` (more on that in Part 2)
+- Allows multiple people to work on the same files at the same time (while retaining their sanity)
+- The most common tool for this is `git`
 
 ## Why does it Matter for Research? 🔬
 
 - Research increasingly depends on code
   - Analysis scripts, models, simulations, data processing, ...
 - Results are only as trustworthy as the code that produced them
-- Research code is often written by small and changing teams
-  - Frequently without any formal training in software development
+- Teams can change over time (or a project is on ice for a while)
 
 # Code as a Research Record
 
 ## Code as a Research Record 📜
 
 - Like a lab notebook, a repository documents how results came about
-- Each commit records what changed, when, by whom and why
 - You can go back to exactly the version that was used for a paper, figure or dataset
   - Even years later
+  - Incredibly helpful when you need to write up a methods section (or reproduce a result)
 
 ## Continuity: When People Move On 👋
 
-- PhD students and postdocs leave, their code stays
+- PhD students finish, their code might stay
 - Without version control, code often lives on someone's laptop (or in someone's head)
 - With a shared repository
   - Code is in a central place that the *group* owns
