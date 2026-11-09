@@ -142,7 +142,7 @@ Some questions to get you started:
 ## Practical: Drafting a Section {background-color="black"}
 
 1. Form groups and pick one of the themes
-2. Clone the guide repository and create a new branch for your section
+2. Clone the [guide repository](https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_guide) and create a new branch for your section
 3. Discuss the questions and write down your group's answers in your section's Markdown file
     - Short and concrete is better than complete
 4. Commit and push your changes regularly
