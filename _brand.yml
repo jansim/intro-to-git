@@ -15,7 +15,7 @@ color:
     grey: "#7a8288"
   foreground: slate
   background: "#ffffff"
-  primary: purple
+  primary: pink-dark
   secondary: grey
   light: mint
   dark: slate
@@ -34,6 +34,6 @@ typography:
     weight: 500
     color: slate
   link:
-    color: purple
+    color: pink-dark
   monospace-block:
     background-color: mint
