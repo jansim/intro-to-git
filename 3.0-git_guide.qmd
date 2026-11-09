@@ -76,7 +76,7 @@ Normal text
 
 ## Which Sections do you Want to Include?
 
-
+Some ideas:
 
 ::: {.nonincremental}
 
@@ -87,7 +87,7 @@ Normal text
 
 :::
 
-## Theme: Scope 📦
+<!-- ## Theme: Scope 📦
 
 Some questions to get you started:
 
@@ -137,7 +137,7 @@ Some questions to get you started:
 - What happens to a repository when someone leaves the group?
 - What documentation does every repository need (e.g. a `README`)?
 
-:::
+::: -->
 
 ## Practical: Drafting a Section {background-color="black"}
 
