@@ -9,3 +9,5 @@ untracked/
 output/
 *.html
 *_files/
+
+**/*.quarto_ipynb
