@@ -57,7 +57,7 @@ workshop “Git@Hereon”.
 ### Supporting Documents
 
 - Setup guide for git & GitLab
-  [\[Link\]](https://gitlab.com/digital-research-academy/setup-git-gitlab)
+  [\[Link\]](https://gitlab.com/jansim/setup-git-gitlab)
 - Git Cheatsheet [\[PDF\]](resources/git-cheat-sheet-education.pdf)
   - By [GitHub Education](https://education.github.com/)
 
