@@ -3,11 +3,59 @@ project:
   output-dir: "output"
   render:
     - "/*.qmd"
+  resources:
+    # Referenced only from CSS below, so Quarto won't pick it up on its own
+    - images/DRA_LogoNoText.png
 
 author: "Jan Simson"
 format:
   revealjs:
     incremental: true
+    include-in-header:
+      # Title slide layout (the one with the commit-graph video): the
+      # animation occupies roughly 15-72% of the height, so the title sits in
+      # the bottom quarter and the DRA logo in the top right corner.
+      text: |
+        <style>
+          /* Reveal vertically centres the slide via an inline `top`; make it
+             span the full slide instead so we can place things freely. */
+          .reveal .slides > #title-slide {
+            top: 0 !important;
+            height: 100% !important;
+            box-sizing: border-box;
+            padding-top: 520px;
+          }
+          #title-slide::before {
+            content: "";
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 120px;
+            height: 88px;
+            background: url("images/DRA_LogoNoText.png") no-repeat center / contain;
+          }
+          #title-slide .title {
+            font-size: 2em;
+            margin: 0;
+          }
+          #title-slide .subtitle {
+            font-size: 1.1em;
+            margin: 0 0 0.2em;
+          }
+          #title-slide .quarto-title-authors {
+            margin: 0;
+            font-size: 0.8em;
+          }
+          #title-slide .quarto-title-author-name {
+            margin: 0;
+          }
+          #title-slide .title,
+          #title-slide .subtitle,
+          #title-slide .quarto-title-authors {
+            /* Halo in the video's background colour keeps text legible */
+            text-shadow: 0 0 6px #f1ece2, 0 0 12px #f1ece2, 0 0 24px #f1ece2;
+          }
+        </style>
     menu:
       # Extra panel in the slide menu linking to the home page and all sections.
       # Quarto merges this with its own "Tools" panel.
@@ -34,6 +82,11 @@ format:
 revealjs-plugins:
   - attribution
 title-slide-attributes:
-    data-background-image: images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg
-    data-background-color: black
-    data-background-opacity: "0.3"
+    data-background-video: images/backgrounds/commit-graph-1920x1080-seed7-30fps-loop.mp4
+    data-background-video-loop: "true"
+    data-background-video-muted: "true"
+    data-background-size: cover
+    # Same colour as the video's own background, so lowering the opacity
+    # slightly lightens/fades the video instead of darkening it
+    data-background-color: "#f1ece2"
+    data-background-opacity: "0.8"
