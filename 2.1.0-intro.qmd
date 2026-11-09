@@ -1,5 +1,5 @@
 ---
-title: "Intro to `git`"
+title: "Intro to git"
 subtitle: "Part 2: Your Repository – Technical Basis"
 ---
 

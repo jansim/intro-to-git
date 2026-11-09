@@ -1,5 +1,5 @@
 ---
-title: "Intro to `git`"
+title: "Intro to git"
 subtitle: "Block 2.1.1: What is git?"
 ---
 
