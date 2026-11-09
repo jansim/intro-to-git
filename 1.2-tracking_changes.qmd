@@ -276,12 +276,6 @@ I'm aware this was a lot to take in.
   - Not everyone is comfortable coding in the same programming language
 - However, also good to be aware that `git` can handle more than just code! 💪
 
-## 🎉 Bonus Practical: Binary Files {background-color="black"}
-
-1. Create a Word document called `library.docx` and copy over the contents from `library.txt`
-2. Run `git stash -h` and copy the output into both `library.docx` and `library.txt`
-3. Use `git diff` to compare how the same change is recognized by git in the two documents
-
 ## *End of Block* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
 :::{.r-fit-text}

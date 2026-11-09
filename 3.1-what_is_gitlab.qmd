@@ -11,7 +11,6 @@ subtitle: "Block 3.1: Going Online - GitLab"
 - There are many other similar, alternative websites
   - GitHub
   - Codeberg 🇩🇪
-  - Bitbucket
   - ... (and many more)
 - Together they contain the majority of the world's software
 
@@ -23,14 +22,14 @@ subtitle: "Block 3.1: Going Online - GitLab"
 - Free and Open-Source Software (FOSS)
 - Visibility
 
-# Demo: A Tour of Helmholtz GitLab
+# Demo: A Tour of [Helmholtz GitLab](https://codebase.helmholtz.cloud/)
 
 # Connecting git and GitLab
 
 ## Authenticating with GitLab 🗝️ {background-color="black"}
 
 - You should already have set up the authentication with GitLab before the course
-- If you didn't (or ran into problems), please go to the [setup guide](https://gitlab.com/digital-research-academy/setup-git-gitlab) and follow the steps to authenticate with GitLab
+- If you didn't (or ran into problems), please go to the [setup guide](https://gitlab.com/jansim/setup-git-gitlab) and follow the steps to authenticate with GitLab
 
 # Remotes {background-color="black" background-opacity="0.3" background-image="images/backgrounds/glenn-carstens-peters-EOQhsfFBhRk-unsplash.jpg"}
 

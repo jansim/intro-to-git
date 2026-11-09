@@ -16,13 +16,13 @@ subtitle: "Part 2: Your Repository – Technical Basis"
 
 ::: {.nonincremental}
 
-- 10:20 - 12:00 **Part 2.1** (1:40)
-  - **Block 1:** Introduction & Basics
-  - **Block 2:** Branches & More
-- 12:00 - 13:00 *Lunchbreak* 🍲
-- 13:00 - 14:40 **Part 2.2** (1:40)
-  - **Block 3:** Collaboration via GitLab
-  - **Block 4:** Merge Requests & Claude Code
+- 10:50 - 12:30 **Part 2.1** (1:40)
+  - Introduction & Basics
+  - Branches & More
+- 12:30 - 13:30 *Lunchbreak* 🍲
+- 13:30 - 15:10 **Part 2.2** (1:40)
+  - Collaboration via GitLab
+  - Merge Requests & Claude Code
 
 :::
 
@@ -33,7 +33,7 @@ subtitle: "Part 2: Your Repository – Technical Basis"
   - *Visual Studio Code*: A text editor, which also allows using git via its graphical user interface (GUI)
 
 - *Helmholtz GitLab*: Website to collaborate via git
-- Setup guide: <https://gitlab.com/digital-research-academy/setup-git-gitlab>
+- Setup guide: <https://gitlab.com/jansim/setup-git-gitlab>
 
 ## Text Editor: Visual Studio Code
 
