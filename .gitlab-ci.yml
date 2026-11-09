@@ -1,0 +1,28 @@
+# Render the Quarto slides and deploy them to GitLab Pages.
+# Mirrors .github/workflows/deploy.yml.
+
+# Run on pushes to the default branch and on manual runs ("Run pipeline" in the UI)
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "web"
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+pages:
+  image: ghcr.io/quarto-dev/quarto:latest
+  # Only one deployment at a time; queued runs wait instead of cancelling the running one
+  resource_group: pages
+  script:
+    # Render slides
+    - quarto render
+    # Render README / index.html and move it to the output
+    - quarto render README.qmd --to=html
+    - mv index.html output/index.html
+    - mv README_files output/README_files
+  pages:
+    publish: output
+  artifacts:
+    paths:
+      - output
+  environment:
+    name: pages
+    url: $CI_PAGES_URL
