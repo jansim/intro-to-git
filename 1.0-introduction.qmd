@@ -169,6 +169,8 @@ analysis.py
 
 :::
 
+{{< countdown minutes=5 warn_when=60 id="timer_discussion_code" >}}
+
 # Review: Peer Review for Code
 
 ## Bringing Peer Review to Code 🔍

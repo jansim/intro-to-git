@@ -148,19 +148,34 @@ Some questions to get you started:
 4. Commit and push your changes regularly
 5. Create a merge request once your draft is done
 
+{{< countdown minutes=50 warn_when=300 id="timer_drafting" >}}
+
+# Break ☕
+
 ## Presenting the Drafts 🎤
 
 - Each group presents their section (~5 min)
   - What did you decide on?
   - Where were you unsure or did you disagree?
-- Everyone else: Questions, comments and additions
-  - You can also comment directly in the merge request
+- 10 minutes to prepare
+
+{{< countdown minutes=10 warn_when=60 id="timer_presentation_prep" >}}
+
+## Practical: Feedback {background-color="black"}
+
+1. Review the merge request of another group
+   - Different split-up
+2. Add comments and suggestions to the merge requests, maybe suggest some changes
+
+{{< countdown minutes=10 warn_when=60 id="timer_compiling" >}}
 
 ## Practical: Compiling the Guide {background-color="black"}
 
-1. Review the merge request of another group
-2. Incorporate (or discuss) the feedback you received
+1. Have a look at the comments / feedback on the original merge requests
+2. Discuss and implement any changes to your section
 3. Merge your section into `main`
+
+{{< countdown minutes=10 warn_when=60 id="timer_compiling" >}}
 
 ## Next Steps 🚀
 
@@ -169,8 +184,6 @@ Some questions to get you started:
 - How is the guide introduced to the rest of the group?
 - How is the guide kept up to date?
   - Changes to the guide can be proposed via merge requests as well ✨
-
-# Evaluation
 
 ## Sources
 
