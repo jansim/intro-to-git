@@ -1,6 +1,8 @@
 ---
 title: "Intro to `git`"
 subtitle: "Block 2.1.2: Tracking Changes in git"
+filters:
+  - git-sandbox
 ---
 
 ## The 3 Levels of Changes in git
@@ -81,6 +83,14 @@ git status
 - The classic way to undo a commited change in git would be to make another commit with the reverse change.
 - Modifying a commit is possible, but you should now what you are doing. Typically this is called "changing history" and is (esp. in collaborative settings) frowned upon.
 
+## Demonstration
+
+```git-sandbox
+id: classic
+title: The Classic Loop
+prompt: "~/example $"
+```
+
 ## Stuck in an Editor 🛗 
 
 Forgot the `-m "insightful commit message"`?
@@ -101,6 +111,13 @@ The default editor in git is (usually) `vim`
   - ⚠️ Important: Verify first whether you can start VSCode from the comand line by running the `code` command
   - `git config --global core.editor "code --wait"`
 - For fun: <https://github.com/hakluke/how-to-exit-vim>
+
+## Stuck in an Editor
+
+```git-sandbox
+share: classic
+title: Stuck in an Editor
+```
 
 # Questions?
 
