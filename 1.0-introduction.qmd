@@ -33,18 +33,21 @@ subtitle: "Part 1: Input, Introduction and Discussion"
 Show of hands.
 
 - How many of you have used git before?
-- How many have used git with agentic tools? 
+- How many have used git with agentic tools?
+- How many of you consider yourself primarily researchers?
+- How many of you consider yourself primarily software developers / engineers?
+- Any other groups? Admin / management / ...?
 
 ## What is the course about?
 
 - **Goal**: By the end of the day you can...
-  - explain what version control changes for a research group
-  - use branches and merge requests in GitLab to make and review a change (incl. one made with Claude Code)
-  - take home a first draft of a shared Git guide for your group
+  - explain what version control can do for a research group
+  - use branches and merge requests in GitLab to make and review a change
+  - take home a first draft of a shared Git guide
 - **Format**: Mix of input, practicals & discussion
   - Feel free to always ask questions any time!
 
-## Agenda & Timeline
+## Agenda & Timeline*
 
 ::: {.nonincremental}
 
@@ -54,19 +57,17 @@ Show of hands.
 - 12:30 - 13:30 *Lunchbreak* 🍲
 - 13:30 - 14:70 **Part 2.2:** Your Repository – Technical Basis
 - 14:70 - 15:30 *Pause* ☕️
-- 15:30 - 16:30 **Part 3:** Developing a Shared Git Guide Together
+- 15:30 - 16:30 **Part 3:** Developing a Shared Git Guide
 - 16:30 - 16:50 *Pause* ☕️
-- 16:50 - 17:30 **Part 3:** Developing a Shared Git Guide Together
+- 16:50 - 17:30 **Part 3:** Developing a Shared Git Guide
 
 :::
-
-The speed of these courses is always a bit variable.
-
-# Why Version Control Matters for Research {background-color="black" background-opacity="0.3" background-image="images/backgrounds/yancy-min-842ofHC6MaI-unsplash.jpg"}
 
 ::: attribution
-Background: https://unsplash.com/photos/842ofHC6MaI
+*The speed of these courses is always a bit variable.
 :::
+
+# What is git?
 
 ## Sounds Familiar? 📁
 
@@ -80,6 +81,10 @@ analysis_v2_final_FINAL_comments-jan.py
 
 ::: {.fragment}
 Version control replaces this with a single file and a full history of all its changes.
+
+```text
+analysis.py
+```
 :::
 
 ## What is Version Control?
@@ -90,14 +95,46 @@ Version control replaces this with a single file and a full history of all its c
 - Allows multiple people to work on the same files at the same time (while retaining their sanity)
 - The most common tool for this is `git`
 
+## What is `git`?
+
+- Version Control System (VCS)
+  - Looks at the changes in your files
+  - Records all changes over time to give you a full history
+  - Similar to "track changes" in Microsoft Word / LibreOffice
+
+::: {.fragment}
+
+![Git only looks at and tracks the *changes* in a file](images/carpentries/play-changes.svg)
+
+:::
+
+## What is git? *Strengths* & Weaknesses
+
+- Strengths 💪
+  - Very hard to lose files with git
+  - Great for collaboration
+  - Fast (like, really fast)
+  - History allows you to go back and understand changes or revert when there are problems
+  - Reproducibility
+
+## What is git? Strengths & *Weaknesses*
+
+- Weaknesses 😢
+  - Can be a bit complicated to use (esp. at first)
+  - History takes up file space (but only little)
+  - Struggles with binary (i.e. non-text) files
+  - Struggles with large files
+    - Not good for storing data!
+  - You do need to *explicitly* use it i.e. it doesn't just work in the background
+
+# Why Version Control Matters for Research
+
 ## Why does it Matter for Research? 🔬
 
 - Research increasingly depends on code
   - Analysis scripts, models, simulations, data processing, ...
 - Results are only as trustworthy as the code that produced them
 - Teams can change over time (or a project is on ice for a while)
-
-# Code as a Research Record
 
 ## Code as a Research Record 📜
 
@@ -114,6 +151,14 @@ Version control replaces this with a single file and a full history of all its c
   - Code is in a central place that the *group* owns
   - The history explains *why* things are the way they are
   - New people can pick up where others left off
+
+## Publication and Collaboration
+
+- Foundation of collabroration: `git` is the de-facto standard for collaboration on code
+  - Although useful for more than just code, e.g. for writing papers, documentation, etc.
+- Publication of code / packages
+  - Higher impact / uptake in the field
+
 
 ## Discussion 💬
 
@@ -146,20 +191,29 @@ Version control replaces this with a single file and a full history of all its c
 
 # AI Assistants and Accountability
 
+## Let's Talk AI
+
+Who's using what?
+
+<https://pingo.coactum.de/>
+
+1. Which AI coding assistants have you used?
+2. What do you use them for? Are there specific functions you use them for?
+3. Are there specific things that you think they should **not** be used for?
+
 ## AI Coding Assistants 🤖
 
 - Tools like Claude Code can read, write and change code in your projects
 - They can save a lot of time
   - e.g. for documentation, refactoring or understanding unfamiliar code
-- **But**: They also make mistakes, which can look very convincing
+- **But**: They also do unanticipated things, and can introduce errors or security issues
 
 ## Who is Accountable? ⚖️
 
 - The person who merges a change is responsible for it
   - No matter who (or what) wrote it
-- Version control makes changes by AI assistants visible & reviewable
-  - Let the assistant work on a separate branch
-  - Review its changes just like those of a colleague (via a merge request)
+- Version control makes changes by AI assistants **visible** & **reviewable**
+  - Possible to review at different steps
 
 ## Who is Accountable? Open Questions 🤔
 
@@ -181,22 +235,13 @@ Questions your group will need to answer:
   - A `CITATION` file, so people know how to cite it
   - A DOI (digital object identifier), e.g. via [Zenodo](https://zenodo.org/about)
 
-## Decisions Your Group Needs to Make 🧭
-
-Version control works best when a group agrees on how to use it.
-
-- *Scope*: What goes into git (and what doesn't)?
-- *Collaboration*: How do we change shared code?
-- *AI assistants*: How do we work with tools like Claude Code?
-- *Continuity*: How do we ensure reproducibility, publishing and handover?
-
-::: {.fragment}
-We will draft answers to these questions together in Part 3 ✍️
-:::
-
 # Questions & Discussion {background-opacity="0.4" background-image="images/backgrounds/questions.gif" background-position="top"}
 
-<!-- Src: https://giphy.com/gifs/dogs-puppy-confused-xT0xeuOy2Fcl9vDGiA -->
+## Agenda
+
+- [x] **Part 1:** Input, Introduction and Discussion 
+- [ ] **Part 2:** Your Repository - Technical Basis
+- [ ] **Part 3:** Developing a Shared Git Guide
 
 ## *End of Part 1* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
