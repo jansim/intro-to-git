@@ -9,7 +9,7 @@ subtitle: "Block 2.4.3: Final Bits"
 - Stage your files with `git add`
 - Whenever you made a substantial change, put it into the history with `git commit`
 - See your history with `git log`
-- Move around (history and branches!) with `git checkout`
+- Switch between branches with `git checkout`
 - Create new branches with `git checkout -b`
 - To collaborate, first `git pull` others changes, then `git push` yours
 - Review changes (yours, your colleagues' and Claude Code's) via merge requests before merging them

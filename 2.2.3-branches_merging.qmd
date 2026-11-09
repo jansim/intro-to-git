@@ -63,7 +63,7 @@ git status
 
 ## Switching branches
 
-You can switch branches with `git checkout` (as we've already done earlier)
+You can switch branches with `git checkout`
 
 ```bash
 git checkout my-branch

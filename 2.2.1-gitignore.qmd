@@ -35,15 +35,6 @@ Ignore all PDF files
 The .gitignore uses the same kind of pattern matching as `git add` (or other git commands)
 :::
 
-## `.gitignore`: global vs. local 🫥
-
-- There can be multiple different `.gitignore` files at different levels
-- There's one *global* `.gitignore`, that will work across your whole computer
-- There are local gitignore files within your repositories
-  - You can even have a gitignore file in a directory within your repository and it will apply only within that directory
-  - You can find a list of very useful templates for local`.gitignore` files at <https://github.com/github/gitignore>.
-  - A classic example for files to ignore globally are `.DS_Store` files on macOS.
-
 ## Once it's in, it's too late
 
 Once a file is tracked by `git`, adding it to the `.gitignore` will not do anything.
@@ -53,14 +44,6 @@ Once a file is tracked by `git`, adding it to the `.gitignore` will not do anyth
 - **Option 2:** Remove file from index only (and commit)
   - `git rm --cached <file>`
   - ⚠️ Warning: This will delete the file for anyone else working with the repository!
-
-## Practical: Ignoring Files {background-color="black"}
-
-1. Go back to your VSCode Terminal in `git-exercise`
-2. Google for a git cheatsheet (it should be a PDF file)
-3. Copy the PDF into your `git-exercise` directory
-4. Create a new .gitignore file to ignore only this cheatsheet
-5. Commit the .gitignore file
 
 ## *End of Section* 🎉 {background-color="black"}
 
