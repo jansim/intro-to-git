@@ -15,16 +15,9 @@ Background: https://unsplash.com/photos/V1YEEItoOTE
 - In the end you can merge your changes back into your `main` branch
 
 :::{.callout-note}
-The default branch used to be called `master` and was then changed to `main` (next slide).
+The default branch used to be called `master` and was later changed to `main`. Older repositories / git installations may still use `master`.
 :::
 
-## `master` vs. `main` ⚙️
-
-The default branch used to be called `master`, this was more-or-less recently changed to `main`, but not all repositories / git installations have changed yet.
-
-Whether git on your computer uses `master` or `main` depends on when it was installed.
-
-```bash
 # See the default branch name
 git status
 
@@ -108,7 +101,6 @@ Background: https://giphy.com/gifs/berlin-demo-govid-loAFGkJxYzgxu3NKnZ
 3. Add a commit on that new branch
 4. Go back to `main`
 5. Merge the `new-feature` branch into `main`
-6. Repeat all the above steps (with a different branch name & commit) using a GUI
 
 # The Ugly Side of `git`: Merge Conflicts {background-color="black" background-opacity="0.5" background-image="images/backgrounds/git-merge-cFkiFMDg3iFoI.gif"}
 
@@ -147,9 +139,9 @@ And how to avoid it.
 
 # DEMO: Resolving merge conflicts in VS Code
 
-# *Practical:* Creating & Resolving a Merge Conflict {background-color="black"}
+# 🎉 *Bonus Practical:* Creating & Resolving a Merge Conflict {background-color="black"}
 
-## Practical: Setup {background-color="black"}
+## Bonus Practical: Setup {background-color="black"}
 
 1. Create a new file called `guessing_conflict.txt`
 2. Write the "Question" with the letters A to C into the file, with empty lines in between e.g.
@@ -164,13 +156,13 @@ Question C
 End.
 ```
 
-## Practical: Setup {background-color="black"}
+## Bonus Practical: Setup {background-color="black"}
 
 3. Create a new branch called `guesses` and check it out
     - Double check whether you checked out the correct branch with `git status`
 4. We're done with the preparations
 
-## Practical: Guessing Game {background-color="black"}
+## Bonus Practical: Guessing Game {background-color="black"}
 
 Write your guess below the line with the matching letter.
 
@@ -178,7 +170,7 @@ a) What percentage of developers report using git for version control in 2025?
 b) What fraction of long distance trains in Germany were on time in May 2026? 
 c) How many liters of Beer were drunk at the Oktoberfest in Munich in 2019? 🍻
 
-## Practical: Guessing Game Answers {background-color="black"}
+## Bonus Practical: Guessing Game Answers {background-color="black"}
 
 5. Check out the `main` branch again
 6. Write down the actual answers below the letters in the now empty file again
@@ -196,7 +188,7 @@ Question C 🍻 Liters of beer
 Sources: [A](https://stackoverflow.blog/2023/01/09/beyond-git-the-other-version-control-systems-developers-use/), [B](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476), [C](https://opendata.muenchen.de/tr/dataset/oktoberfest)
 :::
 
-## Practical: The Actual Conflict {background-color="black"}
+## Bonus Practical: The Actual Conflict {background-color="black"}
 
 7. Use `git merge` to merge the `guesses` branch into your `main` branch
 8. Explore the files in the resulting merge conflict

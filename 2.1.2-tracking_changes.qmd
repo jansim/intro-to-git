@@ -179,30 +179,6 @@ git diff
 `git diff` only allows you to see changes to files which have already been committed before i.e. changing the contents of an existing file.
 :::
 
-## Un-Tracking changes: `git reset`
-
-- You can reset your staging area with `git reset`, removing all staged files
-- To remove specific files from the staging area use `git reset <filename / directory>`
-
-:::{.fragment}
-
-```bash
-# We add all changes
-git add .
-
-git status
-# On branch main
-# Changes to be committed:
-#   (use "git restore --staged <file>..." to unstage)
-#         modified:   example.txt
-
-git reset
-# Unstaged changes after reset:
-# M       example.txt
-```
-
-:::
-
 ## Un-Doing changes: `git restore`
 
 You can *undo* any changes to files with <br>
@@ -263,7 +239,7 @@ I'm aware this was a lot to take in.
 
 <!-- Src: https://giphy.com/gifs/dogs-puppy-confused-xT0xeuOy2Fcl9vDGiA -->
 
-## Practical: git Command Library (1){background-color="black"}
+## Practical: git Command Library {background-color="black"}
 
 1. Create a new file `library.txt` in your `git-exercise` directory
 2. Run `git init -h` and copy the output into your `library.txt`
@@ -276,14 +252,6 @@ I'm aware this was a lot to take in.
 ![Since VSCode is primarily a text editor, git functionality is hidden in the sidebar](images/screenshots/vscode-git.png)
 
 - Demo!
-
-## Practical: git Command Library (2){background-color="black"}
-
-1. Run `git <command> -h` and copy the output into your `library.txt`
-2. Explore the repo status *using VSCode*
-3. Commit the changes (with a good commit message)
-4. Repeat steps 1. - 3. for **another command** we learned so far, using a separate commit
-5. Delete the `library.txt` and restore it
 
 ## Note: Git and Code
 
