@@ -1,5 +1,4 @@
 ---
-title: "Git@Hereon"
 subtitle: "Part 3: Developing a Shared Git Guide Together"
 ---
 
@@ -11,8 +10,7 @@ subtitle: "Part 3: Developing a Shared Git Guide Together"
 - 15:40 - 16:30 Group work: Drafting the sections
 - 16:30 - 16:50 *Pause* ☕️
 - 16:50 - 17:10 Presenting and discussing the drafts
-- 17:10 - 17:20 Compiling the sections into one guide
-- 17:20 - 17:30 Next steps
+- 17:10 - 17:30 Compiling the sections into one guide
 
 :::
 
@@ -23,17 +21,23 @@ subtitle: "Part 3: Developing a Shared Git Guide Together"
   - Easier onboarding
   - Clarity
   - Consistency
-- It doesn't have to be perfect, a first draft is already a great start!
+- Doesn't have to be perfect
+- (Potentially) living document
 
-## How We'll Work 🛠️
+## How We'll Work (1/2) 🛠️
 
 - Each group drafts one section of the guide
 - We write the guide in Markdown, in a shared repository on GitLab
-  - Using exactly what you learned in Part 2!
 - Each group
-  - create you own branch, e.g. `section-scope`
+  - create your own branch, e.g. `section-scope`
   - write your own section in its own file, e.g. `scope.md`
-  - create a merge request once the draft is done
+  - create a merge request (MR) once the draft is done
+
+## How We'll Work (1/2) 🛠️
+
+- Discuss / present each draft section within the group
+- Do a feedback round
+- Revise each section based on the feedback and then merge them into the main repository
 
 ## Markdown
 
@@ -66,11 +70,33 @@ Normal text
 
 ## Markdown: The Basics
 
+:::: {.columns}
+
+::: {.column width="50%"}
+```md
+# Big heading
+## Slightly smaller heading
+### Even smaller heading
+
+Normal text
+*italic text*
+**thick text**
+
+- A
+- Simple
+- List
+```
+:::
+
+::: {.column width="50%"}
 ![Example of the markdown code from before, but now rendered](images/screenshots/markdown.png)
+:::
 
-## Which Sections do you Want to Include?
+::::
 
-Some ideas:
+## Which Sections do You Want to Include?
+
+Some suggestions:
 
 ::: {.nonincremental}
 
@@ -81,95 +107,63 @@ Some ideas:
 
 :::
 
-<!-- ## Theme: Scope 📦
-
-Some questions to get you started:
+## Drafting a Section {background-color="black"}
 
 ::: {.nonincremental}
-
-- Which projects and files belong into git, which don't (e.g. large data, passwords)?
-- What do we put into our `.gitignore` files?
-- Where do our repositories live (e.g. which GitLab group)?
-- One repository per project, per paper or per person?
-
-:::
-
-## Theme: Collaboration 🤝
-
-Some questions to get you started:
-
-::: {.nonincremental}
-
-- When do we work on branches and how do we name them?
-- When do we use merge requests and who reviews them?
-- What makes a good commit (message)?
-- What do we do when we get stuck (e.g. in a merge conflict)?
-
-:::
-
-## Theme: AI Assistants 🤖
-
-Some questions to get you started:
-
-::: {.nonincremental}
-
-- Which AI assistants do we use and what for?
-- Which code and data may (not) be shared with them?
-- How do we review changes made with an AI assistant?
-- Do we mark these changes (e.g. in the commit message or merge request)?
-
-:::
-
-## Theme: Continuity 🔁
-
-Some questions to get you started:
-
-::: {.nonincremental}
-
-- How do we make sure results can be reproduced later on?
-- When and how do we publish our code (license, citation, DOI)?
-- What happens to a repository when someone leaves the group?
-- What documentation does every repository need (e.g. a `README`)?
-
-::: -->
-
-## Practical: Drafting a Section {background-color="black"}
 
 1. Form groups and pick one of the themes
-2. Clone the [guide repository](https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_guide) and create a new branch for your section
+2. Clone the [guide repository](https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_guide) and create a new branch for your section.
+
+```text
+https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_guide
+```
+
 3. Discuss the questions and write down your group's answers in your section's Markdown file
-    - Short and concrete is better than complete
 4. Commit and push your changes regularly
 5. Create a merge request once your draft is done
 
-{{< countdown minutes=50 warn_when=300 id="timer_drafting" >}}
+:::
+
+{{< countdown minutes=45 warn_when=300 id="timer_drafting" >}}
 
 # Break ☕
 
+# Presenting Drafts
+
 ## Presenting the Drafts 🎤
 
-- Each group presents their section (~5 min)
+- Each group briefly presents their section (<= 5 min)
   - What did you decide on?
   - Where were you unsure or did you disagree?
-- 10 minutes to prepare
+- 5 minutes to prepare
 
-{{< countdown minutes=10 warn_when=60 id="timer_presentation_prep" >}}
+{{< countdown minutes=5 warn_when=60 id="timer_presentation_prep" >}}
 
-## Practical: Feedback {background-color="black"}
+## Round of Presentations
+
+- Each group briefly presents their section (<= 5 min)
+  - What did you decide on?
+  - Where were you unsure or did you disagree?
+
+# Optional: Feedback Round on Drafts 
+
+## Giving Feedback {background-color="black"}
 
 1. Review the merge request of another group
    - Different split-up
 2. Add comments and suggestions to the merge requests, maybe suggest some changes
 
-{{< countdown minutes=10 warn_when=60 id="timer_compiling" >}}
+{{< countdown minutes=10 warn_when=60 id="timer_feedback" >}}
 
-## Practical: Compiling the Guide {background-color="black"}
+## Incorporating Feedback {background-color="black"}
 
 1. Have a look at the comments / feedback on the original merge requests
 2. Discuss and implement any changes to your section
 3. Merge your section into `main`
 
 {{< countdown minutes=10 warn_when=60 id="timer_compiling" >}}
+
+# Outro
 
 ## Next Steps 🚀
 

@@ -1,5 +1,4 @@
 ---
-title: "Git@Hereon"
 subtitle: "Part 1: Input, Introduction and Discussion"
 ---
 
@@ -9,7 +8,7 @@ subtitle: "Part 1: Input, Introduction and Discussion"
 
 - Slides are in English
 - Spoken: German or English?
-  - Do you have a preference / does anyone not speak German?
+  - Do you have a preference?
 
 :::
 
@@ -33,7 +32,7 @@ subtitle: "Part 1: Input, Introduction and Discussion"
 Show of hands.
 
 - How many of you have used git before?
-- How many have used git with agentic tools?
+- How many have used agentic tools? e.g. Claude Code
 - How many of you consider yourself primarily researchers?
 - How many of you consider yourself primarily software developers / engineers?
 - Any other groups? Admin / management / ...?
@@ -51,13 +50,13 @@ Show of hands.
 ::: {.nonincremental}
 
 - 09:30 - 10:30 **Part 1:** Input, Introduction and Discussion
-- 10:30 - 10:50 *Pause* ☕️
+- [10:30 - 10:50 *Pause* ☕️]{style="opacity: 0.5;"}
 - 10:50 - 12:30 **Part 2.1:** Your Repository – Technical Basis
-- 12:30 - 13:30 *Lunchbreak* 🍲
-- 13:30 - 14:70 **Part 2.2:** Your Repository – Technical Basis
-- 14:70 - 15:30 *Pause* ☕️
+- [12:30 - 13:30 *Lunchbreak* 🍲]{style="opacity: 0.5;"}
+- 13:30 - 15:10 **Part 2.2:** Your Repository – Technical Basis
+- [15:10 - 15:30 *Pause* ☕️]{style="opacity: 0.5;"}
 - 15:30 - 16:30 **Part 3:** Developing a Shared Git Guide
-- 16:30 - 16:50 *Pause* ☕️
+- [16:30 - 16:50 *Pause* ☕️]{style="opacity: 0.5;"}
 - 16:50 - 17:30 **Part 3:** Developing a Shared Git Guide
 
 :::
@@ -66,7 +65,7 @@ Show of hands.
 *The speed of these courses is always a bit variable.
 :::
 
-# What is git?
+# What is `git`?
 
 ## Sounds Familiar? 📁
 
@@ -74,8 +73,10 @@ Show of hands.
 analysis.py
 analysis_v2.py
 analysis_v2_final.py
+analysis_v2_final_fix.py
 analysis_v2_final_FINAL.py
-analysis_v2_final_FINAL_comments-jan.py
+analysis_v3_final_FINAL_comments.py
+analysis_v3_final_FINAL_comments_fixed.py
 ```
 
 ::: {.fragment}
@@ -89,10 +90,11 @@ analysis.py
 ## What is Version Control?
 
 - Records all changes to your files over time
-  - Who changed what, when and (ideally) why
+  - **Who** changed **what**, **when** and (ideally) **why**
 - Allows you to go back to any previous version
+- Allows you to understand the evolution of a file
 - Allows multiple people to work on the same files at the same time (while retaining their sanity)
-- The most common tool for this is `git`
+- The most common tool for version control is `git`
 
 ## What is `git`?
 
@@ -126,25 +128,28 @@ analysis.py
     - Not good for storing data!
   - You do need to *explicitly* use it i.e. it doesn't just work in the background
 
-# Why Version Control Matters for Research
+# Why *Version Control* Matters for *Research*
 
 ## Why does it Matter for Research? 🔬
 
 - Research increasingly depends on code
-  - Analysis scripts, models, simulations, data processing, ...
+  - Analysis scripts, modelling pipelines, simulations, data processing, ...
+  - Even papers themselves
 - Results are only as trustworthy as the code that produced them
-- Teams can change over time (or a project is on ice for a while)
+- Teams can change over time (or a project is on ice)
+- Collaborations
 
 ## Code as a Research Record 📜
 
 - Like a lab notebook, a repository documents how results came about
-- You can go back to exactly the version that was used for a paper, figure or dataset
+- You can go back to exactly the version that was used for a paper, figure or dataset collection / generation
   - Even years later
   - Incredibly helpful when you need to write up a methods section (or reproduce a result)
+    - I just had to answer a question about a data collection from 6 years ago and `git` saved me!
 
 ## Continuity: When People Move On 👋
 
-- PhD students finish, their code might stay
+- Mobility: A PhD student finishes, but their code might stay
 - Without version control, code often lives on someone's laptop (or in someone's head)
 - With a shared repository
   - Code is in a central place that the *group* owns
@@ -156,10 +161,10 @@ analysis.py
 - Foundation of collabroration: `git` is the de-facto standard for collaboration on code
   - Although useful for more than just code, e.g. for writing papers, documentation, etc.
 - Publication of code / packages
-  - Higher impact / uptake in the field
+  - Higher chance for impact / uptake in the field
 
 
-## Discussion 💬
+## Discussion 💬 {background-color="black"}
 
 ::: {.nonincremental}
 
@@ -170,25 +175,26 @@ analysis.py
 
 {{< countdown minutes=5 warn_when=60 id="timer_discussion_code" >}}
 
-# Review: Peer Review for Code
+# Reviewing
 
 ## Bringing Peer Review to Code 🔍
 
 - We review papers before they are published, but code is rarely reviewed
 - *Merge requests* bring a review step to code
-  - Changes are proposed on a separate *branch*
-  - Someone else looks at them, comments and approves them
-  - Only then are they merged into the main version
-- Catches errors early & spreads knowledge across the group
+  - Proposed changes to be integrated
+  - Someone else looks at them, comments and approves them / potential back and forth; only then are they merged into the main version
+  - Potential automatic checks
+- Catches errors early & ensures certain trust / quality
 
 ## Review Doesn't Have to be Heavy 🪶
 
 - A second pair of eyes is already a big improvement
+  - Beneficial for both reviewer and reviewee
 - Questions to ask in a review
   - Do I understand what this change does and why?
   - Does it do what it claims to do?
   - Could it break something else?
-- We will practice this in Part 2
+  - Is the code clear?
 
 # AI Assistants and Accountability
 
@@ -204,39 +210,39 @@ Who's using what?
 
 ## AI Coding Assistants 🤖
 
-- Tools like Claude Code can read, write and change code in your projects
-- They can save a lot of time
+- Can read, write and change code in your projects + execute commands
+- Can save a lot of time & enable new use cases or more ambitious projects
   - e.g. for documentation, refactoring or understanding unfamiliar code
-- **But**: They also do unanticipated things, and can introduce errors or security issues
+- **But**: They also do unanticipated things, and can introduce errors or security issues and may lead to code no one understands ⚠️
 
-## Who is Accountable? ⚖️
+## Who is Accountable?
 
+- AI tools cannot hold responsibility
 - The person who merges a change is responsible for it
   - No matter who (or what) wrote it
 - Version control makes changes by AI assistants **visible** & **reviewable**
   - Possible to review at different steps
-
-## Who is Accountable? Open Questions 🤔
-
-Questions your group will need to answer:
-
-- Which tools are we allowed to use?
-- Which code and data may be shared with them?
-- Should changes made with an AI assistant be marked as such?
-
-# Open Science and Group Decisions
 
 ## Open Science 🔓
 
 - Sharing code makes research more transparent and reproducible
 - Journals and funders increasingly expect code to be available
 - When making code public, also think about
-  - A license, so others know how they are allowed to use it
-    - To help you pick a license: <https://choosealicense.com/>
+  - A license, so others know how they are allowed to use it -> <https://choosealicense.com/>
   - A `CITATION` file, so people know how to cite it
   - A DOI (digital object identifier), e.g. via [Zenodo](https://zenodo.org/about)
 
-# Questions & Discussion {background-opacity="0.4" background-image="images/backgrounds/questions.gif" background-position="top"}
+# Any Questions?
+
+## Open Questions / Discussion 🤔 {background-color="black"}
+
+Some of the questions your group will need to answer:
+
+- Which tools do we / are we allowed to use?
+  - Are there specific limits / guidelines on *how* we want to use them?
+- Which code and data may be shared with them?
+- Should changes made with an AI assistant be marked as such?
+- ...any other specific questions?
 
 ## *End of Part 1* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
