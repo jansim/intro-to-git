@@ -38,7 +38,8 @@ Most of the information in these guides, we already covered, but they can be gre
   - [dvc](https://dvc.org/): Data Version Control
 - If you have a problem
   - [ohshitgit.com](https://ohshitgit.com/) [(🇩🇪)](https://ohshitgit.com/de)
-  - Google
+  - LLMs / Google
+- <simson.io/advanced-git>
 
 ## *End of Part 2* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 
