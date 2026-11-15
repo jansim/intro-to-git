@@ -164,7 +164,7 @@ analysis.py
   - Higher chance for impact / uptake in the field
 
 
-## Discussion 💬 {background-color="black"}
+## Discussion {background-color="black"}
 
 ::: {.nonincremental}
 
@@ -172,8 +172,6 @@ analysis.py
 - What would happen if the person who wrote it left tomorrow?
 
 :::
-
-{{< countdown minutes=5 warn_when=60 id="timer_discussion_code" >}}
 
 # Reviewing
 
@@ -232,9 +230,9 @@ Who's using what?
   - A `CITATION` file, so people know how to cite it
   - A DOI (digital object identifier), e.g. via [Zenodo](https://zenodo.org/about)
 
-# Any Questions?
+# Questions?
 
-## Open Questions / Discussion 🤔 {background-color="black"}
+## Discussion: Open Questions? {background-color="black"}
 
 Some of the questions your group will need to answer:
 
