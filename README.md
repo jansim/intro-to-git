@@ -19,6 +19,18 @@ The workshop mixes short input sessions with hands-on practicals and
 discussion. Below you will find links to all slides, as well as
 supporting documents and further resources.
 
+## Repositories
+
+Links to the different repositories used in the course.
+
+- Course Materials:
+  [martin.ramacher/digitalreasearchacademy_githereon](https://codebase.helmholtz.cloud/martin.ramacher/digitalreasearchacademy_githereon)
+  ([website](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de))
+- Guide:
+  [martin.ramacher/digitalresearchacademy_githereon_guide](https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_guide)
+- Example Repo:
+  [martin.ramacher/digitalresearchacademy_githereon_example](https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_example)
+
 <!--
   To update the README, render this file directly via
   quarto render README.qmd --to=gfm
