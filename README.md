@@ -9,11 +9,11 @@ offered by [Dr. Jan Simson](https://simson.io) via the [Digital Research
 Academy (DRA)](https://digital-research.academy/).
 
 Over the course of the day, participants learn how version control can
-be useful a research group, practice the core `git` workflow (tracking
-changes, branches and merging), collaborate via GitLab using merge
-requests, and try out working with agentic coding tools such as Claude
-Code. The workshop closes with participants drafting a shared Git guide
-for their own group.
+be useful for a research group, practice the core `git` workflow
+(tracking changes, branches and merging), collaborate via GitLab using
+merge requests, and try out working with agentic coding tools such as
+Claude Code. The workshop closes with participants drafting a shared Git
+guide for their own group.
 
 The workshop mixes short input sessions with hands-on practicals and
 discussion. Below you will find links to all slides, as well as
@@ -62,8 +62,6 @@ Links to the different repositories used in the course.
       [\[slides\]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/2.3.1-what_is_gitlab.html)
     - 2.3.2 Synching Changes
       [\[slides\]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/2.3.2-synching_changes.html)
-    - 2.3.3 Markdown
-      [\[slides\]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/2.3.3-markdown.html)
   - Block 2.4: Merge Requests & Claude Code
     - 2.4.1 Merge Requests
       [\[slides\]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/2.4.1-merge_requests.html)
@@ -97,7 +95,7 @@ Links to the different repositories used in the course.
     Git](https://beej.us/guide/bggit/html/split/)
   - [Trunk Based
     Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development),
-    a popular and advanced workflow of using git (currently concidered a
+    a popular and advanced workflow of using git (currently considered a
     best-practice)
   - Using git with data
     - [dvc](https://dvc.org/): Data Version Control

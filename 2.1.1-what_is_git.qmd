@@ -2,11 +2,6 @@
 subtitle: "Block 2.1.1: What is git?"
 ---
 
-::: attribution
-Background: https://unsplash.com/photos/842ofHC6MaI
-:::
-
-
 ## CLI vs. GUI?!
 
 Git can be used via both a CLI and GUI.
@@ -26,7 +21,7 @@ Git can be used via both a CLI and GUI.
 *Graphical User Interface (GUI)*
 
 - Most applications nowadays
-- Often asier to use
+- Often easier to use
 - Typically mainly controlled via your Mouse
 - Buttons and other clickable elements
 :::

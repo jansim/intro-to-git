@@ -10,7 +10,7 @@ subtitle: "Part 3: Developing a Shared Git Guide Together"
 - 15:40 - 16:30 Group work: Drafting the sections
 - 16:30 - 16:50 *Pause* ☕️
 - 16:50 - 17:10 Presenting and discussing the drafts
-- 17:10 - 17:30 Compiling the sections into one guide
+- 17:10 - 17:30 Feedback and merging the sections into one guide
 
 :::
 
@@ -33,7 +33,7 @@ subtitle: "Part 3: Developing a Shared Git Guide Together"
   - write your own section in its own file, e.g. `scope.md`
   - create a merge request (MR) once the draft is done
 
-## How We'll Work (1/2) 🛠️
+## How We'll Work (2/2) 🛠️
 
 - Discuss / present each draft section within the group
 - Do a feedback round
@@ -44,7 +44,7 @@ subtitle: "Part 3: Developing a Shared Git Guide Together"
 Markdown is a simple language for basic text formatting
 
 - Markdown is widely used for simple text documents
-- We will also use it to write our Git guide in Part 3
+- We will use it to write our Git guide
 - It's also used for `READMEs`
   - These are files describing a repository / giving an introduction
   - They will be shown by default when you open a repository on a hosting website

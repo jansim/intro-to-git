@@ -34,7 +34,7 @@ You can move up and down with the arrow keys and leave the log view by pressing 
 ## Practical: Seeing History {background-color="black"}
 
 1. Go back to your Terminal
-2. Open the `git log` of your respository
+2. Open the `git log` of your repository
 3. Navigate up and down in the history
 4. Also explore the git history in a GUI
 

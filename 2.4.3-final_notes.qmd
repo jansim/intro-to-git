@@ -39,7 +39,7 @@ Most of the information in these guides, we already covered, but they can be gre
 - If you have a problem
   - [ohshitgit.com](https://ohshitgit.com/) [(🇩🇪)](https://ohshitgit.com/de)
   - LLMs / Google
-- <simson.io/advanced-git>
+- <https://simson.io/advanced-git>
 
 ## *End of Part 2* 🎉 {background-color="black" background-opacity="0.4" background-image="images/backgrounds/dolomites.jpg"}
 

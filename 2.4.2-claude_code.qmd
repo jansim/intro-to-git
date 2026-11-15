@@ -26,7 +26,7 @@ Agents *cannot* take responsibility for code / changes.
 
 ## Detour: Worktrees 🌲🌳🌴
 
-With git worktrees, you can have different different branches from one repository checked out *at the same time* — each in a different directory
+With git worktrees, you can have different branches from one repository checked out *at the same time* — each in a different directory
 
 ```bash
 git worktree add <path>
@@ -49,8 +49,7 @@ git worktree add ../my-feature
 
 - AI agent by Anthropic
 - CLI / VSCode Extension / App / Web
-- Adds itself as a co-commitor when creating a commit
-- Pretty powerful GitHub integration (later)
+- Adds itself as a co-author when creating a commit
 
 # Demo: Claude Code with a Worktree
 
@@ -66,7 +65,7 @@ git worktree add ../my-feature
 ## Optional Practical: Claude Code {background-color="black"}
 
 1. Go back to your Terminal in `git-exercise`
-2. Have Claude update your README *in a worktree*
+2. Have Claude write a README for your repository *in a worktree*
 3. While it does so, examine your file system
 4. Opt. 1: Merge the changes into your `main`
 5. Opt. 2: Have Claude create a MR for you

@@ -73,10 +73,10 @@ There's no more `-b` when the branch already exists
 :::
 
 :::{.callout-note}
-You can also use `git switch my-branch`, but this command is still experimental right now and may change.
+You can also use `git switch my-branch`, a new command made just for switching branches.
 :::
 
-## Bringig it all together: Merging
+## Bringing it all together: Merging
 
 - You can combine two different branches by merging them with each other
 - `git merge my-branch`
@@ -84,7 +84,7 @@ You can also use `git switch my-branch`, but this command is still experimental 
   - In most cases you will want to be on the `main` branch when using `git merge` (but not always!)
 - Merging will create a new "merge" commit
 
-## Bringig it all together: Merging
+## Bringing it all together: Merging
 
 :::{.callout-note}
 Only branches with a shared history can be merged, but this should (almost) always be the case.
@@ -107,8 +107,8 @@ Background: https://giphy.com/gifs/berlin-demo-govid-loAFGkJxYzgxu3NKnZ
   - Make sure to also checkout that branch, you can check whether you're on it with `git status`
 3. Add a commit on that new branch
 4. Go back to `main`
-6. Merge the `new-feature` branch into `main`
-7. Repeat all the above steps (with a different branch name & commit) using a GUI
+5. Merge the `new-feature` branch into `main`
+6. Repeat all the above steps (with a different branch name & commit) using a GUI
 
 # The Ugly Side of `git`: Merge Conflicts {background-color="black" background-opacity="0.5" background-image="images/backgrounds/git-merge-cFkiFMDg3iFoI.gif"}
 
@@ -123,7 +123,7 @@ Background: https://giphy.com/gifs/berlin-demo-govid-loAFGkJxYzgxu3NKnZ
 
 And how to avoid it.
 
-- Merge conflcits occur when there are edits to the same file (and at the same location) on two different branches
+- Merge conflicts occur when there are edits to the same file (and at the same location) on two different branches
 - If you merge your branches / edits before making more changes, you can avoid conflicts
 
 ## Merge Conflicts: Illustration (1)
@@ -176,7 +176,7 @@ Write your guess below the line with the matching letter.
 
 a) What percentage of developers report using git for version control in 2025?
 b) What fraction of long distance trains in Germany were on time in May 2026? 
-c) How many liters of Beer have been drunken at the Oktoberfest in Munich in 2019? 🍻
+c) How many liters of Beer were drunk at the Oktoberfest in Munich in 2019? 🍻
 
 ## Practical: Guessing Game Answers {background-color="black"}
 
@@ -184,19 +184,19 @@ c) How many liters of Beer have been drunken at the Oktoberfest in Munich in 201
 6. Write down the actual answers below the letters in the now empty file again
 
 ```text
-Question A 🧑🏻‍💻 git users [^1]
+Question A 🧑🏻‍💻 git users
 93%
-Question B 🚂 Trains on time [^2]
+Question B 🚂 Trains on time
 61.2%
-Question C 🍻 Liters of beer [^3]
+Question C 🍻 Liters of beer
 7,850,200
 ```
 
-[^1]: https://stackoverflow.blog/2023/01/09/beyond-git-the-other-version-control-systems-developers-use/
-[^2]: https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476
-[^3]: https://opendata.muenchen.de/tr/dataset/oktoberfest
+::: attribution
+Sources: [A](https://stackoverflow.blog/2023/01/09/beyond-git-the-other-version-control-systems-developers-use/), [B](https://www.deutschebahn.com/de/konzern/konzernprofil/zahlen_fakten/puenktlichkeitswerte-6878476), [C](https://opendata.muenchen.de/tr/dataset/oktoberfest)
+:::
 
-## Practical: The Actual Conflcit {background-color="black"}
+## Practical: The Actual Conflict {background-color="black"}
 
 7. Use `git merge` to merge the `guesses` branch into your `main` branch
 8. Explore the files in the resulting merge conflict

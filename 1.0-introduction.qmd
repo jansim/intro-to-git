@@ -158,7 +158,7 @@ analysis.py
 
 ## Publication and Collaboration
 
-- Foundation of collabroration: `git` is the de-facto standard for collaboration on code
+- Foundation of collaboration: `git` is the de-facto standard for collaboration on code
   - Although useful for more than just code, e.g. for writing papers, documentation, etc.
 - Publication of code / packages
   - Higher chance for impact / uptake in the field
