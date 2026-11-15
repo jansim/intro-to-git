@@ -1,6 +1,5 @@
 ---
-title: "Intro to `git`"
-subtitle: "Block 2.4.2: Working with Claude Code"
+subtitle: "Block 2.4.2: Working with AI Agents"
 ---
 
 ## What is Claude Code? 🤖

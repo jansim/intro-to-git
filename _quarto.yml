@@ -1,5 +1,5 @@
 project:
-  title: "Intro to git"
+  title: "Git@Hereon"
   output-dir: "output"
   render:
     - "/*.qmd"
@@ -7,6 +7,7 @@ project:
     # Referenced only from CSS below, so Quarto won't pick it up on its own
     - images/DRA_LogoNoText.png
 
+title: "Git@Hereon"
 author: "Jan Simson"
 format:
   revealjs:

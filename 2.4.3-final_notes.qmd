@@ -1,5 +1,4 @@
 ---
-title: "Intro to git"
 subtitle: "Block 2.4.3: Final Bits"
 ---
 
