@@ -1,77 +1,75 @@
 ---
-subtitle: "Block 2.4.2: Working with AI Agents"
+subtitle: "Block 2.4.2: Working with Agents"
 ---
 
-## What is Claude Code? 🤖
+## What are AI Agents? 🤖
 
-- An AI assistant that works directly in your project
-- Runs in the terminal (and inside VS Code)
-- It can read your files, change them and run commands (including `git`)
-- It asks for your permission before changing files or running commands
+- **Model** + **Harness** + **Loop**
+- Can read and write files and run commands (incl. `git`)
+- Run in the terminal / editor / own app / cloud
+- Different levels of autonomy / task horizons: from asking before every step to working on their own
 
-## Starting Claude Code
+## Agents & git
 
-Open the terminal in your repository and run:
-
-```bash
-claude
-```
-
-Then just describe what you want it to do, e.g.
-
-```text
-Add a section to the README explaining what this repository is about
-```
-
-## Claude Code & git: Use a Branch 🌳
-
-- Let Claude Code work on its own branch, not on `main`
-  - Its changes stay separate until you reviewed them
-  - If you don't like the result, you can simply delete the branch
-
-::: {.fragment}
-```bash
-git checkout -b claude-readme
-# Switched to a new branch 'claude-readme'
-```
-:::
-
-## Reviewing the Changes 🔍
-
-- Treat changes by Claude Code just like changes by a colleague
-- Before committing, look at what actually changed
-  - `git status` to see which files were changed
-  - `git diff` (or VS Code) to see the changes line by line
-- Then commit, push and create a merge request as usual
+- git ties in *really* nicely with agents
+- Let the agent work on its own branch, not on `main`
+  - Locally: git worktrees 🌳 (next slide)
+- Review: No unknown changes sneaking in
+  - `status` / `diff` (local)
+  - merge request (online)
 
 ::: {.fragment}
 :::{.callout-important}
-You are responsible for what you merge, not the AI assistant!
+Agents *cannot* take responsibility for code / changes.
 :::
 :::
 
-## Working with Claude Code: Tips 💡
+## Detour: Worktrees 🌲🌳🌴
 
-- Be specific about what you want
-- Keep changes small, so they are easy to review
-- Ask Claude Code to explain changes you don't understand
-- Never share passwords, keys or sensitive data with it
+With git worktrees, you can have different different branches from one repository checked out *at the same time* — each in a different directory
 
-# Demo: Claude Code on a Branch
+```bash
+git worktree add <path>
+```
 
-## Practical: Claude Code on a Branch {background-color="black"}
+- `<path>` will be automatically checked for a matching branch / commit / tag
+  - If none is found one is created
+
+::: {.fragment}
+
+```bash
+# Create a new directory *next* to the repository
+# either checkout or create a branch my-feature
+git worktree add ../my-feature
+```
+
+:::
+
+## Example: Claude Code 🧑‍💻
+
+- AI agent by Anthropic
+- CLI / VSCode Extension / App / Web
+- Adds itself as a co-commitor when creating a commit
+- Pretty powerful GitHub integration (later)
+
+# Demo: Claude Code with a Worktree
+
+## Integrating with Gitlab
+
+- Claude: Pretty powerful *GitHub* integration (out of the box)
+  - Direct creation of PRs / MRs
+- Different ways this can be done for GitLab
+  - Access to [`glab` CLI](https://gitlab.com/gitlab-org/cli/)
+  - [Authentication](https://docs.gitlab.com/cli/authentication/) (OAuth vs. Token)
+  - Local vs. Cloud (Environment Secrets)
+
+## Optional Practical: Claude Code {background-color="black"}
 
 1. Go back to your Terminal in `git-exercise`
-2. Create a new branch called `claude-code` and check it out
-3. Start Claude Code with `claude` and ask it to make a change (e.g. improve your `README`)
-4. Review the changes with `git status` and `git diff`
-5. Commit the changes and push the branch to GitLab
-6. Create a merge request and review the changes there once more
-7. Merge (or close) the merge request
-
-:::{.callout-note}
-No access to Claude Code? Pair up with someone who has access.
-:::
+2. Have Claude update your README *in a worktree*
+3. While it does so, examine your file system
+4. Opt. 1: Merge the changes into your `main`
+5. Opt. 2: Have Claude create a MR for you
 
 ## *End of Section* 🎉 {background-color="black"}
 
