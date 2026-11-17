@@ -18,13 +18,6 @@ Background: https://unsplash.com/photos/V1YEEItoOTE
 The default branch used to be called `master` and was later changed to `main`. Older repositories / git installations may still use `master`.
 :::
 
-# See the default branch name
-git status
-
-# Use modern main branch name
-git config --global init.defaultbranch main
-```
-
 ## What are git branches? 🌲 {background-color="#5cbcfc"}
 
 ![Example of a repository history with branching](images/screenshots/learngitbranching/branched.png)
