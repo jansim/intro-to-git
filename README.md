@@ -28,8 +28,6 @@ Links to the different repositories used in the course.
   ([website](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de))
 - Guide:
   [martin.ramacher/digitalresearchacademy_githereon_guide](https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_guide)
-- Example Repo:
-  [martin.ramacher/digitalresearchacademy_githereon_example](https://codebase.helmholtz.cloud/martin.ramacher/digitalresearchacademy_githereon_example)
 
 <!--
   To update the README, render this file directly via
