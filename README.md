@@ -105,6 +105,7 @@ Links to the different repositories used in the course.
       [(🇩🇪)](https://ohshitgit.com/de)
     - Google: Just googling your problem is often the most useful
       solution
+- Advanced Git Course: <https://simson.io/advanced-git/>
 
 ## License
 
