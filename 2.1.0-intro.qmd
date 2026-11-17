@@ -70,6 +70,6 @@ subtitle: "Part 2: Your Repository – Technical Basis"
 Any Questions?
 :::
 
-[[🏡 Back to Overview]](./index.html)
+[[🏡 Back to Overview]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/index.html)
 
-[[⏩️ Next Section]](./2.1.1-what_is_git.html) 
+[[⏩️ Next Section]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/2.1.1-what_is_git.html) 

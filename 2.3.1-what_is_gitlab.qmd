@@ -78,6 +78,6 @@ git remote -h
 Any Questions?
 :::
 
-[[🏡 Back to Overview]](./index.html)
+[[🏡 Back to Overview]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/index.html)
 
-[[⏩️ Next Section]](./2.3.2-synching_changes.html) 
+[[⏩️ Next Section]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/2.3.2-synching_changes.html) 

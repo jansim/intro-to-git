@@ -248,6 +248,6 @@ Some of the questions your group will need to answer:
 Any Questions?
 :::
 
-[[🏡 Back to Overview]](./index.html)
+[[🏡 Back to Overview]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/index.html)
 
-[[⏩️ Next Part]](./2.1.0-intro.html)
+[[⏩️ Next Part]](https://digitalreasearchacademy-githereon-9be0f8.pages.hzdr.de/2.1.0-intro.html)
